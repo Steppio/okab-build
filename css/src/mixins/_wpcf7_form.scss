@@ -1,0 +1,48 @@
+/* ---Mixin for styling wpcf7 forms--- */
+@mixin cf7-form-mixin(
+	$border-color,
+	$button-color,
+	$button-hover-color, 
+	$field-topmargin, 
+	$label-fontsize, 
+	$input-fontsize, 	
+	$fields-distance,
+	$tickbox-dimension: 25px){
+
+	form input[type="search"]:focus, form input[type="text"]:focus, form input[type="email"]:focus, form input[type="date"]:focus, form input[type="password"]:focus, form input[type="url"]:focus, form input[type="tel"]:focus, form textarea:focus{
+		border-color: $border-color !important;
+		box-shadow: 0.3em 0em 0em 0em $border-color inset;
+	}
+	span select, span input, span textarea { 
+		background-color: #fff; 
+		margin-top: $field-topmargin;
+		font-size: $input-fontsize; }		
+	p>label{ 
+		color: #fff; 
+		margin: 0;
+		font-size: $label-fontsize; } 
+	p{ 
+		margin-bottom: $fields-distance; }
+	input[type="checkbox"]{ 
+		width: $tickbox-dimension;
+	 	height: $tickbox-dimension;
+	 	margin-top: 0; }
+ 	input.checkbox:checked:before, input[type="checkbox"]:checked:before, input.radio:checked:before, input[type="radio"]:checked:before{
+ 		color: #000;
+ 		font-size: $tickbox-dimension - 2;
+ 		margin: 0;
+ 		top: 0;
+ 		left: 0; }
+ 	span.wpcf7-list-item{ 
+ 		margin-left: 0; }
+ 	.widget .button, [type="submit"], .dima-button{
+ 		background-color: $button-color;
+ 		opacity: 1;
+ 	}
+ 	.wpcf7-submit:disabled{
+ 		opacity: 0.5;
+ 	}
+ 	.widget .button:hover, [type="submit"]:hover, .dima-button:hover{
+ 		background-color: $button-hover-color;
+ 	}
+}

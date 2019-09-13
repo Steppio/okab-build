@@ -1,0 +1,39 @@
+@mixin cookies(
+		$background-color,
+		$padding,
+		$text-color,
+		$main-typeface,
+		$button-background-color,
+		$button-text-color
+	) {
+	#cookie_action_close_header {
+		text-decoration: underline;
+		font-size: 1rem;
+		line-height: 2;
+		background-color: $button-background-color !important;
+		color: $button-text-color !important;
+		font-family: $main-typeface;
+		display: block !important;
+		margin: 20px auto 0 !important;
+		text-decoration: none;
+	}
+	a.cli_settings_button {
+		display: none;
+	}
+	a {
+		display: block;
+		max-width: 200px;
+		margin-top: 40px !important;
+	}
+	opacity: 1;
+	max-height: 999px;
+	min-height: 30px;
+	color: $text-color !important;
+	background: $background-color !important;
+	padding: $padding !important;
+	border-top: 2px solid #ffffff;
+}
+
+#cookie-law-info-bar {
+	@include cookies(white, 20px 60px, black, 'Lato', black, white);
+}

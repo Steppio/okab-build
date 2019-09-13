@@ -1,0 +1,19 @@
+@mixin buttons(
+		$background-color,
+		$hover-background-color,
+		$text-color,
+		$hover-text-color,
+		$min-width
+	) {
+	&:hover {
+		background-color: $hover-background-color;
+		color: $hover-text-color;
+	}
+	background-color: $background-color;
+	color: $text-color;
+	min-width: $min-width;
+}
+
+input[type="submit"] {
+	@include buttons(#202125, #202125, #EFBF02, white, 180px);
+}

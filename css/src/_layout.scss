@@ -1,0 +1,46 @@
+	/* OLD BREAKPOINTS */
+	// $mobile: 0px;
+	// $mobile-tablet: 0px 767px;
+	// $mobile-desktop: 0px 1023px;
+	// $tablet: 768px;
+	// $tablet-desktop: 750px 1024px;
+	// $desktop: 1024px;
+	// $medium-desktop: 1280px;
+	// $large-desktop: 1400px;
+
+	
+	
+	
+	$okab-mobile: 1px;
+	
+	$okab-desktop: 990px;
+	$okab-desktop-large: 1140px;
+
+	$okab-mobile-tablet: 1px 767px;
+	$okab-mobile-desktop: 1px 989px;
+	$okab-mobile-desktop-large: 1px 1139px;
+
+	$okab-tablet-desktop: 768px 989px;
+	$okab-tablet-desktop-large: 768px 1139px;
+
+	$okab-desktop-desktop-large: 990px 1139px;
+
+	$susy: (
+		columns: 4,
+		container: 1300px,
+		gutters: 1/4,
+		gutter-position: split,
+		global-box-sizing: border-box,
+		debug: (
+			// image: show,
+			// color: blue,
+			// output: overlay,
+			// toggle: top right,
+		),
+	);
+
+	@include border-box-sizing;
+
+	.container {
+		@include container;	
+	}

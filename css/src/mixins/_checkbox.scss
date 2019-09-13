@@ -1,0 +1,50 @@
+@mixin checkboxes(
+		$background-color,
+		$border-color,
+		$border-width,
+		$border-radius,
+		$checked-color,
+		$height,
+		$width,
+		$background-position,
+		$hover-background-position
+	) {
+	&:checked:after {
+		background-color: $checked-color;
+		background-position: $hover-background-position;		
+	}
+	&:after {
+		content: '\00D7';
+		display: block;
+		background: $background-color;
+		background-image: url('../../images/checkbox.png');
+		pointer-events: none;
+		font-size: 25px;
+		position: absolute;
+		top: 0;
+		left: 0;
+		height: $height;
+		width: $width;
+		color: transparent;
+		transition: .25s all ease-in-out;
+		border-radius: $border-radius;
+		line-height: 15px;
+		background-position: $background-position;
+		background-repeat: no-repeat;
+		background-size: 17px 18px;
+		border-width: $border-width;
+		border-style: solid;
+		border-color: $border-color;			
+	}
+	-webkit-appearance: checkbox;
+	position: relative;
+	overflow: hidden;
+	cursor: pointer;
+	width: $width !important;
+	height: $height !important;
+	border: 0px !important;
+}
+
+input[type="checkbox"] {
+	@include checkboxes(#fff, #e1e1e1, 1px, 0px, #fff, 35px, 35px, 5px 35px, 7px 7px);
+}

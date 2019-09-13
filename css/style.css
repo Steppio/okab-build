@@ -1,0 +1,106 @@
+.dima-navbar-wrap.desk-nav .dima-navbar nav .dima-nav > li.shopping-btn, .dima-navbar-wrap.desk-nav .dima-navbar nav .dima-nav-end > li.shopping-btn {
+  display: none; }
+
+.dima-navbar-wrap.desk-nav .dima-navbar-transparent.dima-navbar .dima-nav > li > a, .dima-navbar-wrap.desk-nav .dima-navbar-transparent.dima-navbar .dima-nav-end > li > a {
+  color: white !important; }
+
+.dima-main .dima-equal .ok-row .column_parent:nth-child(1) {
+  background: #85adc8 !important; }
+
+.dima-main .dima-equal .ok-row .column_parent:nth-child(2) {
+  background: #AADDFF !important; }
+
+.dima-main .dima-equal .ok-row .column_parent:nth-child(3) {
+  background: #88B0CC !important; }
+
+.dima-main .dima-equal .ok-row .column_parent:nth-child(4) {
+  background: #2F5F7F !important; }
+
+.features-content span {
+  color: white; }
+
+.top-footer {
+  display: none; }
+
+.search-box {
+  background: #495f6e !important; }
+
+.search-box input {
+  background: transparent !important; }
+
+.pinpoint-born, .pinpoint-growing, .pinpoint-developed {
+  min-height: 340px; }
+
+.work-item:hover .link_overlay, .dima-team-member:hover .link_overlay, .post-img:hover .link_overlay, .isotope-item .post-img:hover .link_overlay {
+  background: #85adc8 !important; }
+
+.dima-navbar-wrap.desk-nav.dima-navbar-top .dima-navbar .dima-nav > li a:hover, .mobile-nav.dima-navbar-wrap .dima-navbar nav .dima-nav-end > li > a:hover, .dima-navbar-wrap.desk-nav .dima-navbar nav .dima-nav > li > a:hover, .dima-navbar-wrap.desk-nav .dima-navbar nav .dima-nav > li.active > a, .dima-navbar-wrap.desk-nav .dima-navbar nav .dima-nav-end > li > a:hover {
+  color: white; }
+
+.dima-navbar-wrap.desk-nav .dima-navbar.fix_nav .logo p img {
+  max-width: 80px !important; }
+
+.top-footer {
+  display: block !important;
+  padding: 20px 0 0; }
+
+.top-footer p, .top-footer a {
+  color: white !important; }
+
+#custom_html-2 a, #custom_html-3 a {
+  text-decoration: underline; }
+
+#custom_html-2 > div {
+  text-align: right; }
+
+#a2a_follow_widget-2 h5 {
+  display: none; }
+
+#a2a_follow_widget-2 {
+  text-align: right; }
+
+/** NEW STYLES **/
+.dima-button {
+  text-transform: uppercase;
+  border-radius: 0px;
+  background-color: #7996AA !important;
+  box-shadow: rgba(103, 103, 105, 0.35) 0 45px 75px; }
+
+.dima-button.light {
+  background-color: #9AB9CE !important; }
+
+.dima-cheese {
+  color: white; }
+
+#hero h1 {
+  font-size: 45px;
+  font-weight: 600; }
+
+.business-benefits-points .features-title {
+  font-weight: 600;
+  font-size: 16px; }
+
+.business-benefits-points .dima-iconbox {
+  padding: 50px 0px; }
+
+.business-benefits-points .features-content .p1 {
+  padding: 0 44px; }
+
+.business-benefits-points .container {
+  max-width: 1400px; }
+
+.business-benefits-points .background-image {
+  height: 50px;
+  width: 50px; }
+
+.business-benefits-points .dima-iconbox {
+  box-shadow: rgba(215, 215, 215, 0.33) 0px 0px 19px; }
+
+.dima-testimonial span.dima-testimonial-image {
+  border: 0px; }
+
+.dima-testimonial blockquote .quote-content p {
+  font-style: normal; }
+
+.dima-testimonial .owl-item {
+  box-shadow: #D7D7D7 0px 0px 19px; }

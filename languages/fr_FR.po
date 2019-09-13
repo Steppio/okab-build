@@ -1,0 +1,6186 @@
+# WordPress Blank Pot
+# Copyright (C) 2014 ...
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: okab v4.0.0\n"
+"Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
+"POT-Creation-Date: 2018-12-07 23:54+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: pixeldima\n"
+"Language-Team: PixelDima\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Textdomain-Support: yesX-Generator: Poedit 1.6.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html_x:1,2c;esc_html__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;"
+"_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext:1,2;__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SearchPathExcluded-1: data\n"
+"X-Poedit-SearchPathExcluded-2: framework/functions/admin/tmg/*.php\n"
+
+#: amp_templates/meta-taxonomy.php:4
+msgctxt "Used between list items, there is a space after the comma."
+msgid " "
+msgstr " "
+
+#: amp_templates/meta-taxonomy.php:13
+msgid "Tags:"
+msgstr "Mots-clés :"
+
+#: amp_templates/woo-single.php:24
+msgid "Category:"
+msgid_plural "Categories:"
+msgstr[0] "Catégorie:"
+msgstr[1] "Catégories:"
+
+#: amp_templates/woo-single.php:25
+#: framework/functions/output/dima-class-breadcrumbs.php:49
+msgid "Tag:"
+msgid_plural "Tags:"
+msgstr[0] "Tag:"
+msgstr[1] "Mots-clés :"
+
+#: amp_templates/woo-single.php:31
+msgid "Add to Cart"
+msgstr "Ajouter au panier"
+
+#: amp_templates/woo-tabs.php:20 woocommerce/single-product-reviews.php:162
+msgid "Submit Review"
+msgstr "Poster le commentaire"
+
+#: bbpress/content-search.php:37
+msgid "Enter in your query in the search form above."
+msgstr "Entrez votre recherche ci-dessous."
+
+#: bbpress/form-search.php:14
+msgid "Search for:"
+msgstr "Rechercher:"
+
+#: bbpress/form-user-edit.php:98
+#: framework/functions/extensions/woocommerce.php:430
+#: framework/functions/extensions/woocommerce.php:469
+msgid "Name"
+msgstr "Nom"
+
+#: bbpress/form-user-edit.php:105
+msgid "First Name"
+msgstr "Prénom"
+
+#: bbpress/form-user-edit.php:112
+msgid "Last Name"
+msgstr "Nom"
+
+#: bbpress/form-user-edit.php:119
+msgid "Nickname"
+msgstr "Pseudo"
+
+#: bbpress/form-user-edit.php:126
+msgid "Display Name"
+msgstr "Afficher le nom"
+
+#: bbpress/form-user-edit.php:135
+msgid "Contact Info"
+msgstr "Informations de contact"
+
+#: bbpress/form-user-edit.php:140 framework/views/okab/wp-comments.php:74
+msgid "Website"
+msgstr "Site web"
+
+#: bbpress/form-user-edit.php:160
+msgid "About Yourself"
+msgstr "À propos de vous"
+
+#: bbpress/form-user-edit.php:160
+msgid "About the user"
+msgstr "A propos de l’utilisateur"
+
+#: bbpress/form-user-edit.php:165
+msgid "Biographical Info"
+msgstr "Biographie"
+
+#: bbpress/form-user-edit.php:173
+msgid "Account"
+msgstr "Compte"
+
+#: bbpress/form-user-edit.php:178 bbpress/form-user-login.php:20
+#: bbpress/form-user-register.php:22
+#: framework/functions/__okab-template.php:366
+#: framework/functions/__okab-template.php:367
+#: framework/functions/__okab-template.php:368
+#: woocommerce/myaccount/form-login.php:87
+msgid "Username"
+msgstr "Nom d'utilisateur"
+
+#: bbpress/form-user-edit.php:185 bbpress/form-user-register.php:27
+#: framework/functions/admin/customizer/register.php:808
+msgid "Email"
+msgstr "E-mail"
+
+#: bbpress/form-user-edit.php:197
+#, php-format
+msgid ""
+"There is a pending email address change to <code>%1$s</code>. <a href=\"%2$s"
+"\">Cancel</a>"
+msgstr ""
+"Il y a un changement d’adresse email en attente d’ <code>%1$s</code>. <a "
+"href=\"%2$s\">Annuler</a>"
+
+#: bbpress/form-user-edit.php:205
+msgid "New Password"
+msgstr "Nouveau mot de passe"
+
+#: bbpress/form-user-edit.php:209
+msgid ""
+"If you would like to change the password type a new one. Otherwise leave "
+"this blank."
+msgstr ""
+"Si vous voulez changer le mot de passe, entrez en un nouveau. Sinon, laissez "
+"ce champ vide."
+
+#: bbpress/form-user-edit.php:215
+msgid "Type your new password again."
+msgstr "Confirmer le nouveau mot de passe."
+
+#: bbpress/form-user-edit.php:222
+msgid "User Role"
+msgstr "Rôle de l’utilisateur"
+
+#: bbpress/form-user-edit.php:229
+msgid "Network Role"
+msgstr "Rôle du réseau"
+
+#: bbpress/form-user-edit.php:234
+msgid "Grant this user super admin privileges for the Network."
+msgstr "Accordez les privilèges de super administrateur pour le réseau."
+
+#: bbpress/form-user-edit.php:252 woocommerce/cart/shipping-calculator.php:97
+msgid "Update"
+msgstr "Mettre à jour"
+
+#: bbpress/form-user-login.php:14 framework/functions/__okab-template.php:376
+#: woocommerce/global/form-login.php:54 woocommerce/myaccount/form-login.php:33
+#: woocommerce/myaccount/form-login.php:58
+msgid "Login"
+msgstr "Login"
+
+#: bbpress/form-user-login.php:17 bbpress/form-user-login.php:39
+msgid "Log In"
+msgstr "Connectez-vous"
+
+#: bbpress/form-user-login.php:26 framework/functions/__okab-template.php:372
+#: framework/functions/__okab-template.php:373
+#: framework/functions/__okab-template.php:374
+#: woocommerce/global/form-login.php:43 woocommerce/global/form-login.php:45
+#: woocommerce/myaccount/form-login.php:48
+#: woocommerce/myaccount/form-login.php:109
+msgid "Password"
+msgstr "Mot de Passe"
+
+#: bbpress/form-user-login.php:32
+msgid "Keep me signed in"
+msgstr "Se souvenir de moi"
+
+#: bbpress/form-user-lost-pass.php:15
+msgid "Lost Password"
+msgstr "Mot de passe perdu"
+
+#: bbpress/form-user-lost-pass.php:18
+msgid ""
+"Enter in your username or email address below then select the &ldquo;"
+"Reset&rdquo; button."
+msgstr ""
+"Entrez votre nom d&#39;utilisateur ou adresse email ci-dessous puis "
+"sélectionnez le bouton &quot;Réinitialiser&quot;."
+
+#: bbpress/form-user-lost-pass.php:22
+msgid "Username or Email"
+msgstr "Nom d'utilisateur ou email"
+
+#: bbpress/form-user-lost-pass.php:30
+#: framework/functions/admin/pixeldima-setup/framework-customizer-backup.php:237
+#: framework/functions/admin/pixeldima-setup/framework-customizer-backup.php:248
+msgid "Reset"
+msgstr "Réinitialiser"
+
+#: bbpress/form-user-register.php:15
+msgid "Create an Account"
+msgstr "Créer un compte"
+
+#: bbpress/form-user-register.php:18
+msgid ""
+"Your username must be unique, and cannot be changed later. We use your email "
+"address to email you a secure password and verify your account."
+msgstr ""
+"Votre nom d’utilisateur doit être unique et ne peut être changé plus tard. "
+"Nous utilisons votre adresse électronique pour vous envoyer un mot de passe "
+"sécurisé et vérifier votre compte."
+
+#: bbpress/form-user-register.php:35 woocommerce/myaccount/form-login.php:78
+#: woocommerce/myaccount/form-login.php:124
+msgid "Register"
+msgstr "S'inscrire"
+
+#: bbpress/loop-search-reply.php:38 bbpress/loop-single-reply.php:44
+msgid "In reply to: "
+msgstr "En réponse à : "
+
+#: bbpress/loop-search-topic.php:44
+msgid "Topic: "
+msgstr "Sujet : "
+
+#: bbpress/loop-search-topic.php:49
+msgid "in group forum "
+msgstr "dans le groupe du forum "
+
+#: bbpress/loop-search-topic.php:53
+msgid "in forum "
+msgstr "dans le forum "
+
+#: bbpress/user-details.php:37
+#, php-format
+msgid "%s's Profile"
+msgstr "Profil de %s"
+
+#: bbpress/user-details.php:38
+msgid "Profile"
+msgstr "Profil"
+
+#: bbpress/user-details.php:45
+#, php-format
+msgid "%s's Topics Started"
+msgstr "Sujets lancés par %s"
+
+#: bbpress/user-details.php:45
+msgid "Topics Started"
+msgstr "﻿Sujets Débutés"
+
+#: bbpress/user-details.php:52
+#, php-format
+msgid "%s's Replies Created"
+msgstr "Réponses créées par %s"
+
+#: bbpress/user-details.php:52
+msgid "Replies Created"
+msgstr "Réponses créées"
+
+#: bbpress/user-details.php:60
+#, php-format
+msgid "%s's Favorites"
+msgstr "Favoris de %s"
+
+#: bbpress/user-details.php:60
+msgid "Favorites"
+msgstr "Favoris"
+
+#: bbpress/user-details.php:71
+#, php-format
+msgid "%s's Subscriptions"
+msgstr "Abonnements de %s"
+
+#: bbpress/user-details.php:71
+msgid "Subscriptions"
+msgstr "Abonnements"
+
+#: bbpress/user-details.php:79
+#, php-format
+msgid "Edit %s's Profile"
+msgstr "Modifier le profil de %s"
+
+#: bbpress/user-details.php:79 framework/functions/__okab-template.php:284
+#: framework/functions/helper/helper.php:103
+msgid "Edit"
+msgstr "Modification"
+
+#: framework/functions/__okab-template.php:31
+#: framework/functions/__okab-template.php:112
+#: framework/functions/__okab-template.php:198
+#, php-format
+msgid "Leave a comment on: &ldquo;%s&rdquo;"
+msgstr "Laissez un commentaire : &ldquo;%s&rdquo;"
+
+#: framework/functions/__okab-template.php:47
+#: framework/functions/__okab-template.php:128
+#, php-format
+msgid "View all posts in: &ldquo;%s&rdquo;"
+msgstr "Voir tous les articles : &ldquo;%s&rdquo;"
+
+#: framework/functions/__okab-template.php:87
+#: framework/functions/__okab-template.php:178
+msgid "By"
+msgstr "Par"
+
+#: framework/functions/__okab-template.php:97
+msgid "Comment"
+msgstr "Commentaire"
+
+#: framework/functions/__okab-template.php:98
+#: framework/views/okab/wp-comments.php:33
+msgid "Comments"
+msgstr "Commentaires"
+
+#: framework/functions/__okab-template.php:105
+#: framework/functions/__okab-template.php:152
+#: framework/functions/__okab-template.php:191
+#: framework/functions/__okab-template.php:210
+msgid "0"
+msgstr "0"
+
+#: framework/functions/__okab-template.php:147
+#: woocommerce/myaccount/my-orders.php:89
+msgid "View"
+msgstr "Voir"
+
+#: framework/functions/__okab-template.php:148
+msgid "Views"
+msgstr "Vues"
+
+#: framework/functions/__okab-template.php:246
+msgid "Author"
+msgstr "Auteur"
+
+#: framework/functions/__okab-template.php:265
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s à %2$s"
+
+#: framework/functions/__okab-template.php:277
+msgid "Reply <span class=\"comment-reply-link-after\"></span>"
+msgstr "Reply < span class = \"commentaire-réponse-lien-après\" > </span>"
+
+#: framework/functions/__okab-template.php:288
+#: woocommerce/content-product.php:67 woocommerce/loop/title.php:44
+#: woocommerce/single-product/title.php:52
+#, php-format
+msgid "Rated %d out of 5"
+msgstr "Noté %d sur 5"
+
+#: framework/functions/__okab-template.php:290
+msgid "out of 5"
+msgstr "sur 5"
+
+#: framework/functions/__okab-template.php:297
+msgid "Your comment is awaiting moderation."
+msgstr "Votre commentaire est en attente de modération."
+
+#: framework/functions/__okab-template.php:343
+msgid "Welcome"
+msgstr "Bienvenu"
+
+#: framework/functions/__okab-template.php:347
+msgid "Dashboard"
+msgstr "Tableau De Bord"
+
+#: framework/functions/__okab-template.php:350
+msgid "Your Profile"
+msgstr "Votre profil"
+
+#: framework/functions/__okab-template.php:353
+msgid "Logout"
+msgstr "Déconnexion"
+
+#: framework/functions/__okab-template.php:380
+msgid "Remember Me"
+msgstr "Se souvenir de moi"
+
+#: framework/functions/__okab-template.php:388
+#: woocommerce/global/form-login.php:62 woocommerce/myaccount/form-login.php:65
+msgid "Lost your password?"
+msgstr "Mot de passe oublié ?"
+
+#: framework/functions/__okab-template.php:464
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:569
+msgid "All"
+msgstr "Tous"
+
+#: framework/functions/admin/customizer/choices.php:38
+#: framework/functions/admin/customizer/choices.php:190
+msgid "Okab"
+msgstr "Okab"
+
+#: framework/functions/admin/customizer/choices.php:61
+#: framework/functions/admin/meta/meta-boxes.php:149
+#: framework/functions/admin/meta/meta-boxes.php:162
+#: framework/functions/admin/meta/meta-boxes.php:290
+#: framework/functions/admin/meta/meta-boxes.php:303
+#: framework/functions/admin/meta/meta-boxes.php:418
+#: framework/functions/admin/meta/meta-boxes.php:431
+#: framework/functions/admin/meta/meta-boxes.php:546
+#: framework/functions/admin/meta/meta-boxes.php:559
+msgid "On"
+msgstr "On"
+
+#: framework/functions/admin/customizer/choices.php:62
+#: framework/functions/admin/meta/meta-boxes.php:150
+#: framework/functions/admin/meta/meta-boxes.php:163
+#: framework/functions/admin/meta/meta-boxes.php:291
+#: framework/functions/admin/meta/meta-boxes.php:304
+#: framework/functions/admin/meta/meta-boxes.php:419
+#: framework/functions/admin/meta/meta-boxes.php:432
+#: framework/functions/admin/meta/meta-boxes.php:547
+#: framework/functions/admin/meta/meta-boxes.php:560
+#: framework/functions/admin/meta/setup.php:151
+#: framework/functions/admin/meta/setup.php:278
+msgid "Off"
+msgstr "Off"
+
+#: framework/functions/admin/customizer/choices.php:66
+#: framework/functions/admin/customizer/choices.php:115
+msgid "Dark"
+msgstr "Sombre"
+
+#: framework/functions/admin/customizer/choices.php:67
+#: framework/functions/admin/customizer/choices.php:114
+msgid "Light"
+msgstr "Clair"
+
+#: framework/functions/admin/customizer/choices.php:76
+msgid "Left"
+msgstr "Gauche"
+
+#: framework/functions/admin/customizer/choices.php:77
+msgid "Right"
+msgstr "Droite"
+
+#: framework/functions/admin/customizer/choices.php:81
+msgid "Fullwidth"
+msgstr "Pleine largeur"
+
+#: framework/functions/admin/customizer/choices.php:82
+msgid "Boxed"
+msgstr "Encadré"
+
+#: framework/functions/admin/customizer/choices.php:86
+msgid "Standard"
+msgstr "Standard"
+
+#: framework/functions/admin/customizer/choices.php:87
+msgid "Masonry"
+msgstr "Champ obligatoire"
+
+#: framework/functions/admin/customizer/choices.php:88
+msgid "Time Line"
+msgstr "Ligne temporelle"
+
+#: framework/functions/admin/customizer/choices.php:89
+msgid "Image On The Side"
+msgstr ""
+
+#: framework/functions/admin/customizer/choices.php:93
+#: framework/functions/admin/customizer/choices.php:107
+#: framework/functions/admin/customizer/choices.php:149
+#: framework/functions/admin/customizer/include/controls/typography/dima_custom_control_typography.php:69
+#: framework/functions/admin/meta/meta-boxes.php:26
+#: framework/functions/admin/meta/meta-boxes.php:69
+#: framework/functions/admin/meta/meta-boxes.php:124
+#: framework/functions/admin/meta/meta-boxes.php:148
+#: framework/functions/admin/meta/meta-boxes.php:161
+#: framework/functions/admin/meta/meta-boxes.php:248
+#: framework/functions/admin/meta/meta-boxes.php:289
+#: framework/functions/admin/meta/meta-boxes.php:302
+#: framework/functions/admin/meta/meta-boxes.php:387
+#: framework/functions/admin/meta/meta-boxes.php:417
+#: framework/functions/admin/meta/meta-boxes.php:430
+#: framework/functions/admin/meta/meta-boxes.php:521
+#: framework/functions/admin/meta/meta-boxes.php:545
+#: framework/functions/admin/meta/meta-boxes.php:558
+msgid "Default"
+msgstr "Par défaut"
+
+#: framework/functions/admin/customizer/choices.php:94
+#: framework/functions/admin/meta/meta-boxes.php:125
+#: framework/functions/admin/meta/meta-boxes.php:249
+#: framework/functions/admin/meta/meta-boxes.php:388
+#: framework/functions/admin/meta/meta-boxes.php:522
+msgid "Mini"
+msgstr "Très petit"
+
+#: framework/functions/admin/customizer/choices.php:95
+#: framework/functions/admin/customizer/choices.php:102
+#: framework/functions/admin/customizer/choices.php:108
+#: framework/functions/admin/meta/meta-boxes.php:128
+#: framework/functions/admin/meta/meta-boxes.php:252
+#: framework/functions/admin/meta/meta-boxes.php:391
+#: framework/functions/admin/meta/meta-boxes.php:525
+msgid "Right Sidebar"
+msgstr "Barre latérale droite"
+
+#: framework/functions/admin/customizer/choices.php:96
+#: framework/functions/admin/customizer/choices.php:103
+#: framework/functions/admin/customizer/choices.php:109
+#: framework/functions/admin/meta/meta-boxes.php:127
+#: framework/functions/admin/meta/meta-boxes.php:251
+#: framework/functions/admin/meta/meta-boxes.php:390
+#: framework/functions/admin/meta/meta-boxes.php:524
+msgid "Left Sidebar"
+msgstr "Barre latérale gauche"
+
+#: framework/functions/admin/customizer/choices.php:97
+#: framework/functions/admin/customizer/choices.php:101
+#: framework/functions/admin/customizer/choices.php:110
+#: framework/functions/admin/meta/meta-boxes.php:126
+#: framework/functions/admin/meta/meta-boxes.php:250
+#: framework/functions/admin/meta/meta-boxes.php:389
+#: framework/functions/admin/meta/meta-boxes.php:523
+msgid "No Sidebar"
+msgstr "Pas de barre latérale"
+
+#: framework/functions/admin/customizer/choices.php:143
+#: framework/functions/admin/customizer/choices.php:171
+msgid "Two"
+msgstr "Deux"
+
+#: framework/functions/admin/customizer/choices.php:144
+#: framework/functions/admin/customizer/choices.php:172
+msgid "Three"
+msgstr "Trois"
+
+#: framework/functions/admin/customizer/choices.php:145
+#: framework/functions/admin/customizer/choices.php:173
+msgid "Four"
+msgstr "Quatre"
+
+#: framework/functions/admin/customizer/choices.php:150
+#: framework/functions/admin/meta/meta-boxes.php:70
+msgid "Full-Width"
+msgstr "Pleine largeur"
+
+#: framework/functions/admin/customizer/choices.php:151
+#: framework/functions/admin/meta/meta-boxes.php:71
+msgid "Floating"
+msgstr "Flottant"
+
+#: framework/functions/admin/customizer/choices.php:152
+#: framework/functions/admin/meta/meta-boxes.php:72
+msgid "Fixed Left"
+msgstr "Fixé à gauche"
+
+#: framework/functions/admin/customizer/choices.php:153
+#: framework/functions/admin/meta/meta-boxes.php:73
+msgid "Fixed Right"
+msgstr "Fixé à droite"
+
+#: framework/functions/admin/customizer/choices.php:157
+msgid "Static Top"
+msgstr "Statique en haut"
+
+#: framework/functions/admin/customizer/choices.php:158
+msgid "Fixed Top"
+msgstr "Fixé en haut"
+
+#: framework/functions/admin/customizer/choices.php:159
+msgid "Fixed Top (Animated)"
+msgstr ""
+
+#: framework/functions/admin/customizer/choices.php:163
+msgid "Logo On Inline"
+msgstr "Logo Sur Inline"
+
+#: framework/functions/admin/customizer/choices.php:164
+msgid "Logo On Top"
+msgstr "Logo sur le Dessus"
+
+#: framework/functions/admin/customizer/choices.php:165
+msgid "Logo On Center"
+msgstr "Logo au Centre"
+
+#: framework/functions/admin/customizer/choices.php:169
+#: framework/functions/admin/customizer/choices.php:189
+#: framework/functions/admin/customizer/choices.php:194
+#: framework/functions/admin/meta/meta-boxes.php:189
+#: framework/functions/admin/meta/meta-boxes.php:330
+#: framework/functions/admin/meta/meta-boxes.php:465
+#: framework/functions/admin/meta/meta-boxes.php:586
+msgid "None"
+msgstr "Aucun"
+
+#: framework/functions/admin/customizer/choices.php:170
+msgid "One"
+msgstr "Un"
+
+#: framework/functions/admin/customizer/choices.php:177
+msgid "Start"
+msgstr "Début"
+
+#: framework/functions/admin/customizer/choices.php:178
+msgid "Center"
+msgstr "Centre"
+
+#: framework/functions/admin/customizer/choices.php:182
+msgid "Bold"
+msgstr "Gras"
+
+#: framework/functions/admin/customizer/choices.php:183
+msgid "Italic"
+msgstr "Italique"
+
+#: framework/functions/admin/customizer/choices.php:184
+msgid "Uppercase"
+msgstr "Majuscule"
+
+#: framework/functions/admin/customizer/choices.php:185
+msgid "Underline"
+msgstr "Souligner"
+
+#: framework/functions/admin/customizer/choices.php:195
+msgid "With Title"
+msgstr ""
+
+#: framework/functions/admin/customizer/choices.php:196
+msgid "With icon"
+msgstr "Avec icône"
+
+#: framework/functions/admin/customizer/choices.php:201
+msgid "none"
+msgstr "aucun"
+
+#: framework/functions/admin/customizer/choices.php:202
+msgid "Zoom-in"
+msgstr "Agrandit"
+
+#: framework/functions/admin/customizer/choices.php:203
+msgid "Zoom-out"
+msgstr "Dézoomer"
+
+#: framework/functions/admin/customizer/choices.php:204
+msgid "Black And White"
+msgstr "Noir et blanc"
+
+#: framework/functions/admin/customizer/choices.php:208
+#: framework/functions/admin/customizer/register.php:972
+msgid "Categories"
+msgstr "Catégories"
+
+#: framework/functions/admin/customizer/choices.php:209
+msgid "Tags"
+msgstr "Étiquettes"
+
+#: framework/functions/admin/customizer/choices.php:213
+#: framework/functions/admin/customizer/choices.php:218
+msgid "Slide"
+msgstr "Diapositive"
+
+#: framework/functions/admin/customizer/choices.php:214
+msgid "Fade"
+msgstr "Fondu"
+
+#: framework/functions/admin/customizer/choices.php:219
+msgid "Grid"
+msgstr "Grille"
+
+#: framework/functions/admin/customizer/customizer-data.php:106
+#: framework/functions/admin/customizer/register.php:253
+msgid "Breaking"
+msgstr "Qualifiant"
+
+#: framework/functions/admin/customizer/include/controls/typography/dima_custom_control_typography.php:72
+msgid "Standard Fonts"
+msgstr "Polices standards"
+
+#: framework/functions/admin/customizer/include/controls/typography/dima_custom_control_typography.php:83
+msgid "Google Fonts"
+msgstr "Polices Google"
+
+#: framework/functions/admin/customizer/include/fonts.php:7562
+msgid "Inherit"
+msgstr "Hériter"
+
+#: framework/functions/admin/customizer/include/fonts.php:7582
+msgid "Arabic"
+msgstr "Arabe"
+
+#: framework/functions/admin/customizer/include/fonts.php:7583
+msgid "Hebrew"
+msgstr "Hébreu"
+
+#: framework/functions/admin/customizer/include/fonts.php:7584
+msgid "Latin"
+msgstr "Latin"
+
+#: framework/functions/admin/customizer/include/fonts.php:7585
+msgid "Latin Extended "
+msgstr "Latin étendu"
+
+#: framework/functions/admin/customizer/include/fonts.php:7586
+msgid "Greek"
+msgstr "Grec"
+
+#: framework/functions/admin/customizer/include/fonts.php:7587
+msgid "Greek Extended "
+msgstr "Grec étendu"
+
+#: framework/functions/admin/customizer/include/fonts.php:7588
+msgid "Cyrillic"
+msgstr "Cyrillic"
+
+#: framework/functions/admin/customizer/include/fonts.php:7589
+msgid "Cyrillic Extended "
+msgstr "Cyrillique étendu"
+
+#: framework/functions/admin/customizer/include/fonts.php:7590
+msgid "Japanese "
+msgstr "Japonais"
+
+#: framework/functions/admin/customizer/include/fonts.php:7591
+msgid "vietnamese"
+msgstr "vietnamien"
+
+#: framework/functions/admin/customizer/register.php:121
+msgid "Demos"
+msgstr "Démos"
+
+#: framework/functions/admin/customizer/register.php:127
+msgid "Site Layout and design"
+msgstr "Mise en page et design"
+
+#: framework/functions/admin/customizer/register.php:134
+#: framework/functions/admin/customizer/register.php:135
+msgid "Typography"
+msgstr "Typographie"
+
+#: framework/functions/admin/customizer/register.php:141
+#: framework/functions/admin/customizer/register.php:142
+#: framework/functions/admin/customizer/register.php:204
+msgid "Header"
+msgstr "En-tête"
+
+#: framework/functions/admin/customizer/register.php:148
+msgid "General Typography"
+msgstr "Typographie générale"
+
+#: framework/functions/admin/customizer/register.php:154
+msgid "Body"
+msgstr "Corps"
+
+#: framework/functions/admin/customizer/register.php:160
+msgid "Navbar"
+msgstr "Barre de navigation"
+
+#: framework/functions/admin/customizer/register.php:166
+msgid "Heading H1"
+msgstr "En tête H1"
+
+#: framework/functions/admin/customizer/register.php:172
+msgid "Heading H2"
+msgstr "Titre H2"
+
+#: framework/functions/admin/customizer/register.php:178
+msgid "Heading H3"
+msgstr "En-tête H3"
+
+#: framework/functions/admin/customizer/register.php:184
+msgid "Heading H4"
+msgstr "En-tête H4"
+
+#: framework/functions/admin/customizer/register.php:190
+msgid "Heading H5"
+msgstr "En-tête H5"
+
+#: framework/functions/admin/customizer/register.php:196
+msgid "Heading H6"
+msgstr "En-tête H6"
+
+#: framework/functions/admin/customizer/register.php:210
+msgid "Header Style & Layouts"
+msgstr "Style d’en-tête et mises en page"
+
+#: framework/functions/admin/customizer/register.php:216
+#: framework/functions/admin/customizer/register.php:406
+msgid "Sticky Header"
+msgstr "En-tête fixe"
+
+#: framework/functions/admin/customizer/register.php:222
+msgid "Menu"
+msgstr "Menu"
+
+#: framework/functions/admin/customizer/register.php:228
+msgid "Sub-Menu"
+msgstr "Sous-menu"
+
+#: framework/functions/admin/customizer/register.php:235
+msgid "Logo"
+msgstr "Logo"
+
+#: framework/functions/admin/customizer/register.php:241
+msgid "Logo (RTL)"
+msgstr "Logo (RTL)"
+
+#: framework/functions/admin/customizer/register.php:247
+#: framework/functions/admin/customizer/register.php:702
+msgid "Topbar"
+msgstr "Barre du haut"
+
+#: framework/functions/admin/customizer/register.php:259
+msgid "Page title"
+msgstr "Titre de la page"
+
+#: framework/functions/admin/customizer/register.php:263
+msgid "Blog"
+msgstr "Blog"
+
+#: framework/functions/admin/customizer/register.php:264
+#: framework/functions/admin/meta/meta-boxes.php:132
+#: framework/functions/admin/meta/meta-boxes.php:273
+#: framework/functions/admin/meta/meta-boxes.php:402
+#: framework/functions/admin/meta/meta-boxes.php:529
+msgid "Sidebar"
+msgstr "Barre latérale"
+
+#: framework/functions/admin/customizer/register.php:265
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: framework/functions/admin/customizer/register.php:266
+msgid "bbPress"
+msgstr "bbPress"
+
+#: framework/functions/admin/customizer/register.php:270
+#: framework/functions/admin/customizer/register.php:271
+#: framework/functions/admin/customizer/register.php:277
+msgid "Footer"
+msgstr "Pied de page"
+
+#: framework/functions/admin/customizer/register.php:283
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:609
+msgid "Widgets"
+msgstr "Widgets"
+
+#: framework/functions/admin/customizer/register.php:287
+#: framework/functions/admin/customizer/register.php:308
+msgid "Social"
+msgstr "Réseaux sociaux"
+
+#: framework/functions/admin/customizer/register.php:288
+msgid "Site icon & SEO"
+msgstr ""
+
+#: framework/functions/admin/customizer/register.php:291
+msgid "Portfolio & Related Projects"
+msgstr ""
+
+#: framework/functions/admin/customizer/register.php:295
+msgid "Code Fields"
+msgstr "Code Adsense"
+
+#: framework/functions/admin/customizer/register.php:296
+msgid "Okab AMP"
+msgstr ""
+
+#: framework/functions/admin/customizer/register.php:297
+msgid "Custom"
+msgstr "Personnalisé"
+
+#: framework/functions/admin/customizer/register.php:301
+#: framework/functions/admin/customizer/register.php:302
+msgid "Advanced Settings"
+msgstr "Paramètres avancés"
+
+#: framework/functions/admin/customizer/register.php:315
+msgid "Social Graph & SEO"
+msgstr "Graphe social & SEO"
+
+#: framework/functions/admin/customizer/register.php:322
+msgid "Advanced"
+msgstr "Avancé"
+
+#: framework/functions/admin/customizer/register.php:328
+msgid "Advertisement"
+msgstr "Publicité"
+
+#: framework/functions/admin/customizer/register.php:341
+#: framework/functions/admin/meta/meta-boxes.php:52
+msgid "Site Layout"
+msgstr "Mise en page du site"
+
+#: framework/functions/admin/customizer/register.php:351
+#: framework/functions/admin/customizer/register.php:1802
+#: framework/functions/admin/customizer/register.php:3241
+#: framework/functions/admin/meta/meta-boxes.php:117
+#: framework/functions/admin/meta/meta-boxes.php:241
+#: framework/functions/admin/meta/meta-boxes.php:380
+#: framework/functions/admin/meta/meta-boxes.php:514
+msgid "Content Layout"
+msgstr "Disposition du contenu"
+
+#: framework/functions/admin/customizer/register.php:364
+msgid "Header Layout"
+msgstr "Mise en page de l'en-tête"
+
+#: framework/functions/admin/customizer/register.php:374
+msgid "Navbar Transparent"
+msgstr ""
+
+#: framework/functions/admin/customizer/register.php:384
+msgid "Navbar height (px)"
+msgstr "Navbar Hauteur (px)"
+
+#: framework/functions/admin/customizer/register.php:394
+msgid "Navbar Shrink (px)"
+msgstr "Navbar Rétrécissement (px)"
+
+#: framework/functions/admin/customizer/register.php:416
+msgid "Offset By Pixels"
+msgstr "Décalage par des pixels"
+
+#: framework/functions/admin/customizer/register.php:425
+msgid "Offset By Elemnt Target"
+msgstr "Décalage par Elemnt Target"
+
+#: framework/functions/admin/customizer/register.php:434
+msgid "Sticky Header On Mobile"
+msgstr "En-tête fixe sur Mobile"
+
+#: framework/functions/admin/customizer/register.php:437
+msgid "Check ON to activate sticky menu on mobile"
+msgstr "Cochez ON pour activer le menu persistant sur le mobile"
+
+#: framework/functions/admin/customizer/register.php:444 searchform.php:3
+#: searchform.php:4
+msgid "Search"
+msgstr "Recherche"
+
+#: framework/functions/admin/customizer/register.php:456
+#: framework/functions/admin/customizer/register.php:528
+#: framework/functions/admin/customizer/register.php:2523
+msgid "Logo Width (px)"
+msgstr "Largeur du Logo (px)"
+
+#: framework/functions/admin/customizer/register.php:465
+#: framework/functions/admin/customizer/register.php:537
+msgid "Upload Your Logo"
+msgstr "Télécharger Votre Logo"
+
+#: framework/functions/admin/customizer/register.php:474
+#: framework/functions/admin/customizer/register.php:546
+msgid "Upload your logo for sticky & transparent menu"
+msgstr "Télécharger votre logo pour menu Collant & transparent"
+
+#: framework/functions/admin/customizer/register.php:483
+#: framework/functions/admin/customizer/register.php:555
+msgid "Upload Your Mobile Logo"
+msgstr "Télécharger logo pour mobile"
+
+#: framework/functions/admin/customizer/register.php:492
+#: framework/functions/admin/customizer/register.php:564
+msgid "Upload Your Logo (Retina Version @2x)"
+msgstr ""
+
+#: framework/functions/admin/customizer/register.php:500
+#: framework/functions/admin/customizer/register.php:572
+msgid "Upload your logo for sticky & transparent menu (Retina Version @2x)"
+msgstr ""
+"Téléchargez votre logo pour un menu transparent et collant (Retina Version @ "
+"2x)"
+
+#: framework/functions/admin/customizer/register.php:509
+#: framework/functions/admin/customizer/register.php:581
+msgid "Upload Your Mobile Logo (Retina Version @2x)"
+msgstr "Télécharger le Logo de votre Mobile (Rétine Version @2 x)"
+
+#: framework/functions/admin/customizer/register.php:518
+msgid "Logo Position"
+msgstr "Position du logo"
+
+#: framework/functions/admin/customizer/register.php:592
+#: framework/functions/admin/customizer/register.php:600
+#: framework/functions/admin/customizer/register.php:2678
+msgid "Header Background Color"
+msgstr "Couleur d'arrière-plan de l'en-tête"
+
+#: framework/functions/admin/customizer/register.php:609
+msgid "Sticky Header Background Color"
+msgstr "Couleur d'arrière-plan de l'en-tête collante"
+
+#: framework/functions/admin/customizer/register.php:618
+msgid "Sticky Header Menu Font Color"
+msgstr "Couleur de la police pour le menu de navigation de l'en-tête collante"
+
+#: framework/functions/admin/customizer/register.php:627
+msgid "NavBar Text Color"
+msgstr "Couleur du texte de la barre de navigation"
+
+#: framework/functions/admin/customizer/register.php:636
+msgid "NavBar Text Hover Color"
+msgstr "Couleur de Survol texte de la barre de navigation"
+
+#: framework/functions/admin/customizer/register.php:645
+msgid "NavBar Background Image"
+msgstr ""
+
+#: framework/functions/admin/customizer/register.php:647
+msgid "Work with Fixed Right & Fixed Left menu"
+msgstr "Travailler avec le menu Fixe Droite & Fixe Gauche"
+
+#: framework/functions/admin/customizer/register.php:654
+msgid "Transparent NavBar Background Color"
+msgstr ""
+
+#: framework/functions/admin/customizer/register.php:663
+msgid "Transparent NavBar Text Color"
+msgstr ""
+
+#: framework/functions/admin/customizer/register.php:673
+msgid "Sub-Menu Background Color"
+msgstr "Couleur de fond du sous-menu"
+
+#: framework/functions/admin/customizer/register.php:682
+msgid "Sub-Menu Text Color"
+msgstr "Couleur du texte du sous-menu"
+
+#: framework/functions/admin/customizer/register.php:691
+msgid "Sub-Menu Text Hover Color"
+msgstr "Couleur du survol du texte du sous-menu"
+
+#: framework/functions/admin/customizer/register.php:712
+msgid "Display Topbar On Mobile"
+msgstr ""
+
+#: framework/functions/admin/customizer/register.php:722
+msgid "TopBar Background Color"
+msgstr ""
+
+#: framework/functions/admin/customizer/register.php:730
+msgid "TopBar Text Color"
+msgstr ""
+
+#: framework/functions/admin/customizer/register.php:740
+msgid "Address Display"
+msgstr ""
+
+#: framework/functions/admin/customizer/register.php:750
+msgid "Phone Display"
+msgstr ""
+
+#: framework/functions/admin/customizer/register.php:760
+msgid "Today's Date"
+msgstr "Date du jour"
+
+#: framework/functions/admin/customizer/register.php:770
+#: framework/views/dima-global/topbar-mobile.php:54
+#: framework/views/dima-global/topbar.php:54
+#: woocommerce/checkout/thankyou.php:35
+msgid "My Account"
+msgstr "Mon compte"
+
+#: framework/functions/admin/customizer/register.php:780
+msgid "Social Networking"
+msgstr "Réseaux sociaux"
+
+#: framework/functions/admin/customizer/register.php:790
+msgid "Address"
+msgstr "Adresse"
+
+#: framework/functions/admin/customizer/register.php:799
+msgid "Phone"
+msgstr "Téléphone"
+
+#: framework/functions/admin/customizer/register.php:818
+msgid "Today's Date Format"
+msgstr "Format de la date du jour"
+
+#: framework/functions/admin/customizer/register.php:820
+msgid ""
+"For more details see <a href=\"https://codex.wordpress.org/"
+"Formatting_Date_and_Time\" target=\"_blank\" rel=\"noopener\">Formatting "
+"Date and Time</a>"
+msgstr ""
+
+#: framework/functions/admin/customizer/register.php:829
+#: framework/functions/admin/meta/meta-boxes.php:142
+#: framework/functions/admin/meta/meta-boxes.php:283
+#: framework/functions/admin/meta/meta-boxes.php:411
+#: framework/functions/admin/meta/meta-boxes.php:539
+msgid "Page Title Display"
+msgstr "Titre affiché"
+
+#: framework/functions/admin/customizer/register.php:839
+msgid "Page Title Style"
+msgstr "Style du titre de la page"
+
+#: framework/functions/admin/customizer/register.php:849
+#: framework/functions/admin/meta/meta-boxes.php:155
+#: framework/functions/admin/meta/meta-boxes.php:296
+#: framework/functions/admin/meta/meta-boxes.php:424
+#: framework/functions/admin/meta/meta-boxes.php:552
+msgid "Breadcrumbs Display"
+msgstr "Affichage du breadcrumb"
+
+#: framework/functions/admin/customizer/register.php:858
+msgid "Page Title Image"
+msgstr "Image de Fond de la page des titres"
+
+#: framework/functions/admin/customizer/register.php:867
+msgid "Page Title Background Color"
+msgstr "Couleur de la page de titre d'arrière-plan"
+
+#: framework/functions/admin/customizer/register.php:877
+msgid "Breaking News Bar"
+msgstr ""
+
+#: framework/functions/admin/customizer/register.php:887
+msgid "Show in Homepage Only"
+msgstr "Afficher seulement sur la page d'accueil"
+
+#: framework/functions/admin/customizer/register.php:897
+msgid "News Title"
+msgstr "Titre de l’actualité"
+
+#: framework/functions/admin/customizer/register.php:907
+msgid "News Count"
+msgstr "Compteur de news"
+
+#: framework/functions/admin/customizer/register.php:916
+msgid "News Animation"
+msgstr ""
+
+#: framework/functions/admin/customizer/register.php:926
+msgid "News Title background Color"
+msgstr "Couleur d'arrière-plan du titre"
+
+#: framework/functions/admin/customizer/register.php:935
+msgid "News Title Text Color"
+msgstr "Couleur du texte de titre"
+
+#: framework/functions/admin/customizer/register.php:944
+msgid "News background Color"
+msgstr "Couleur d’arrière-plan"
+
+#: framework/functions/admin/customizer/register.php:953
+msgid "News Text Color"
+msgstr "Couleur de texte"
+
+#: framework/functions/admin/customizer/register.php:962
+msgid "News Query Type"
+msgstr "Type de requête"
+
+#: framework/functions/admin/customizer/register.php:982
+msgid "Tag"
+msgstr "Tag"
+
+#: framework/functions/admin/customizer/register.php:991
+msgid "Select your demo"
+msgstr ""
+
+#: framework/functions/admin/customizer/register.php:994
+msgid ""
+"If you change the main demo,you will need to Import your demo customizer "
+"file, to set up all options correctly based on your demo selected."
+msgstr ""
+
+#: framework/functions/admin/customizer/register.php:1002
+msgid "Body Background"
+msgstr "Arrière plan du body (corps)"
+
+#: framework/functions/admin/customizer/register.php:1012
+msgid "Body Background Pattern"
+msgstr ""
+
+#: framework/functions/admin/customizer/register.php:1022
+#: framework/functions/admin/meta/meta-boxes.php:94
+msgid "Body Background Image"
+msgstr "Image de l’arrière-plan du corps"
+
+#: framework/functions/admin/customizer/register.php:1032
+msgid "Top & Bottom Margin (px)"
+msgstr "Marge supérieure et inférieure (px)"
+
+#: framework/functions/admin/customizer/register.php:1043
+msgid "Site Content Width (%)"
+msgstr "Largeur du Contenu (%)"
+
+#: framework/functions/admin/customizer/register.php:1054
+msgid "Site Max Content Width (px)"
+msgstr "Largeur Max de contenu de site (px)"
+
+#: framework/functions/admin/customizer/register.php:1064
+msgid "Loading Screen"
+msgstr "Écran de chargement"
+
+#: framework/functions/admin/customizer/register.php:1073
+msgid "Site Style"
+msgstr "Style du site"
+
+#: framework/functions/admin/customizer/register.php:1082
+msgid "Smooth Scroll"
+msgstr "Défilement en douceur"
+
+#: framework/functions/admin/customizer/register.php:1092
+msgid "Main color"
+msgstr "Couleur principale"
+
+#: framework/functions/admin/customizer/register.php:1104
+msgid "Custom Fonts"
+msgstr "Polices Personnalisées"
+
+#: framework/functions/admin/customizer/register.php:1114
+msgid "Font Subsets"
+msgstr "Sous-ensembles de police"
+
+#: framework/functions/admin/customizer/register.php:1124
+#: framework/functions/admin/customizer/register.php:1209
+#: framework/functions/admin/customizer/register.php:1286
+#: framework/functions/admin/customizer/register.php:1361
+#: framework/functions/admin/customizer/register.php:1436
+#: framework/functions/admin/customizer/register.php:1511
+#: framework/functions/admin/customizer/register.php:1586
+#: framework/functions/admin/customizer/register.php:1661
+msgid "Font Family"
+msgstr "Famille de police"
+
+#: framework/functions/admin/customizer/register.php:1140
+#: framework/functions/admin/customizer/register.php:1226
+#: framework/functions/admin/customizer/register.php:1302
+#: framework/functions/admin/customizer/register.php:1377
+#: framework/functions/admin/customizer/register.php:1452
+#: framework/functions/admin/customizer/register.php:1527
+#: framework/functions/admin/customizer/register.php:1602
+#: framework/functions/admin/customizer/register.php:1684
+#: framework/functions/admin/customizer/register.php:1741
+msgid "Font Variants"
+msgstr "Variantes Police"
+
+#: framework/functions/admin/customizer/register.php:1150
+msgid "Body Font Weights"
+msgstr ""
+
+#: framework/functions/admin/customizer/register.php:1160
+msgid "Body Font Size (px)"
+msgstr "Dimension de la police de Corps de la Page (px)"
+
+#: framework/functions/admin/customizer/register.php:1169
+msgid "Body text color"
+msgstr "Couleur de texte Corps"
+
+#: framework/functions/admin/customizer/register.php:1178
+msgid "Text Link color"
+msgstr "Couleur du lien de texte"
+
+#: framework/functions/admin/customizer/register.php:1187
+msgid "Text Link Hover color"
+msgstr "Couleur du lien du texte de survol"
+
+#: framework/functions/admin/customizer/register.php:1199
+#: framework/functions/admin/customizer/register.php:1276
+#: framework/functions/admin/customizer/register.php:1351
+#: framework/functions/admin/customizer/register.php:1426
+#: framework/functions/admin/customizer/register.php:1501
+#: framework/functions/admin/customizer/register.php:1576
+msgid "Heading Font Style"
+msgstr "Style de police des titres"
+
+#: framework/functions/admin/customizer/register.php:1236
+msgid "Heading Font Weights"
+msgstr ""
+
+#: framework/functions/admin/customizer/register.php:1246
+msgid "Headings Letter Spacing (px)"
+msgstr "Espacement des lettres de l’entête"
+
+#: framework/functions/admin/customizer/register.php:1255
+#: framework/functions/admin/customizer/register.php:1331
+#: framework/functions/admin/customizer/register.php:1406
+#: framework/functions/admin/customizer/register.php:1481
+#: framework/functions/admin/customizer/register.php:1556
+#: framework/functions/admin/customizer/register.php:1631
+msgid "Font Size (px)"
+msgstr "Taille Police (px)"
+
+#: framework/functions/admin/customizer/register.php:1265
+#: framework/functions/admin/customizer/register.php:1340
+#: framework/functions/admin/customizer/register.php:1415
+#: framework/functions/admin/customizer/register.php:1490
+#: framework/functions/admin/customizer/register.php:1565
+#: framework/functions/admin/customizer/register.php:1640
+msgid "Headings color"
+msgstr "Couleur des titres"
+
+#: framework/functions/admin/customizer/register.php:1312
+#: framework/functions/admin/customizer/register.php:1387
+#: framework/functions/admin/customizer/register.php:1462
+#: framework/functions/admin/customizer/register.php:1537
+#: framework/functions/admin/customizer/register.php:1612
+msgid "Font Weights"
+msgstr "Epaisseur de la police"
+
+#: framework/functions/admin/customizer/register.php:1322
+#: framework/functions/admin/customizer/register.php:1397
+#: framework/functions/admin/customizer/register.php:1472
+#: framework/functions/admin/customizer/register.php:1547
+#: framework/functions/admin/customizer/register.php:1622
+msgid "Letter Spacing"
+msgstr "Espacement des lettres"
+
+#: framework/functions/admin/customizer/register.php:1651
+msgid "Navbar Font Style"
+msgstr ""
+
+#: framework/functions/admin/customizer/register.php:1694
+msgid "Navbar Font Weights"
+msgstr "Navbar Épaisseur de texte"
+
+#: framework/functions/admin/customizer/register.php:1704
+msgid "Navbar Font Size (px)"
+msgstr "Taille de la police de la barre de navigation (px)"
+
+#: framework/functions/admin/customizer/register.php:1715
+msgid "Logo Font Style"
+msgstr "Style de police Logo"
+
+#: framework/functions/admin/customizer/register.php:1725
+msgid "Logo Font"
+msgstr "Police du logo"
+
+#: framework/functions/admin/customizer/register.php:1751
+msgid "Logo Font Weights"
+msgstr "Epaisseur de la police du logo"
+
+#: framework/functions/admin/customizer/register.php:1761
+msgid "Logo Font Size (px)"
+msgstr "Dimension de la police du Logo (px)"
+
+#: framework/functions/admin/customizer/register.php:1770
+msgid "Logo Letter Spacing (px)"
+msgstr ""
+
+#: framework/functions/admin/customizer/register.php:1779
+msgid "Logo Text Color"
+msgstr "Couleur du Logo Texte"
+
+#: framework/functions/admin/customizer/register.php:1792
+msgid "Posts Style"
+msgstr "Style d'article :"
+
+#: framework/functions/admin/customizer/register.php:1812
+msgid "Columns"
+msgstr "Colonnes"
+
+#: framework/functions/admin/customizer/register.php:1822
+msgid "Full Post Content on Index"
+msgstr "Contenu complet Publier sur l’index"
+
+#: framework/functions/admin/customizer/register.php:1832
+msgid "Excerpt Limit"
+msgstr "Excerpt Limit"
+
+#: framework/functions/admin/customizer/register.php:1834
+msgid "Displayed Post Excerpt"
+msgstr "Affichage du post extrait"
+
+#: framework/functions/admin/customizer/register.php:1842
+msgid "Display Post Meta"
+msgstr "Afficher les méta des articles"
+
+#: framework/functions/admin/customizer/register.php:1852
+msgid "Display Categories Meta"
+msgstr "Afficher les catégories Meta"
+
+#: framework/functions/admin/customizer/register.php:1862
+msgid "Display Views Meta"
+msgstr ""
+
+#: framework/functions/admin/customizer/register.php:1872
+msgid "Remove Featured Image"
+msgstr "Retirer l'image à la une"
+
+#: framework/functions/admin/customizer/register.php:1882
+msgid "Blog Hover Overlay Color"
+msgstr ""
+
+#: framework/functions/admin/customizer/register.php:1884
+msgid "This hover will apply on portfolio and blog."
+msgstr ""
+
+#: framework/functions/admin/customizer/register.php:1892
+msgid "Blog Element Hover Effects "
+msgstr "Effets de survol blog élément"
+
+#: framework/functions/admin/customizer/register.php:1902
+msgid "Blog Image Hover Effects "
+msgstr "Effets de survol de l’image du blog"
+
+#: framework/functions/admin/customizer/register.php:1912
+msgid "Display Previous/Next Pagination "
+msgstr "Affichage précédent/suivant la Pagination"
+
+#: framework/functions/admin/customizer/register.php:1922
+msgid "Display Social Share Icons"
+msgstr "Afficher les icônes réseaux sociaux"
+
+#: framework/functions/admin/customizer/register.php:1932
+msgid "Display Author Box"
+msgstr "Afficher l'encadré auteur"
+
+#: framework/functions/admin/customizer/register.php:1942
+msgid "Display Related Posts"
+msgstr "Activer cette option pour afficher les publications similaires"
+
+#: framework/functions/admin/customizer/register.php:1952
+msgid "Related Posts Is Slide"
+msgstr "Articles connexes est curseur"
+
+#: framework/functions/admin/customizer/register.php:1962
+msgid "Related Posts Columns"
+msgstr "Colonnes des articles similaires"
+
+#: framework/functions/admin/customizer/register.php:1972
+msgid "Related Posts Count"
+msgstr "Nombre des Articles similaires"
+
+#: framework/functions/admin/customizer/register.php:1981
+#: framework/functions/admin/customizer/register.php:3137
+msgid "Structure Data"
+msgstr "Données de structure"
+
+#: framework/functions/admin/customizer/register.php:1990
+#: framework/functions/admin/customizer/register.php:3147
+msgid "Default Schema type"
+msgstr "Type de schéma par défaut"
+
+#: framework/functions/admin/customizer/register.php:1993
+#: framework/functions/admin/customizer/register.php:3150
+msgid "NewsArticle"
+msgstr "NouveauxArticle"
+
+#: framework/functions/admin/customizer/register.php:1994
+#: framework/functions/admin/customizer/register.php:3151
+msgid "Article"
+msgstr "Article"
+
+#: framework/functions/admin/customizer/register.php:1995
+#: framework/functions/admin/customizer/register.php:3152
+msgid "BlogPosting"
+msgstr "Postage de blog"
+
+#: framework/functions/admin/customizer/register.php:2008
+msgid "Header text size"
+msgstr "Taille du texte de l’en-tête"
+
+#: framework/functions/admin/customizer/register.php:2017
+#: framework/functions/admin/customizer/register.php:2036
+#: framework/functions/admin/customizer/register.php:2433
+msgid "Font Style"
+msgstr "Style de police"
+
+#: framework/functions/admin/customizer/register.php:2027
+msgid "Body/Link Text Size"
+msgstr "Taille du texte du lien/corps"
+
+#: framework/functions/admin/customizer/register.php:2050
+msgid "Navbar Menu"
+msgstr "Menu de la Zone de navigation"
+
+#: framework/functions/admin/customizer/register.php:2060
+msgid "Cart Price"
+msgstr ""
+
+#: framework/functions/admin/customizer/register.php:2070
+msgid "Menu Cart Display"
+msgstr ""
+
+#: framework/functions/admin/customizer/register.php:2080
+msgid "Shop Layout"
+msgstr "Mise en page de la boutique"
+
+#: framework/functions/admin/customizer/register.php:2090
+msgid "Shop Columns"
+msgstr "Colonnes de la Boutique"
+
+#: framework/functions/admin/customizer/register.php:2100
+msgid "Posts Per Page"
+msgstr "Articles par page"
+
+#: framework/functions/admin/customizer/register.php:2109
+msgid "OKAB Sort"
+msgstr "Filtre OKAB"
+
+#: framework/functions/admin/customizer/register.php:2119
+msgid "Product Layout"
+msgstr "Mise en page du produit"
+
+#: framework/functions/admin/customizer/register.php:2130
+msgid "Product Tabs"
+msgstr "Onglets du Produit"
+
+#: framework/functions/admin/customizer/register.php:2140
+msgid "Description Tab"
+msgstr "Onglet de Description"
+
+#: framework/functions/admin/customizer/register.php:2150
+msgid "Additional Information Tab"
+msgstr "Onglet des Informations Supplémentaires"
+
+#: framework/functions/admin/customizer/register.php:2160
+msgid "Reviews Tab"
+msgstr "Onglet des Avis"
+
+#: framework/functions/admin/customizer/register.php:2170
+msgid "Show Social Share Icons"
+msgstr ""
+
+#: framework/functions/admin/customizer/register.php:2180
+msgid "Slide Animation Type"
+msgstr "Transition entre Diapositives"
+
+#: framework/functions/admin/customizer/register.php:2190
+#: woocommerce/single-product/w1-related.php:49
+msgid "Related Products"
+msgstr "Produits similaires"
+
+#: framework/functions/admin/customizer/register.php:2200
+msgid "Related Product Columns"
+msgstr "Colonnes de Produits Apparentés"
+
+#: framework/functions/admin/customizer/register.php:2210
+msgid "Related Product Post Count"
+msgstr "Produit apparenté article connexe"
+
+#: framework/functions/admin/customizer/register.php:2219
+msgid "Upsells"
+msgstr "Ventes incitatives"
+
+#: framework/functions/admin/customizer/register.php:2229
+msgid "Upsell Columns"
+msgstr "Colonnes de Vente incitative"
+
+#: framework/functions/admin/customizer/register.php:2239
+msgid "Upsell Post Count"
+msgstr "Nombre de ventes incitatives"
+
+#: framework/functions/admin/customizer/register.php:2248
+msgid "Cross Sells"
+msgstr "Cross vend"
+
+#: framework/functions/admin/customizer/register.php:2258
+msgid "Cross Sells Columns"
+msgstr "Croix vend des colonnes"
+
+#: framework/functions/admin/customizer/register.php:2268
+msgid "Cross Sells Post Count"
+msgstr "Croix vend Post Post"
+
+#: framework/functions/admin/customizer/register.php:2285
+msgid "Big Footer"
+msgstr "Grand pied de page"
+
+#: framework/functions/admin/customizer/register.php:2295
+msgid "Footer In Center"
+msgstr "Pied de page au centre"
+
+#: framework/functions/admin/customizer/register.php:2305
+msgid "Small Footer"
+msgstr "Petit pied de page"
+
+#: framework/functions/admin/customizer/register.php:2315
+#: framework/functions/admin/customizer/register.php:2630
+#: framework/functions/admin/setup.php:63
+msgid "Footer Menu"
+msgstr "Menu du pied de page"
+
+#: framework/functions/admin/customizer/register.php:2325
+msgid "Footer Background Color"
+msgstr "Couleur d’arrière-plan du pied de page"
+
+#: framework/functions/admin/customizer/register.php:2334
+msgid "Small Footer Background Color"
+msgstr ""
+
+#: framework/functions/admin/customizer/register.php:2343
+msgid "Small Footer Text Color"
+msgstr "Couleur du texte du petit pied de page"
+
+#: framework/functions/admin/customizer/register.php:2352
+msgid "Small Footer Link Color"
+msgstr "Couleur du lien du petit pied de page"
+
+#: framework/functions/admin/customizer/register.php:2361
+msgid "Back To The Top Arrow"
+msgstr "Flèche du retour en haut de page"
+
+#: framework/functions/admin/customizer/register.php:2371
+msgid "Copyright Info"
+msgstr "Information Copyright"
+
+#: framework/functions/admin/customizer/register.php:2385
+msgid "Copyright Content"
+msgstr "Contenu du copyright"
+
+#: framework/functions/admin/customizer/register.php:2395
+msgid "Footer Widget Areas"
+msgstr "Zones de widget du pied de page"
+
+#: framework/functions/admin/customizer/register.php:2405
+msgid "Widget Header text size"
+msgstr "Taille du texte de l’en-tête du widget"
+
+#: framework/functions/admin/customizer/register.php:2414
+msgid "Widget Header Font Style"
+msgstr "Style de la police de l'en-tête du widget"
+
+#: framework/functions/admin/customizer/register.php:2424
+msgid "Widget Body/Link Text Size"
+msgstr "Corps du widget / Taille du texte du lien"
+
+#: framework/functions/admin/customizer/register.php:2443
+msgid "Widget Header Color"
+msgstr "Gadget – Couleur du titre"
+
+#: framework/functions/admin/customizer/register.php:2452
+msgid "Widget Text Color"
+msgstr "Couleur du texte du widget"
+
+#: framework/functions/admin/customizer/register.php:2461
+msgid "Widget Link Color"
+msgstr "Couleur du lien du widget"
+
+#: framework/functions/admin/customizer/register.php:2470
+msgid "Widget Border Color"
+msgstr "Widget couleur de la bordure"
+
+#: framework/functions/admin/customizer/register.php:2484
+msgid "CSS"
+msgstr "CSS"
+
+#: framework/functions/admin/customizer/register.php:2494
+msgid "JavaScript"
+msgstr "JavaScript"
+
+#: framework/functions/admin/customizer/register.php:2505
+msgid "Enable AMP"
+msgstr "Activer AMP"
+
+#: framework/functions/admin/customizer/register.php:2515
+msgid "Upload Your AMP Logo"
+msgstr "Téléchargez votre logo AMP"
+
+#: framework/functions/admin/customizer/register.php:2533
+msgid "Facebook App ID"
+msgstr "Facebook App ID"
+
+#: framework/functions/admin/customizer/register.php:2542
+msgid "Leave a Comment ( Translate )"
+msgstr "Laisser un commentaire (traduire)"
+
+#: framework/functions/admin/customizer/register.php:2551
+msgid "Check Also ( Translate )"
+msgstr "Vérifier aussi (traduire)"
+
+#: framework/functions/admin/customizer/register.php:2560
+msgid "Categories ( Translate )"
+msgstr "Catégories (traduire)"
+
+#: framework/functions/admin/customizer/register.php:2569
+msgid "Ago ( Translate )"
+msgstr "il y a (traduire)"
+
+#: framework/functions/admin/customizer/register.php:2578
+msgid "Tags ( Translate )"
+msgstr "Mots clés (traduire)"
+
+#: framework/functions/admin/customizer/register.php:2589
+#: framework/views/dima-global/related-post.php:20
+msgid "Related Posts"
+msgstr "Articles similaires"
+
+#: framework/functions/admin/customizer/register.php:2599
+msgid "Share Buttons"
+msgstr "Boutons de partage"
+
+#: framework/functions/admin/customizer/register.php:2610
+msgid "Back to top button"
+msgstr "Bouton Haut de page"
+
+#: framework/functions/admin/customizer/register.php:2620
+msgid "Footer Logo Image"
+msgstr "Image du logo de pied de page"
+
+#: framework/functions/admin/customizer/register.php:2641
+msgid "Copyright Text"
+msgstr "Texte de copyright"
+
+#: framework/functions/admin/customizer/register.php:2651
+msgid "Advertisement Above Content"
+msgstr "Publicité au-dessus du contenu"
+
+#: framework/functions/admin/customizer/register.php:2653
+#: framework/functions/admin/customizer/register.php:2661
+#, php-format
+msgid ""
+"Enter your Ad code, AMP pages support &lt;amp-ad&gt; tag only, <a href=\"%s"
+"\" target=\"_blank\">Click Here</a> For More info."
+msgstr ""
+"Entrez votre code d'annonce, les pages d'AMP prennent en charge la balise "
+"&lt; amp-AD &gt; uniquement, < a href = \" %s\" target = \"_ blank\" > "
+"cliquez ici </a> pour plus d'informations."
+
+#: framework/functions/admin/customizer/register.php:2659
+msgid "Advertisement Below Content"
+msgstr "Publicité ci-dessous contenu"
+
+#: framework/functions/admin/customizer/register.php:2669
+msgid "Background Color"
+msgstr "Couleur d’arrière-plan"
+
+#: framework/functions/admin/customizer/register.php:2687
+msgid "Title Color"
+msgstr "Couleur du titre"
+
+#: framework/functions/admin/customizer/register.php:2696
+msgid "Links color"
+msgstr "Couleur des liens"
+
+#: framework/functions/admin/customizer/register.php:2705
+msgid "Footer color"
+msgstr "Couleur du pied de page"
+
+#: framework/functions/admin/customizer/register.php:2713
+msgid "Footer border color"
+msgstr "Couleur des contours du footer"
+
+#: framework/functions/admin/customizer/register.php:2726
+msgid "Ad Blocker Detector"
+msgstr "Détecteur bloqueur pubs"
+
+#: framework/functions/admin/customizer/register.php:2737
+msgid "Above Article Ad"
+msgstr "Annonce ci-dessus article"
+
+#: framework/functions/admin/customizer/register.php:2746
+msgid "Custom Ad Code -Above-"
+msgstr "Code d'annonce personnalisé-ci-dessus-"
+
+#: framework/functions/admin/customizer/register.php:2748
+#: framework/functions/admin/customizer/register.php:2767
+#: framework/functions/admin/customizer/register.php:2777
+#: framework/functions/admin/customizer/register.php:2786
+#: framework/functions/admin/customizer/register.php:2795
+#: framework/functions/admin/customizer/register.php:2804
+#: framework/functions/admin/customizer/register.php:2813
+msgid "Supports: Text, HTML and Shortcodes"
+msgstr "Supports: texte, HTML et shortcodes"
+
+#: framework/functions/admin/customizer/register.php:2756
+msgid "Below Article Ad"
+msgstr "Annonce ci-dessous article"
+
+#: framework/functions/admin/customizer/register.php:2765
+msgid "Custom Ad Code -Below-"
+msgstr "Code d'annonce personnalisé-ci-dessous-"
+
+#: framework/functions/admin/customizer/register.php:2775
+msgid "[ads1] Ad Shortcode"
+msgstr "[ads1] Annonce shortcode"
+
+#: framework/functions/admin/customizer/register.php:2784
+msgid "[ads2] Ad Shortcode"
+msgstr "[ads2] Annonce shortcode"
+
+#: framework/functions/admin/customizer/register.php:2793
+msgid "[ads3] Ad Shortcode"
+msgstr "[ads3] Annonce shortcode"
+
+#: framework/functions/admin/customizer/register.php:2802
+msgid "[ads4] Ad Shortcode"
+msgstr "[ads4] Annonce shortcode"
+
+#: framework/functions/admin/customizer/register.php:2811
+msgid "[ads51] Ad Shortcode"
+msgstr "[ads5] Annonce shortcode"
+
+#: framework/functions/admin/customizer/register.php:2822
+msgid "Remove ver parameters"
+msgstr "Supprimer les paramètres \"ver\""
+
+#: framework/functions/admin/customizer/register.php:2825
+#, php-format
+msgid ""
+"Remove %s parameter from CSS and JS file calls. It may improve speed in some "
+"browsers which do not cache files having the parameter."
+msgstr ""
+"Supprimer les paramètres %s CSS et de fichier JS appelés. Peut améliorer la "
+"vitesse dans certains navigateurs qui ne sont pas de paramètre de mise en "
+"cache des fichiers."
+
+#: framework/functions/admin/customizer/register.php:2833
+msgid "Space before &lt;/head&gt;"
+msgstr "Espace avant &lt;/head&gt;"
+
+#: framework/functions/admin/customizer/register.php:2835
+msgid ""
+"Only accepts javascript code wrapped with &lt;script&gt;  tags and HTML "
+"markup that is valid inside the &lt;head&gt;  tag."
+msgstr ""
+
+#: framework/functions/admin/customizer/register.php:2842
+msgid "Space After &lt;body&gt;"
+msgstr "Espace après &lt; Body &gt;"
+
+#: framework/functions/admin/customizer/register.php:2844
+#: framework/functions/admin/customizer/register.php:2854
+msgid ""
+"Only accepts javascript code, wrapped with &lt;script&gt; tags and valid "
+"HTML markup inside the &lt;body&gt; tag."
+msgstr ""
+
+#: framework/functions/admin/customizer/register.php:2852
+msgid "Space before &lt;/body&gt;"
+msgstr "Espace avant &lt;/body&gt;"
+
+#: framework/functions/admin/customizer/register.php:2861
+msgid "Gooele Map API Key"
+msgstr ""
+
+#: framework/functions/admin/customizer/register.php:2876
+msgid "Facebook"
+msgstr "Facebook"
+
+#: framework/functions/admin/customizer/register.php:2885
+msgid "Twitter"
+msgstr "Twitter"
+
+#: framework/functions/admin/customizer/register.php:2894
+msgid "Google+"
+msgstr "Google+"
+
+#: framework/functions/admin/customizer/register.php:2903
+msgid "linkedin"
+msgstr "linkedin"
+
+#: framework/functions/admin/customizer/register.php:2912
+msgid "Youtube"
+msgstr "Youtube"
+
+#: framework/functions/admin/customizer/register.php:2921
+msgid "Vimeo"
+msgstr "Vimeo"
+
+#: framework/functions/admin/customizer/register.php:2930
+msgid "Foursquare"
+msgstr "Foursquare"
+
+#: framework/functions/admin/customizer/register.php:2939
+msgid "Tumblr"
+msgstr "Tumblr"
+
+#: framework/functions/admin/customizer/register.php:2948
+msgid "Instagram"
+msgstr "Instagram"
+
+#: framework/functions/admin/customizer/register.php:2957
+msgid "Dribbble"
+msgstr "Dribbble"
+
+#: framework/functions/admin/customizer/register.php:2966
+msgid "Flickr"
+msgstr "Flickr"
+
+#: framework/functions/admin/customizer/register.php:2975
+msgid "Behance"
+msgstr "Behance"
+
+#: framework/functions/admin/customizer/register.php:2984
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: framework/functions/admin/customizer/register.php:2993
+msgid "Whatsapp"
+msgstr "Whatsapp"
+
+#: framework/functions/admin/customizer/register.php:3002
+msgid "Soundcloud"
+msgstr "Soundcloud"
+
+#: framework/functions/admin/customizer/register.php:3011
+msgid "RSS"
+msgstr "RSS"
+
+#: framework/functions/admin/customizer/register.php:3020
+msgid "VK"
+msgstr "VK"
+
+#: framework/functions/admin/customizer/register.php:3033
+msgid "Upload Favicon"
+msgstr "Télécharger un Favicon"
+
+#: framework/functions/admin/customizer/register.php:3035
+msgid ""
+"There are many favicon generators available online, such as  <a href="
+"\"http://www.convertico.com/\" target=\"_blank\" rel=\"noopener\" title="
+"\"Convertico\">Convertico</a> and <a href=\"http://www.favicon.co.uk/\" "
+"target=\"_blank\" rel=\"noopener\" title=\"Favicon.co.uk\">Favicon.co.uk</a>."
+msgstr ""
+"Il y a beaucoup de générateurs de favicon disponibles en ligne, tels que < a "
+"href = \"http://www.convertico.com/\" target = \"_ blank\" rel = "
+"\"noouverture\" title = \"Convertico\" > convertico </a> et < a href = "
+"\"http://www.favicon.co.uk/\" target = \"_ blank\" rel = \"noouverture\" "
+"title = \"Favicon. co. royaume-uni\" > favicon. co. uk </a>."
+
+#: framework/functions/admin/customizer/register.php:3041
+msgid "Apple iPhone Icon"
+msgstr "Icône iPhone Apple"
+
+#: framework/functions/admin/customizer/register.php:3043
+msgid "Icon for Apple iPhone (57px x 57px)"
+msgstr "Icône pour Apple iPhone (57px x 57px)"
+
+#: framework/functions/admin/customizer/register.php:3050
+msgid "Apple iPhone Retina Icon"
+msgstr "Icône iPhone retina"
+
+#: framework/functions/admin/customizer/register.php:3052
+msgid "Icon for Apple iPhone Retina Version (120px x 120px)"
+msgstr "Icône pour iPhone version Retina (120px x 120px)"
+
+#: framework/functions/admin/customizer/register.php:3059
+msgid "Apple iPad Icon"
+msgstr "Icône iPad Apple"
+
+#: framework/functions/admin/customizer/register.php:3061
+msgid "Icon for Apple iPhone (72px x 72px)"
+msgstr "Icône pour iPhone (72px x 72px)"
+
+#: framework/functions/admin/customizer/register.php:3068
+msgid "Apple iPad Retina Icon"
+msgstr "Icône Apple iPad Retina"
+
+#: framework/functions/admin/customizer/register.php:3070
+msgid "Icon for Apple iPad Retina Version (144px x 144px)"
+msgstr "Icône pour iPad version Retina (144px x 144px)"
+
+#: framework/functions/admin/customizer/register.php:3081
+msgid "Open Graph"
+msgstr "Open Graph"
+
+#: framework/functions/admin/customizer/register.php:3091
+msgid "Upload opengraph image"
+msgstr "Télécharger l'image opengraph"
+
+#: framework/functions/admin/customizer/register.php:3093
+msgid "Image URL which should represent your object within the graph."
+msgstr "URL de l'image qui doit représenter votre objet dans le graphique."
+
+#: framework/functions/admin/customizer/register.php:3100
+msgid "Facebook Pages ID"
+msgstr "ID pages Facebook"
+
+#: framework/functions/admin/customizer/register.php:3109
+msgid "Twitter Username (e.g. @pixeldima)"
+msgstr "Nom d'utilisateur Twitter (par exemple @pixeldima)"
+
+#: framework/functions/admin/customizer/register.php:3118
+msgid "Twitter Account ID"
+msgstr "ID de compte Twitter"
+
+#: framework/functions/admin/customizer/register.php:3127
+msgid "Prefetching"
+msgstr "Préchargement"
+
+#: framework/functions/admin/customizer/register.php:3130
+msgid ""
+"Enable or disable prefetching. If user is on homepage, then single page will "
+"load faster and if user is on single page, homepage will load faster in "
+"modern browsers."
+msgstr ""
+"Activer ou désactiver le pré chargement. Si l’utilisateur est sur la page "
+"d’accueil, la page unique se chargera plus vite et si l’utilisateur est sur "
+"une page unique, la page d’accueil se chargera plus vite dans les "
+"navigateurs modernes."
+
+#: framework/functions/admin/customizer/register.php:3162
+msgid "Display Related Projects"
+msgstr "Afficher les projets connexes"
+
+#: framework/functions/admin/customizer/register.php:3172
+msgid "Related Projects Style"
+msgstr "Style de projets connexes"
+
+#: framework/functions/admin/customizer/register.php:3182
+msgid "Related Projects Columns"
+msgstr "Colonne Articles de Presse"
+
+#: framework/functions/admin/customizer/register.php:3192
+msgid "Related Projects Count"
+msgstr "Nombre de projets connexes"
+
+#: framework/functions/admin/customizer/register.php:3201
+msgid "Related Projects Element Hover Effects "
+msgstr "Effets de survol de projets associés élément"
+
+#: framework/functions/admin/customizer/register.php:3211
+msgid "Related Projects Image Hover Effects "
+msgstr "Effets de survol de projets associés image"
+
+#: framework/functions/admin/customizer/register.php:3221
+msgid "Related Projects Border on Hover"
+msgstr ""
+
+#: framework/functions/admin/customizer/register.php:3231
+msgid "Portfolio Slug name"
+msgstr ""
+
+#: framework/functions/admin/gutenberg/setup.php:37
+#, fuzzy
+#| msgid "Okab"
+msgid "Okab Main"
+msgstr "Okab"
+
+#: framework/functions/admin/gutenberg/setup.php:42
+msgid "white"
+msgstr "blanc"
+
+#: framework/functions/admin/gutenberg/setup.php:47
+msgid "paragraph"
+msgstr "Paragraphe"
+
+#: framework/functions/admin/gutenberg/setup.php:52
+#: framework/functions/admin/pixeldima-setup/framework-customizer-backup.php:91
+msgid "Error"
+msgstr "Erreur"
+
+#: framework/functions/admin/gutenberg/setup.php:57
+msgid "Warning"
+msgstr "Avertissement"
+
+#: framework/functions/admin/gutenberg/setup.php:62
+msgid "Success"
+msgstr "Succès"
+
+#: framework/functions/admin/gutenberg/setup.php:67
+msgid "Info"
+msgstr "Info"
+
+#: framework/functions/admin/meta/meta-boxes.php:38
+msgid "Page Settings"
+msgstr "Paramètres de la page"
+
+#: framework/functions/admin/meta/meta-boxes.php:39
+#: framework/functions/admin/meta/meta-boxes.php:360
+msgid ""
+"Here you will find various options you can use to create different page "
+"styles."
+msgstr ""
+"Ici vous trouverez quelques options spécifiques que vous pouvez utiliser "
+"pour créer différents styles de page."
+
+#: framework/functions/admin/meta/meta-boxes.php:45
+#: framework/functions/admin/meta/meta-boxes.php:234
+#: framework/functions/admin/meta/meta-boxes.php:366
+#: framework/functions/admin/meta/meta-boxes.php:500
+msgid "Body CSS Class(es)"
+msgstr "Classe css (Body)"
+
+#: framework/functions/admin/meta/meta-boxes.php:46
+#: framework/functions/admin/meta/meta-boxes.php:235
+#: framework/functions/admin/meta/meta-boxes.php:367
+#: framework/functions/admin/meta/meta-boxes.php:501
+msgid ""
+"Add a custom CSS class to the &lt;body&gt; element. Separate multiple class "
+"names with a space."
+msgstr ""
+"Ajouter une classe CSS personnalisée pour l’élément &lt;body&gt;. Noms de "
+"classe multiples séparés par un espace."
+
+#: framework/functions/admin/meta/meta-boxes.php:53
+msgid "Choose your site layout"
+msgstr "Choisissez la disposition de votre site"
+
+#: framework/functions/admin/meta/meta-boxes.php:62
+msgid "Header Styles"
+msgstr "Styles d’en-tête"
+
+#: framework/functions/admin/meta/meta-boxes.php:63
+msgid "Using this option you can choose your header style"
+msgstr ""
+
+#: framework/functions/admin/meta/meta-boxes.php:78
+#: framework/functions/admin/meta/meta-boxes.php:257
+#: framework/functions/admin/meta/meta-boxes.php:395
+msgid "Transparent Menu?"
+msgstr "Menu transparent?"
+
+#: framework/functions/admin/meta/meta-boxes.php:79
+msgid "Enabling this option will add padding before page title."
+msgstr ""
+
+#: framework/functions/admin/meta/meta-boxes.php:86
+msgid "One Page Navigation"
+msgstr "Navigation Une Page"
+
+#: framework/functions/admin/meta/meta-boxes.php:87
+msgid "Choose your One Page navigation menu"
+msgstr ""
+
+#: framework/functions/admin/meta/meta-boxes.php:95
+msgid ""
+"Select an image to use for the outer background (For boxed layout only)."
+msgstr ""
+
+#: framework/functions/admin/meta/meta-boxes.php:101
+msgid "Repeated Background"
+msgstr ""
+
+#: framework/functions/admin/meta/meta-boxes.php:102
+msgid "Check to apply repeated background image (For boxed layout only)"
+msgstr ""
+
+#: framework/functions/admin/meta/meta-boxes.php:110
+#: framework/functions/admin/meta/meta-boxes.php:373
+#: framework/functions/admin/meta/meta-boxes.php:507
+msgid "Fullwidth Section"
+msgstr "Section pleine largeur"
+
+#: framework/functions/admin/meta/meta-boxes.php:111
+msgid ""
+"Check to apply fullwidth sections to this page (by checking this option, the "
+"sidebar will disappear)"
+msgstr ""
+
+#: framework/functions/admin/meta/meta-boxes.php:118
+#: framework/functions/admin/meta/meta-boxes.php:242
+#: framework/functions/admin/meta/meta-boxes.php:381
+#: framework/functions/admin/meta/meta-boxes.php:515
+msgid ""
+"If your global content layout includes a sidebar, selecting this options "
+"will affect this page only."
+msgstr ""
+"Si votre disposition de contenu global inclut une barre latérale, la "
+"sélection de cette option n'affectera que cette page."
+
+#: framework/functions/admin/meta/meta-boxes.php:133
+#: framework/functions/admin/meta/meta-boxes.php:274
+#: framework/functions/admin/meta/meta-boxes.php:403
+#: framework/functions/admin/meta/meta-boxes.php:530
+msgid "Choose Sidebar."
+msgstr "Choisissez la barre latérale."
+
+#: framework/functions/admin/meta/meta-boxes.php:143
+#: framework/functions/admin/meta/meta-boxes.php:284
+#: framework/functions/admin/meta/meta-boxes.php:412
+#: framework/functions/admin/meta/meta-boxes.php:540
+msgid "Choose to show or hide the page title bar."
+msgstr ""
+"Choisissez d’afficher ou de masquer le texte de la page barre de titre."
+
+#: framework/functions/admin/meta/meta-boxes.php:156
+#: framework/functions/admin/meta/meta-boxes.php:297
+#: framework/functions/admin/meta/meta-boxes.php:425
+#: framework/functions/admin/meta/meta-boxes.php:553
+msgid "Choose to show or hide the breadcrumbs bar."
+msgstr "Choisissez d'afficher ou de masquer la barre de chapelure."
+
+#: framework/functions/admin/meta/meta-boxes.php:168
+#: framework/functions/admin/meta/meta-boxes.php:309
+#: framework/functions/admin/meta/meta-boxes.php:437
+#: framework/functions/admin/meta/meta-boxes.php:565
+msgid "Subtitle"
+msgstr "Sous-titre"
+
+#: framework/functions/admin/meta/meta-boxes.php:169
+#: framework/functions/admin/meta/meta-boxes.php:310
+#: framework/functions/admin/meta/meta-boxes.php:438
+#: framework/functions/admin/meta/meta-boxes.php:566
+msgid "Add your page subtitle"
+msgstr "Ajouter votre sous-titre de page"
+
+#: framework/functions/admin/meta/meta-boxes.php:175
+#: framework/functions/admin/meta/meta-boxes.php:316
+#: framework/functions/admin/meta/meta-boxes.php:451
+#: framework/functions/admin/meta/meta-boxes.php:572
+msgid "Page Title Backgrounds"
+msgstr ""
+
+#: framework/functions/admin/meta/meta-boxes.php:176
+#: framework/functions/admin/meta/meta-boxes.php:317
+#: framework/functions/admin/meta/meta-boxes.php:452
+#: framework/functions/admin/meta/meta-boxes.php:573
+msgid "Upload your background image, or enter image URL lnik using the field."
+msgstr ""
+"Téléchargez votre image d’arrière-plan ou entrez le lien de l’image en "
+"utilisant le champ"
+
+#: framework/functions/admin/meta/meta-boxes.php:182
+#: framework/functions/admin/meta/meta-boxes.php:323
+#: framework/functions/admin/meta/meta-boxes.php:458
+#: framework/functions/admin/meta/meta-boxes.php:579
+msgid "Page Title Backgrounds Parallax Style"
+msgstr ""
+
+#: framework/functions/admin/meta/meta-boxes.php:183
+#: framework/functions/admin/meta/meta-boxes.php:324
+#: framework/functions/admin/meta/meta-boxes.php:459
+#: framework/functions/admin/meta/meta-boxes.php:580
+msgid "Choose the animation effect for the background image."
+msgstr "Choisissez l’effet d’animation pour l’image d’arrière-plan."
+
+#: framework/functions/admin/meta/meta-boxes.php:190
+#: framework/functions/admin/meta/meta-boxes.php:331
+#: framework/functions/admin/meta/meta-boxes.php:466
+#: framework/functions/admin/meta/meta-boxes.php:587
+msgid "Parallax"
+msgstr "Parallaxe"
+
+#: framework/functions/admin/meta/meta-boxes.php:191
+msgid "Fixed Parallax"
+msgstr ""
+
+#: framework/functions/admin/meta/meta-boxes.php:195
+#: framework/functions/admin/meta/meta-boxes.php:336
+#: framework/functions/admin/meta/meta-boxes.php:471
+#: framework/functions/admin/meta/meta-boxes.php:592
+msgid "Page Title Position"
+msgstr "Position du titre de la page"
+
+#: framework/functions/admin/meta/meta-boxes.php:196
+msgid "You can change Page Title position to start (left) or center"
+msgstr ""
+"Vous pouvez changer la position du titre de page pour commencer (à gauche) "
+"ou centrer"
+
+#: framework/functions/admin/meta/meta-boxes.php:202
+#: framework/functions/admin/meta/meta-boxes.php:343
+#: framework/functions/admin/meta/meta-boxes.php:478
+#: framework/functions/admin/meta/meta-boxes.php:599
+msgid "default"
+msgstr "défaut"
+
+#: framework/functions/admin/meta/meta-boxes.php:203
+#: framework/functions/admin/meta/meta-boxes.php:344
+#: framework/functions/admin/meta/meta-boxes.php:479
+#: framework/functions/admin/meta/meta-boxes.php:600
+msgid "start"
+msgstr "démarrer"
+
+#: framework/functions/admin/meta/meta-boxes.php:204
+#: framework/functions/admin/meta/meta-boxes.php:345
+#: framework/functions/admin/meta/meta-boxes.php:480
+#: framework/functions/admin/meta/meta-boxes.php:601
+msgid "center"
+msgstr "centre"
+
+#: framework/functions/admin/meta/meta-boxes.php:208
+msgid "Element Shortcode Above the Sidebar"
+msgstr "Shortcode d’élément au-dessus de la barre latérale"
+
+#: framework/functions/admin/meta/meta-boxes.php:209
+msgid ""
+"Enter here a shortcode created by OKAB to display it above the sidebar and "
+"below page title."
+msgstr ""
+
+#: framework/functions/admin/meta/meta-boxes.php:227
+msgid "Post Settings"
+msgstr "Paramètre de l’article"
+
+#: framework/functions/admin/meta/meta-boxes.php:228
+msgid ""
+"Here you will find various options you can use to create different Post "
+"styles."
+msgstr ""
+
+#: framework/functions/admin/meta/meta-boxes.php:258
+#: framework/functions/admin/meta/meta-boxes.php:396
+msgid "Enabling this option will add padding before page title"
+msgstr ""
+
+#: framework/functions/admin/meta/meta-boxes.php:265
+msgid "Custom Post"
+msgstr "Article Personnalisé"
+
+#: framework/functions/admin/meta/meta-boxes.php:266
+msgid ""
+"Enabling this option will remove padding from post content and hide the post "
+"title"
+msgstr ""
+
+#: framework/functions/admin/meta/meta-boxes.php:332
+#: framework/functions/admin/meta/meta-boxes.php:467
+#: framework/functions/admin/meta/meta-boxes.php:588
+msgid "Fixed"
+msgstr "Fixe"
+
+#: framework/functions/admin/meta/meta-boxes.php:337
+#: framework/functions/admin/meta/meta-boxes.php:472
+#: framework/functions/admin/meta/meta-boxes.php:593
+msgid "You can change Page Title position to left (start) or center"
+msgstr ""
+
+#: framework/functions/admin/meta/meta-boxes.php:359
+msgid "Portfolio Settings"
+msgstr "Paramètres du portfolio"
+
+#: framework/functions/admin/meta/meta-boxes.php:374
+#: framework/functions/admin/meta/meta-boxes.php:508
+msgid ""
+"Check to apply full width to this section (by checking this option, the "
+"sidebar will disappear)"
+msgstr ""
+
+#: framework/functions/admin/meta/meta-boxes.php:444
+msgid "Project Link"
+msgstr "Lien du projet"
+
+#: framework/functions/admin/meta/meta-boxes.php:445
+msgid ""
+"Provide an external link to the project you worked on if one is available."
+msgstr ""
+"Fournir un lien externe au projet sur lequel vous avez travaillé, s'il est "
+"disponible."
+
+#: framework/functions/admin/meta/meta-boxes.php:493
+msgid "Product Settings"
+msgstr "Paramètres produit"
+
+#: framework/functions/admin/meta/meta-boxes.php:494
+msgid ""
+"Here you will find various options you can use to create different product "
+"page styles."
+msgstr ""
+
+#: framework/functions/admin/meta/meta-boxes.php:616
+msgid "Gallery Settings"
+msgstr "Réglages de la galerie"
+
+#: framework/functions/admin/meta/meta-boxes.php:617
+msgid "Gallery Post Settings."
+msgstr ""
+
+#: framework/functions/admin/meta/meta-boxes.php:623
+msgid "Animation"
+msgstr "Animation"
+
+#: framework/functions/admin/meta/meta-boxes.php:624
+msgid "Controls the animation type, \"fade\" or \"slide\""
+msgstr "Contrôle le type d'animation, \"fade\" ou \"Slide\""
+
+#: framework/functions/admin/meta/meta-boxes.php:632
+msgid "slide show Speed"
+msgstr ""
+
+#: framework/functions/admin/meta/meta-boxes.php:633
+msgid "Set the speed of the slideshow cycling, in milliseconds"
+msgstr "Régler la vitesse du diaporama, en millisecondes"
+
+#: framework/functions/admin/meta/meta-boxes.php:639
+msgid "Animation Speed"
+msgstr "Vitesse de l’animation"
+
+#: framework/functions/admin/meta/meta-boxes.php:640
+msgid "Set the speed of animations, in milliseconds."
+msgstr "Réglez la vitesse des animations, en millisecondes."
+
+#: framework/functions/admin/meta/meta-boxes.php:646
+msgid "Display Navigation Bullets "
+msgstr ""
+
+#: framework/functions/admin/meta/meta-boxes.php:647
+msgid "Choose to show or hide the navigation bullets."
+msgstr ""
+
+#: framework/functions/admin/meta/meta-boxes.php:665
+msgid "Quote Post Settings"
+msgstr "Paramètres des témoignages ou Citation de la publication"
+
+#: framework/functions/admin/meta/meta-boxes.php:666
+#: framework/functions/admin/meta/meta-boxes.php:673
+msgid "Input your quote."
+msgstr "Entrez votre citation."
+
+#: framework/functions/admin/meta/meta-boxes.php:672
+msgid "The Quote"
+msgstr "La citation"
+
+#: framework/functions/admin/meta/meta-boxes.php:679
+msgid "Citation"
+msgstr "Citations"
+
+#: framework/functions/admin/meta/meta-boxes.php:680
+msgid "Specify who originally said the quote."
+msgstr "Indiquez qui est l&#39;auteur de cette citation."
+
+#: framework/functions/admin/meta/meta-boxes.php:696
+msgid "Link Post Settings"
+msgstr "Paramètres de l&#39;Article Lien"
+
+#: framework/functions/admin/meta/meta-boxes.php:697
+msgid "Input your link."
+msgstr "Saisissez Votre Lien."
+
+#: framework/functions/admin/meta/meta-boxes.php:703
+msgid "The Link"
+msgstr "Le lien"
+
+#: framework/functions/admin/meta/meta-boxes.php:704
+msgid "Insert your link URL, e.g. http://www.themeforest.net."
+msgstr "Insérez votre lien URL, par exemple http://www.monsite.net."
+
+#: framework/functions/admin/meta/meta-boxes.php:721
+msgid "Video Post Settings"
+msgstr "Paramètres de l'article Vidéo"
+
+#: framework/functions/admin/meta/meta-boxes.php:722
+msgid "These settings enable you to embed videos into your posts."
+msgstr ""
+"Ces paramètres vous permettent d’intégrer des vidéos dans vos articles."
+
+#: framework/functions/admin/meta/meta-boxes.php:728
+msgid "M4V File URL"
+msgstr "URL du fichier M4V"
+
+#: framework/functions/admin/meta/meta-boxes.php:729
+msgid "The URL to the .m4v video file."
+msgstr "URL du fichier vidéo .m4v."
+
+#: framework/functions/admin/meta/meta-boxes.php:735
+msgid "OGV File URL"
+msgstr "URL du fichier OGV"
+
+#: framework/functions/admin/meta/meta-boxes.php:736
+msgid "The URL to the .ogv video file."
+msgstr "URL du fichier vidéo. ogv."
+
+#: framework/functions/admin/meta/meta-boxes.php:742
+msgid "Embedded Video Code"
+msgstr "Code vidéo intégré"
+
+#: framework/functions/admin/meta/meta-boxes.php:743
+msgid ""
+"If you are using something other than self hosted video such as YouTube, "
+"Vimeo, or Wistia, paste the embed code here. This field will override the "
+"above."
+msgstr ""
+"Si vous utilisez quelque chose d’autre qu’une vidéo auto-hébergée comme "
+"Youtube ou Vimeo, collez le code d’intégration ici.<br><br>Ce champ remplace "
+"ce qui précède."
+
+#: framework/functions/admin/meta/meta-boxes.php:759
+msgid "Audio Post Settings"
+msgstr "Paramètres de l'article Audio"
+
+#: framework/functions/admin/meta/meta-boxes.php:760
+msgid "These settings enable you to embed audio into your posts."
+msgstr ""
+"Ces paramètres vous permettent d&#39;intégrer des fichiers audio dans vos "
+"articles."
+
+#: framework/functions/admin/meta/meta-boxes.php:766
+msgid "MP3 File URL"
+msgstr "URL du fichier MP3"
+
+#: framework/functions/admin/meta/meta-boxes.php:767
+msgid "The URL to the .mp3 audio file."
+msgstr "L’URL vers le fichier audio .mp3."
+
+#: framework/functions/admin/meta/meta-boxes.php:773
+msgid "OGA File URL"
+msgstr "URL du fichier OGA"
+
+#: framework/functions/admin/meta/meta-boxes.php:774
+msgid "The URL to the .oga or .ogg audio file."
+msgstr "URL du fichier áudio .oga ou .ogg."
+
+#: framework/functions/admin/meta/meta-boxes.php:780
+msgid "Embedded Audio Code"
+msgstr "Code de l'Audio embarqué"
+
+#: framework/functions/admin/meta/meta-boxes.php:781
+msgid ""
+"If you are using something other than self hosted audio such as Soundcloud "
+"paste the embed code here. This field will override the above."
+msgstr ""
+"Si vous utilisez quelque chose d’autre que des fichiers auto-hébergés audio "
+"comme Youtube ou Vimeo, collez le code d’intégration ici.<br><br>Ce champ "
+"remplace ce qui précède."
+
+#: framework/functions/admin/meta/meta-boxes.php:797
+msgid "Slider Settings"
+msgstr "Paramètres du Slider"
+
+#: framework/functions/admin/meta/meta-boxes.php:798
+msgid "Select your options to display a slider."
+msgstr ""
+
+#: framework/functions/admin/meta/meta-boxes.php:804
+msgid "Slider : Above The Menu"
+msgstr ""
+
+#: framework/functions/admin/meta/meta-boxes.php:805
+#: framework/functions/admin/meta/meta-boxes.php:812
+msgid "Select an option from the dropdown."
+msgstr ""
+
+#: framework/functions/admin/meta/meta-boxes.php:808
+#: framework/functions/admin/meta/meta-boxes.php:815
+msgid "Deactivated"
+msgstr "Désactivé"
+
+#: framework/functions/admin/meta/meta-boxes.php:811
+msgid "Slider : Below The Menu"
+msgstr "Slider: sous le menu"
+
+#: framework/functions/admin/meta/meta-class-gallery-image.php:42
+#: framework/functions/admin/meta/meta-class-gallery-image.php:57
+msgid "Delete image"
+msgstr "Supprimer l’image"
+
+#: framework/functions/admin/meta/meta-class-gallery-image.php:42
+#: framework/functions/admin/meta/meta-class-gallery-image.php:58
+msgid "Delete"
+msgstr "Supprimer"
+
+#: framework/functions/admin/meta/meta-class-gallery-image.php:55
+msgid "Add Images to Post Gallery"
+msgstr "Ajouter des images à la gallerie"
+
+#: framework/functions/admin/meta/meta-class-gallery-image.php:56
+msgid "Add to gallery"
+msgstr "Ajouter à la galerie"
+
+#: framework/functions/admin/meta/meta-class-gallery-image.php:58
+msgid "Add post gallery images"
+msgstr "Ajouter un article du type galerie d'images"
+
+#: framework/functions/admin/meta/meta-class-gallery-image.php:94
+msgid "Post Gallery"
+msgstr "Galerie de l'article"
+
+#: framework/functions/admin/meta/setup.php:201
+msgid "Browse"
+msgstr "Parcourir"
+
+#: framework/functions/admin/pixeldima-setup.php:44
+msgid "Okab Plugins"
+msgstr ""
+
+#: framework/functions/admin/pixeldima-setup/framework-customizer-backup.php:37
+msgid "Customizer Backup"
+msgstr "Customizer Sauvegarde"
+
+#: framework/functions/admin/pixeldima-setup/framework-customizer-backup.php:38
+msgid "Easily export or import your WordPress customizer settings!."
+msgstr "Facilement exporter ou importer vos paramètres WordPress Customizer!."
+
+#: framework/functions/admin/pixeldima-setup/framework-customizer-backup.php:67
+msgid "ERROR: An import error occured. Please try again."
+msgstr "ERREUR: une erreur d'importation s'est produite. Veuillez réessayer."
+
+#: framework/functions/admin/pixeldima-setup/framework-customizer-backup.php:81
+#: framework/functions/admin/pixeldima-setup/framework-customizer-backup.php:175
+msgid "Done!"
+msgstr "Terminé !"
+
+#: framework/functions/admin/pixeldima-setup/framework-customizer-backup.php:82
+msgid "Successfully restored!."
+msgstr "Restauré avec succès!."
+
+#: framework/functions/admin/pixeldima-setup/framework-customizer-backup.php:92
+msgid "Invalid file type provided or file size too big. Please try again."
+msgstr ""
+"Type de fichier non valide fourni ou taille de fichier trop grande. Veuillez "
+"réessayer."
+
+#: framework/functions/admin/pixeldima-setup/framework-customizer-backup.php:111
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:660
+msgid "Import"
+msgstr "Importer"
+
+#: framework/functions/admin/pixeldima-setup/framework-customizer-backup.php:114
+#, php-format
+msgid ""
+"Upload your %s Customizer Settings (.json) file and we&apos;ll import the "
+"customizer options into\n"
+"                    this site."
+msgstr ""
+"Téléchargez votre fichier de paramètres personnalisables %s (. Json) et "
+"nous'importer \n"
+"les options de customizer dans ce site."
+
+#: framework/functions/admin/pixeldima-setup/framework-customizer-backup.php:124
+msgid "Upload"
+msgstr "Télécharger"
+
+#: framework/functions/admin/pixeldima-setup/framework-customizer-backup.php:160
+msgid ""
+"Clicking the button below will create a JSON file that contain all "
+"customizer settings."
+msgstr ""
+"En cliquant sur le bouton ci-dessous, vous créerez un fichier JSON contenant "
+"tous les paramètres de Customizer."
+
+#: framework/functions/admin/pixeldima-setup/framework-customizer-backup.php:165
+msgid "Download"
+msgstr "Télécharger"
+
+#: framework/functions/admin/pixeldima-setup/framework-customizer-backup.php:176
+msgid "Successfully Export."
+msgstr "Exporter avec succès."
+
+#: framework/functions/admin/pixeldima-setup/framework-customizer-backup.php:220
+msgid "Success!"
+msgstr "Succès !"
+
+#: framework/functions/admin/pixeldima-setup/framework-customizer-backup.php:221
+msgid "Successfully reset."
+msgstr "Réinitialisation réussie."
+
+#: framework/functions/admin/pixeldima-setup/framework-customizer-backup.php:240
+msgid ""
+"When you click the button below WordPress will reset your Customizer "
+"settings as if it were a new\n"
+"                    installation (you can also import/export your custom "
+"configurations)"
+msgstr ""
+"Lorsque vous cliquez sur le bouton ci-dessous WordPress va réinitialiser vos "
+"paramètres \n"
+"Customizer comme s'il s'agissait d'une nouvelle installation (vous pouvez "
+"également importer/exporter vos configurations personnalisées)"
+
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:31
+msgid "All Demos Support RTL."
+msgstr "Toutes les démos soutiennent RTL."
+
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:37
+#, php-format
+msgid "Install %s Demos"
+msgstr "Installer les démos %s"
+
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:38
+#, php-format
+msgid ""
+"%s brings you a number of unique designs for your website. Installing a demo "
+"provides pages, posts, images, theme options, widgets, sliders and more so "
+"you don’t have to create everything from scratch. Each demo is fully "
+"customizable (fonts, colors and layouts).Please check the System Status tab "
+"to ensure your server meets all requirements for a successful import. %s"
+msgstr ""
+"%s vous apporte un certain nombre de conceptions uniques pour votre site "
+"Web. L'installation d'une démo fournit des pages, des poteaux, des images, "
+"des options de thème, des widgets, des curseurs et plus ainsi vous n'avez "
+"pas à créer tout à partir de zéro. Chaque démo est entièrement "
+"personnalisable (polices, couleurs et mises en page). Vérifiez l'onglet État "
+"du système pour vous assurer que votre serveur répond à toutes les exigences "
+"pour une importation réussie.  %s"
+
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:38
+msgid "Installation & Demo Import Tutorial"
+msgstr "Installation et démo Import Tutorial"
+
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:54
+msgid "Please note"
+msgstr "Veuillez noter"
+
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:55
+msgid ""
+"Since Revolution Slider is not currently active, any sliders used in our "
+"Expanded demos will not be setup. If you wish for these sliders to be setup, "
+"please ensure that you have Revolution Slider installed and activated."
+msgstr ""
+"Depuis Revolution Slider n'est pas actuellement actif, tous les curseurs "
+"utilisés dans nos démos développées ne sera pas configuré. Si vous souhaitez "
+"que ces curseurs soient configurés, assurez-vous que le curseur Revolution "
+"est installé et activé."
+
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:68
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:181
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:201
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:221
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:241
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:262
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:283
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:304
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:325
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:346
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:367
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:388
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:409
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:429
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:448
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:467
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:486
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:506
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:525
+#, php-format
+msgid "DIMA ShortCodes: For all the shortcodes used in %s."
+msgstr ""
+
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:69
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:183
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:203
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:223
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:243
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:264
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:286
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:307
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:328
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:349
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:370
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:391
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:411
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:488
+msgid "Slider Revolution: For Sliders."
+msgstr "Slider Révolution: pour les curseurs."
+
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:70
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:182
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:202
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:222
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:242
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:263
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:285
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:306
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:327
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:348
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:369
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:390
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:410
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:430
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:449
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:468
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:487
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:507
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:527
+msgid "Visual Composer: For page builder."
+msgstr "Visual composer: pour le générateur de pages."
+
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:71
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:184
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:204
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:224
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:244
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:265
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:287
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:308
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:329
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:350
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:371
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:392
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:412
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:431
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:450
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:469
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:489
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:508
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:528
+msgid "Contact Form 7: For the contact form."
+msgstr "Contact Form 7: pour le formulaire de contact."
+
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:72
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:245
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:266
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:526
+msgid "WooCommerce: For the Shop section."
+msgstr "WooCommerce: pour la section boutique."
+
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:76
+msgid "Memory Limit of 256 MB"
+msgstr "Limite de mémoire de 256 Mo"
+
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:77
+msgid "Max execution time (php time limit) of 300 seconds"
+msgstr "Temps d'exécution maximum (temps limite de php) de 300 secondes"
+
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:284
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:305
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:326
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:347
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:368
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:389
+#, php-format
+msgid "DIMA Portfolio: for portfolio items in %s."
+msgstr ""
+
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:557
+msgid "Previw"
+msgstr "Aperçu"
+
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:562
+msgid "Import Content"
+msgstr "Importer le contenu"
+
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:563
+msgid "( menus only import with \"All\" )"
+msgstr "(les menus ne sont importés qu'avec \"All\")"
+
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:574
+msgid "Posts"
+msgstr "Articles"
+
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:579
+msgid "Pages"
+msgstr "Pages"
+
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:584
+#: framework/functions/output/dima-class-breadcrumbs.php:153
+msgid "Portfolio"
+msgstr "Portfolio"
+
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:589
+msgid "Products"
+msgstr "Produits"
+
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:594
+msgid "Media"
+msgstr "Média"
+
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:599
+msgid "Sliders"
+msgstr "Sliders"
+
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:604
+msgid "Customizer"
+msgstr "Personnalisation"
+
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:615
+msgid "Need help ? "
+msgstr "Besoin d'aide?"
+
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:616
+msgid "Do you have trouble installing demo ? "
+msgstr "Avez-vous de la difficulté à installer Demo?"
+
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:620
+msgid "Manual Demo Import . "
+msgstr "Importation manuelle de démo."
+
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:633
+msgid "Important Notes:"
+msgstr "Remarques importantes :"
+
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:635
+msgid "Importing demo data will overwrite your Customizer settings . "
+msgstr ""
+"L'importation de données de démonstration écrasera les paramètres de votre "
+"Customizer."
+
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:636
+msgid "We recommend to run Demo Import on a clean WordPress installation . "
+msgstr ""
+"Nous recommandons d'exécuter l'importation de démo sur une installation "
+"propre de WordPress."
+
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:637
+msgid ""
+"The Demo Import will not import the images we have used in our live demos, "
+"due to\n"
+"                                    copyright / license reasons . "
+msgstr ""
+"L'import de démo n'importera pas les images que nous avons utilisées dans "
+"nos démos en direct, \n"
+"pour des raisons de Copyright/licence."
+
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:640
+msgid ""
+"No existing posts, pages, categories, images, custom post types or any other "
+"data\n"
+"                                    will be deleted or modified . "
+msgstr ""
+"Aucun poste, page, catégorie, image, type de message personnalisé ou autre "
+"donnée ne sera supprimé ou modifié."
+
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:643
+msgid "Posts, pages, images, widgets and menus will get imported . "
+msgstr ""
+"Les messages, les pages, les images, les widgets et les menus sont importés."
+
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:644
+msgid "Before you begin, make sure all the required plugins are activated . "
+msgstr ""
+"Avant de commencer, assurez-vous que tous les plugins nécessaires sont "
+"activés."
+
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:645
+msgid ""
+"Do not run the Demo Import multiple times one after another, it will result "
+"in\n"
+"                                    double content . "
+msgstr ""
+"Ne pas exécuter l'importation de démo plusieurs fois l'un après l'autre, il "
+"se traduira par un double contenu."
+
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:653
+msgid "Are you sure you want to proceed?"
+msgstr "Êtes-vous sur de vouloir continuer?"
+
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:656
+msgid "( It will take a few minutes to complete)"
+msgstr "(Il faudra quelques minutes pour terminer)"
+
+#: framework/functions/admin/pixeldima-setup/framework-demo-content.php:663
+#: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:366
+#: woocommerce/myaccount/my-orders.php:93
+msgid "Cancel"
+msgstr "Annuler"
+
+#: framework/functions/admin/pixeldima-setup/framework-dima-nav-tab.php:28
+#, php-format
+msgid "Welcome to %s"
+msgstr "Bienvenue sur %s"
+
+#: framework/functions/admin/pixeldima-setup/framework-dima-nav-tab.php:47
+#, php-format
+msgid ""
+"You are awesome! Thanks for using our theme, %s is now installed and ready "
+"to use! Get ready to build something beautiful :)"
+msgstr ""
+"Tu es génial! Merci d'utiliser notre thème, %s est maintenant installé et "
+"prêt à l'emploi! Préparez-vous à construire quelque chose de beau:)"
+
+#: framework/functions/admin/pixeldima-setup/framework-home.php:26
+#, php-format
+msgid "Need help? We're here %s"
+msgstr "Besoin d'aide? Nous sommes ici %s"
+
+#: framework/functions/admin/pixeldima-setup/framework-home.php:39
+msgid "Noor Documentation"
+msgstr "Documentation du Noor"
+
+#: framework/functions/admin/pixeldima-setup/framework-home.php:41
+msgid ""
+"We recommend you to browse through the Knowledge Base which cover most of "
+"your questions."
+msgstr ""
+"Nous vous conseillons de parcourir la base de connaissances qui couvre la "
+"plupart de vos questions."
+
+#: framework/functions/admin/pixeldima-setup/framework-home.php:43
+msgid "Open Documentation"
+msgstr "Ouvrir Documentation"
+
+#: framework/functions/admin/pixeldima-setup/framework-home.php:48
+#: framework/functions/admin/pixeldima-setup/framework-home.php:53
+msgid "Submit A Ticket"
+msgstr "Soumettre un ticket"
+
+#: framework/functions/admin/pixeldima-setup/framework-home.php:50
+msgid "Need one-to-one assistance? Get in touch with our Support team."
+msgstr "Besoin d'aide d'un à un? Contactez notre équipe de soutien."
+
+#: framework/functions/admin/pixeldima-setup/framework-home.php:58
+msgid "Troubleshooting"
+msgstr "Dépannage"
+
+#: framework/functions/admin/pixeldima-setup/framework-home.php:60
+msgid ""
+"If something is not working as expected, Please try these common solutions."
+msgstr ""
+"Si quelque chose ne fonctionne pas comme prévu, s'il vous plaît essayer ces "
+"solutions communes."
+
+#: framework/functions/admin/pixeldima-setup/framework-home.php:63
+msgid "Open Troubleshooting Page"
+msgstr "Ouvrir la page de dépannage"
+
+#: framework/functions/admin/pixeldima-setup/framework-notices.php:18
+msgid "Howdy"
+msgstr "Salutations"
+
+#: framework/functions/admin/pixeldima-setup/framework-plugins.php:25
+msgid "Plugins"
+msgstr "Extensions"
+
+#: framework/functions/admin/pixeldima-setup/framework-plugins.php:26
+#, php-format
+msgid ""
+"All the plugins are well tested to work with %s and we keep them up to date. "
+"The themes comes packed with the following premium and free plugins"
+msgstr ""
+"Tous les plugins sont bien testés pour fonctionner avec %s et nous les "
+"gardons à jour. Les thèmes est emballé avec les plugins primes et gratuit "
+"suivants"
+
+#: framework/functions/admin/pixeldima-setup/framework-plugins.php:95
+msgid "Required"
+msgstr "Requis"
+
+#: framework/functions/admin/pixeldima-setup/framework-system-status.php:217
+msgid ""
+"Please copy and paste this information in your ticket when contacting "
+"support:"
+msgstr ""
+"Veuillez copier et coller ces informations dans votre ticket lorsque vous "
+"contactez le support :"
+
+#: framework/functions/admin/pixeldima-setup/framework-system-status.php:219
+msgid "Get system report"
+msgstr "Obtenir le rapport système"
+
+#: framework/functions/admin/pixeldima-setup/framework-system-status.php:229
+#, php-format
+msgid ""
+"Looking for a good web hosting company? %1$sCheck our recommendations!%2$s"
+msgstr ""
+"Vous cherchez une bonne entreprise d'hébergement Web? %1$sConsultez nos "
+"recommandations!%2$s"
+
+#: framework/functions/admin/pixeldima-setup/framework-system-status.php:354
+msgid "System Status"
+msgstr "État du système"
+
+#: framework/functions/admin/pixeldima-setup/framework-system-status.php:358
+msgid "Here you can check the system status."
+msgstr "Ici, vous pouvez vérifier l'état du système."
+
+#: framework/functions/admin/pixeldima-setup/framework-system-status.php:389
+#, php-format
+msgid ""
+"This plugin is required to run %s. It provides a all the shortcodes used in "
+"%s"
+msgstr ""
+"Ce plugin est nécessaire pour exécuter %s. Il fournit tout le shortcodes "
+"utilisé dans %s"
+
+#: framework/functions/admin/pixeldima-setup/framework-validation.php:60
+msgid "You're almost finished!"
+msgstr "Tu as presque fini!"
+
+#: framework/functions/admin/pixeldima-setup/framework-validation.php:61
+msgid ""
+"Your license is not validated. Click on the link below to unlock demo "
+"import, bundeled plugins and access to premium support."
+msgstr ""
+"Votre licence n'est pas validée. Cliquez sur le lien ci-dessous pour "
+"déverrouiller l'importation de démo, les plugins groupés et l'accès à un "
+"support premium."
+
+#: framework/functions/admin/pixeldima-setup/framework-validation.php:62
+msgid "NOTE: A separate license is required for each site using the theme."
+msgstr ""
+"Remarque : Une licence distincte est nécessaire pour chaque site utilisant "
+"le thème."
+
+#: framework/functions/admin/pixeldima-setup/framework-validation.php:71
+msgid "Verify Now!"
+msgstr "Vérifiez maintenant!"
+
+#: framework/functions/admin/pixeldima-setup/framework-validation.php:74
+msgid "Buy a License"
+msgstr "Acheter une licence"
+
+#: framework/functions/admin/pixeldima-setup/pixeldima-setup-settings.php:421
+msgid "Revolution Slider downloaded..."
+msgstr "RevSlider téléchargé…"
+
+#: framework/functions/admin/pixeldima-setup/pixeldima-setup-settings.php:770
+#: framework/functions/admin/pixeldima-setup/pixeldima-setup-settings.php:777
+msgid "Install"
+msgstr "Installer"
+
+#: framework/functions/admin/pixeldima-setup/pixeldima-setup-settings.php:783
+msgid "Preview"
+msgstr "Prévisualisation"
+
+#: framework/functions/admin/pixeldima-setup/pixeldima-setup-settings.php:791
+msgid "Required Plugins"
+msgstr "Plugins requis"
+
+#: framework/functions/admin/pixeldima-setup/pixeldima-setup-settings.php:799
+msgid "Demo Requirement"
+msgstr "Exigence de Demo"
+
+#: framework/functions/admin/setup.php:62
+msgid "Primary Menu"
+msgstr "Menu principal"
+
+#: framework/functions/admin/setup.php:66
+msgid "AMP menu"
+msgstr ""
+
+#: framework/functions/admin/widgets.php:32
+msgid "Main Sidebar"
+msgstr "Barre latérale principale"
+
+#: framework/functions/admin/widgets.php:34
+msgid "Appears on posts and pages that include the sidebar."
+msgstr "Apparaît sur les messages et les pages qui incluent la sidebar."
+
+#: framework/functions/admin/widgets.php:43
+msgid "Shop - For WooCommerce Pages"
+msgstr "Boutique - Pour les pages WooCommerce"
+
+#: framework/functions/admin/widgets.php:45
+msgid "This widget area uses in the WooCommerce pages ."
+msgstr "Cette zone de widget est utilisée sur les pages WooCommerce."
+
+#: framework/functions/admin/widgets.php:55
+msgid "Forums - For Forums Pages"
+msgstr "Forums-pour les pages forums"
+
+#: framework/functions/admin/widgets.php:57
+msgid "This widget area uses in the forums pages ."
+msgstr "Cette zone widget utilise dans les pages des forums."
+
+#: framework/functions/admin/widgets.php:68
+msgid "Footer Area #"
+msgstr "Zone de bas de page #"
+
+#: framework/functions/admin/widgets.php:70
+msgid "Widgetized footer area."
+msgstr "Zone Widgets du Pied de page."
+
+#: framework/functions/class-dima-maintenance.php:60
+msgid "Website Under Maintenance"
+msgstr "Site en maintenance"
+
+#: framework/functions/class-dima-maintenance.php:75
+msgid ""
+"Hi, our Website is currently undergoing scheduled maintenance Please check "
+"back very soon. Sorry for the inconvenience!."
+msgstr ""
+
+#: framework/functions/class-dima-maintenance.php:94
+#, php-format
+msgid ""
+"The Dima_Shortcodes plugin needs to be updated before your site can exit "
+"maintenance mode. Please %s to update the plugin.<br><em>\"That message "
+"shows only to you\"</em>"
+msgstr ""
+
+#: framework/functions/class-dima-maintenance.php:94
+msgid "follow this link"
+msgstr "suivez ce lien"
+
+#: framework/functions/class-dima-maintenance.php:98
+#, php-format
+msgid ""
+"The Dima_Shortcodes plugin is required to be installed and activated before "
+"your site can exit maintenance mode. Please <a %s>follow this link</a> to "
+"install and activate it. <br><em>\"That message shows only to you\"</em>"
+msgstr ""
+
+#: framework/functions/extensions/bbpress.php:52
+msgid "Topic Tags : "
+msgstr "Thème Tags:"
+
+#: framework/functions/extensions/bbpress.php:72
+msgid "To Parent Forum"
+msgstr "Vers le Forum Parent"
+
+#: framework/functions/extensions/bbpress.php:92
+msgid "To Forums List"
+msgstr "À la Liste des Forums"
+
+#: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:29
+msgid "Menu Icon (Use font awesome or simple line icons name)"
+msgstr ""
+
+#: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:39
+msgid "Text Clasess"
+msgstr "Texte Classes"
+
+#: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:49
+msgid "Menu First Level Style"
+msgstr "Style du menu de premier niveau"
+
+#: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:54
+msgid "Default Style"
+msgstr "Style par défaut"
+
+#: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:56
+msgid "Button Mini"
+msgstr "Bouton mini"
+
+#: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:58
+msgid "Button Small"
+msgstr "Petit bouton"
+
+#: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:60
+msgid "Button Large"
+msgstr "Bouton large"
+
+#: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:62
+msgid "Button Big"
+msgstr "Bouton grand"
+
+#: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:64
+msgid "Button Huge"
+msgstr "Bouton énorme"
+
+#: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:77
+msgid "Enable OKAB Mega Menu"
+msgstr ""
+
+#: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:87
+msgid "Disable MegaMenu Title"
+msgstr "Désactiver le titre du MegaMenu"
+
+#: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:93
+msgid "Mega Menu Columns"
+msgstr "Mega Menu colonnes"
+
+#: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:110
+msgid "Set MegaMenu Background"
+msgstr "Set MegaMenu arrière-plan"
+
+#: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:200
+#, php-format
+msgid "%s (Invalid)"
+msgstr "%s (Invalide)"
+
+#: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:204
+#, php-format
+msgid "%s (Pending)"
+msgstr "%s (en attente)"
+
+#: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:220
+msgid "sub item"
+msgstr "sous-élément"
+
+#: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:235
+msgid "Move up"
+msgstr "Déplacer vers le haut"
+
+#: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:249
+msgid "Move down"
+msgstr "Déplacer vers le bas"
+
+#: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:253
+#: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:255
+msgid "Edit Menu Item"
+msgstr "Editer l'élément de menu"
+
+#: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:264
+msgid "URL"
+msgstr "URL"
+
+#: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:274
+msgid "Navigation Label"
+msgstr "Étiquette de navigation"
+
+#: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:283
+msgid "Title Attribute"
+msgstr "Attribut du titre"
+
+#: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:295
+msgid "Open link in a new window/tab"
+msgstr "Ouvrir le lien dans une nouvelle fenêtre/onglet"
+
+#: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:300
+msgid "CSS Classes (optional)"
+msgstr "Classes CSS (optionnel)"
+
+#: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:309
+msgid "Link Relationship (XFN)"
+msgstr "Relation de lien (XFN)"
+
+#: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:318
+msgid "Description"
+msgstr "Description"
+
+#: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:323
+msgid ""
+"The description will be displayed in the menu if the current theme supports "
+"it."
+msgstr ""
+"La description sera affichée dans le menu si le thème actuel le permet."
+
+#: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:331
+msgid "Move"
+msgstr "Déplacer"
+
+#: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:333
+msgid "Up one"
+msgstr "Monter de un"
+
+#: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:335
+msgid "Down one"
+msgstr "Descendre de un"
+
+#: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:339
+msgid "To the top"
+msgstr "Vers le haut"
+
+#: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:346
+#, php-format
+msgid "Original: %s"
+msgstr "Original : %s"
+
+#: framework/functions/extensions/dima-mega-menu/dima-mega-menu.php:360
+msgid "Remove"
+msgstr "Supprimer"
+
+#: framework/functions/extensions/knowledge-base.php:29
+msgid "Knowledge Base Main"
+msgstr "Accueil de la base de connaissances"
+
+#: framework/functions/extensions/knowledge-base.php:31
+msgid "This widget area uses in the Knowledge Base pages."
+msgstr ""
+"Cette zone de widget utilise dans les pages de la base de connaissances."
+
+#: framework/functions/extensions/woocommerce.php:282
+#: framework/functions/extensions/woocommerce.php:284
+msgid ""
+"There doesn&lsquo;t seem to be any available shipping methods. Please double "
+"check your address, or contact us if you need any help."
+msgstr ""
+"Il ne semble pas y avoir de méthodes de livraison disponibles. Merci de "
+"vérifiez votre adresse, ou contactez-nous si vous avez besoin d’aide."
+
+#: framework/functions/extensions/woocommerce.php:352
+msgid "Subtotal :"
+msgstr "Sous-total :"
+
+#: framework/functions/extensions/woocommerce.php:356
+msgid "View Cart"
+msgstr "Voir le panier"
+
+#: framework/functions/extensions/woocommerce.php:357
+msgid "Checkout"
+msgstr "caisse"
+
+#: framework/functions/extensions/woocommerce.php:418
+#: framework/functions/extensions/woocommerce.php:471
+#: woocommerce/myaccount/my-orders.php:24
+msgid "Date"
+msgstr "Date"
+
+#: framework/functions/extensions/woocommerce.php:421
+#: framework/functions/extensions/woocommerce.php:470
+#: woocommerce/cart/cart.php:36 woocommerce/cart/cart.php:91
+msgid "Price"
+msgstr "Prix"
+
+#: framework/functions/extensions/woocommerce.php:424
+#: framework/functions/extensions/woocommerce.php:472
+msgid "Popularity"
+msgstr "Popularité"
+
+#: framework/functions/extensions/woocommerce.php:427
+#: framework/functions/extensions/woocommerce.php:473
+#: woocommerce/single-product-reviews.php:169
+msgid "Rating"
+msgstr "Évaluation"
+
+#: framework/functions/extensions/woocommerce.php:433
+#: framework/functions/extensions/woocommerce.php:468
+msgid "Default Order"
+msgstr "Ordre par défaut"
+
+#: framework/functions/extensions/woocommerce.php:466
+#: framework/functions/extensions/woocommerce.php:468
+#: framework/functions/extensions/woocommerce.php:469
+#: framework/functions/extensions/woocommerce.php:470
+#: framework/functions/extensions/woocommerce.php:471
+#: framework/functions/extensions/woocommerce.php:472
+#: framework/functions/extensions/woocommerce.php:473
+msgid "Sort by"
+msgstr "Trier par"
+
+#: framework/functions/helper/advertisment.php:18
+msgid "Adblock Detected"
+msgstr "Adblock détecté"
+
+#: framework/functions/helper/advertisment.php:19
+msgid "Please consider supporting us by disabling your ad blocker"
+msgstr ""
+"S'il vous plaît envisager de nous soutenir en désactivant votre bloqueur "
+"d'annonces"
+
+#: framework/functions/helper/pagination.php:34
+msgid "Page %CURRENT_PAGE% of %TOTAL_PAGES%"
+msgstr "Page %CURRENT_PAGE% sur %TOTAL_PAGES%"
+
+#: framework/functions/helper/pagination.php:37
+msgid "First Page"
+msgstr "Première page"
+
+#: framework/functions/helper/pagination.php:38
+msgid "Last Page"
+msgstr "Dernière page"
+
+#: framework/functions/output/content.php:51
+msgid "Pages:"
+msgstr "Pages :"
+
+#: framework/functions/output/content.php:376
+msgid "Author: "
+msgstr "Auteur :"
+
+#: framework/functions/output/content.php:392
+msgid "Visit the Facebook Profile for"
+msgstr "Visitez le profil Facebook pour"
+
+#: framework/functions/output/content.php:393
+msgid "Visit the Twitter Profile for"
+msgstr "Visitez le profil Twitter pour"
+
+#: framework/functions/output/content.php:394
+msgid "Visit the Google+ Profile for"
+msgstr "Visitez le profil Google + pour"
+
+#: framework/functions/output/content.php:395
+msgid "Visit the instagram Profile for"
+msgstr "Visitez le profil de Instagram pour"
+
+#: framework/functions/output/content.php:396
+msgid "Visit the linkedin Profile for"
+msgstr "Visitez le profil LinkedIn pour"
+
+#: framework/functions/output/content.php:397
+msgid "Visit the flickr Profile for"
+msgstr "Visitez le profil Flickr pour"
+
+#: framework/functions/output/content.php:398
+msgid "Visit the youtube Profile for"
+msgstr "Visitez le profil YouTube pour"
+
+#: framework/functions/output/content.php:399
+msgid "Visit the pinterest Profile for"
+msgstr "Visitez le profil de Pinterest pour"
+
+#: framework/functions/output/content.php:400
+msgid "Visit the behance Profile for"
+msgstr "Visitez le profil de Behance pour"
+
+#: framework/functions/output/content.php:401
+msgid "Visit the dribbble Profile for"
+msgstr "Visitez le profil de dribbble pour"
+
+#: framework/functions/output/dima-class-breadcrumbs.php:48
+msgid "Home"
+msgstr "Accueil"
+
+#: framework/functions/output/dima-class-breadcrumbs.php:50
+msgid "Search:"
+msgstr "Recherche:"
+
+#: framework/functions/output/dima-class-breadcrumbs.php:51
+msgid "404 - Page not Found"
+msgstr "404 - Page introuvable"
+
+#: framework/functions/output/dima-class-breadcrumbs.php:135
+msgid "Latest Posts"
+msgstr "Derniers articles"
+
+#: framework/functions/output/dima-class-breadcrumbs.php:139
+#, php-format
+msgid "Search results for: %s"
+msgstr "Résultats de recherche pour: %s"
+
+#: framework/functions/output/dima-class-breadcrumbs.php:142
+msgid "Error 404 Page"
+msgstr "Page d’erreur 404"
+
+#: framework/functions/output/dima-class-breadcrumbs.php:148
+msgid "Shop"
+msgstr "Boutique"
+
+#: framework/functions/output/dima-class-breadcrumbs.php:160
+#, php-format
+msgid "Daily Archives: %s"
+msgstr "Archives quotidiennes : %s"
+
+#: framework/functions/output/dima-class-breadcrumbs.php:162
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr "Archives mensuelles : %s"
+
+#: framework/functions/output/dima-class-breadcrumbs.php:162
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: framework/functions/output/dima-class-breadcrumbs.php:164
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr "Archives annuelles : %s"
+
+#: framework/functions/output/dima-class-breadcrumbs.php:164
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: framework/functions/output/featured.php:84
+#: framework/functions/output/featured.php:285
+#: framework/views/okab/_content-post-header.php:31
+#: framework/views/okab/big-grid-content-list.php:33
+#: framework/views/okab/big-grid-content-list.php:47
+#: framework/views/okab/big-grid-content-main.php:30
+#: framework/views/okab/big-grid-content-main.php:43
+#: framework/views/okab/content-link.php:35
+#: framework/views/okab/content-link.php:38
+#: framework/views/okab/content-list.php:28
+#: framework/views/okab/content-list.php:37
+#: framework/views/okab/content-list.php:49
+#: framework/views/okab/content-quote.php:52
+#, php-format
+msgid "Permalink to: \"%s\""
+msgstr "Permalien vers : « %s »"
+
+#: framework/functions/scripts.php:132
+msgid "Let&apos;s go!"
+msgstr ""
+
+#: framework/functions/scripts.php:133
+msgid "Working...!"
+msgstr "Travail...!"
+
+#: framework/functions/scripts.php:134
+msgid ""
+"<strong>Warning</strong><br> Importing demo data will overwrite your "
+"Customizer settings.<br>Importing data is recommended on fresh installs only."
+"<br>Importing on sites with content or importing twice will duplicate menus, "
+"sliders, widget.</em>"
+msgstr ""
+
+#: framework/functions/scripts.php:135
+msgid ""
+"<br><br><strong>Are you sure you want to proceed?</strong><br><em>(It will "
+"take a few minutes to complete)</em>"
+msgstr ""
+
+#: framework/functions/scripts.php:136
+msgid "Please wait...!"
+msgstr "S’il vous plaît, attendez…!"
+
+#: framework/functions/scripts.php:137
+msgid "Hang in there, trying to reconnect..."
+msgstr "Accrochez-vous, tentative de reconnexion…"
+
+#: framework/functions/scripts.php:138
+msgid "Experiencing technical difficulties..."
+msgstr "Nous rencontrons des difficultés techniques…"
+
+#: framework/functions/scripts.php:139
+msgid "We&apos;re sorry, but the demo data could not be imported."
+msgstr ""
+
+#: framework/functions/scripts.php:140
+msgid "All done. Have fun!"
+msgstr "Tout est complété. Amusez-vous!"
+
+#: framework/functions/scripts.php:142
+msgid ""
+"<br><em><strong>Okab Demo Requirement</strong><br>-Memory Limit of 256 MB "
+"and max execution time (php time limit) of 300 seconds.<br>-Dima "
+"Shoretcodes, contact form 7,DIMA Portfolio, Revolution Slider and "
+"Woocommerce must be activated.<em>"
+msgstr ""
+
+#: framework/functions/scripts.php:143
+msgid ""
+"<br><em><strong>Business Demo Requirement</strong><br>-Memory Limit of 128 "
+"MB and max execution time (php time limit) of 300 seconds.<br>-Dima "
+"Shoretcodes,DIMA Portfolio, Revolution Slider and contact form 7 must be "
+"activated.<em>"
+msgstr ""
+
+#: framework/functions/scripts.php:144
+msgid ""
+"<br><em><strong>Business Finance Demo Requirement</strong><br>-Memory Limit "
+"of 128 MB and max execution time (php time limit) of 300 seconds.<br>-Dima "
+"Shoretcodes,DIMA Portfolio, Revolution Slider and contact form 7 must be "
+"activated.<em>"
+msgstr ""
+
+#: framework/functions/scripts.php:145
+msgid ""
+"<br><em><strong>Consulting Demo Requirement</strong><br>-Memory Limit of 128 "
+"MB and max execution time (php time limit) of 300 seconds.<br>-Dima "
+"Shoretcodes,DIMA Portfolio, Revolution Slider and contact form 7 must be "
+"activated.<em>"
+msgstr ""
+
+#: framework/functions/scripts.php:146
+msgid ""
+"<br><em><strong>App Demo Requirement</strong><br>-Memory Limit of 128 MB and "
+"max execution time (php time limit) of 300 seconds.<br>-Dima Shoretcodes, "
+"DIMA Portfolio, Revolution Slider and contact form 7 must be activated.<em>"
+msgstr ""
+
+#: framework/functions/scripts.php:147
+msgid ""
+"<br><em><strong>Resume Demo Requirement</strong><br>-Memory Limit of 128 MB "
+"and max execution time (php time limit) of 300 seconds.<br>-Dima "
+"Shoretcodes, contact form 7 must be activated.<em>"
+msgstr ""
+
+#: framework/functions/scripts.php:148
+msgid ""
+"<br><em><strong>Business (RTL) Demo Requirement</strong><br>-Memory Limit of "
+"128 MB and max execution time (php time limit) of 300 seconds.<br>-Dima "
+"Shoretcodes, DIMA Portfolio, Revolution Slider and contact form 7 must be "
+"activated.<em>"
+msgstr ""
+
+#: framework/functions/scripts.php:149
+msgid ""
+"<br><em><strong>Minimal Portfolio Demo Requirement</strong><br>-Memory Limit "
+"of 128 MB and max execution time (php time limit) of 300 seconds.<br>-Dima "
+"Shoretcodes, DIMA Portfolio, contact form 7 must be activated.<em>"
+msgstr ""
+
+#: framework/functions/scripts.php:150
+msgid ""
+"<br><em><strong>Hosting Demo Requirement</strong><br>-Memory Limit of 128 MB "
+"and max execution time (php time limit) of 300 seconds.<br>-Dima "
+"Shoretcodes, DIMA Portfolio, contact form 7 must be activated.<em>"
+msgstr ""
+
+#: framework/functions/scripts.php:151
+msgid ""
+"<br><em><strong>Magazine Demo Requirement</strong><br>-Memory Limit of 128 "
+"MB and max execution time (php time limit) of 300 seconds.<br>-Dima "
+"Shoretcodes, DIMA Portfolio, contact form 7 must be activated.<em>"
+msgstr ""
+
+#: framework/functions/scripts.php:152
+msgid ""
+"<br><em><strong>Minimal Blog Demo Requirement</strong><br>-Memory Limit of "
+"128 MB and max execution time (php time limit) of 300 seconds.<br>-Dima "
+"Shoretcodes, DIMA Portfolio, contact form 7 must be activated.<em>"
+msgstr ""
+
+#: framework/functions/scripts.php:153
+msgid ""
+"<br><em><strong>Photography Demo Requirement</strong><br>-Memory Limit of "
+"128 MB and max execution time (php time limit) of 300 seconds.<br>-Dima "
+"Shoretcodes, DIMA Portfolio, contact form 7 must be activated.<em>"
+msgstr ""
+
+#: framework/functions/scripts.php:154
+msgid ""
+"<br><em><strong>Construction Demo Requirement</strong><br>-Memory Limit of "
+"128 MB and max execution time (php time limit) of 300 seconds.<br>-Dima "
+"Shoretcodes, DIMA Portfolio, Revolution Slider and contact form 7 must be "
+"activated.<em>"
+msgstr ""
+
+#: framework/functions/scripts.php:155
+msgid ""
+"<br><em><strong>Shop Demo Requirement</strong><br>-Memory Limit of 128 MB "
+"and max execution time (php time limit) of 300 seconds.<br>-Dima "
+"Shoretcodes, DIMA Portfolio, Woocommerce, Revolution Slider and contact form "
+"7 must be activated.<em>"
+msgstr ""
+
+#: framework/functions/scripts.php:156
+msgid ""
+"<br><em><strong>Cosmetic Demo Requirement</strong><br>-Memory Limit of 128 "
+"MB and max execution time (php time limit) of 300 seconds.<br>-Dima "
+"Shoretcodes, DIMA Portfolio, Woocommerce, Revolution Slider and contact form "
+"7 must be activated.<em>"
+msgstr ""
+
+#: framework/functions/scripts.php:157
+msgid ""
+"<br><em><strong>Restaurant Demo Requirement</strong><br>-Memory Limit of 128 "
+"MB and max execution time (php time limit) of 300 seconds.<br>-Dima "
+"Shoretcodes, DIMA Portfolio, Revolution Slider and contact form 7 must be "
+"activated.<em>"
+msgstr ""
+
+#: framework/views/dima-global/content-404.php:11
+#: framework/views/dima-global/content-none.php:17
+msgid "Oops!, This Page Could Not Be Found"
+msgstr "Oops!, cette page n'a pas pu être trouvée"
+
+#: framework/views/dima-global/content-404.php:12
+#: framework/views/dima-global/content-none.php:18
+msgid ""
+"The Page are looking for might have been removed, had its name change, or is "
+"temporarily unavailable."
+msgstr ""
+"La page sont à la recherche d'aurait pu être supprimé, a eu son changement "
+"de nom, ou est temporairement indisponible."
+
+#: framework/views/dima-global/content-dima-loading.php:15
+msgid "LOADING"
+msgstr "CHARGEMENT"
+
+#: framework/views/dima-global/content-dima-loading.php:17
+msgid "CLOSE"
+msgstr "FERMER"
+
+#: framework/views/dima-global/navbar-mobile.php:44
+#: framework/views/dima-global/navbar.php:51
+#: framework/views/dima-global/navbar.php:89
+msgid "Start Typing..."
+msgstr "Commencer à écrire"
+
+#: framework/views/dima-global/navbar.php:142
+msgid "Typing..."
+msgstr ""
+
+#: framework/views/dima-global/related-portfolio.php:24
+msgid "Related Projects"
+msgstr "Projets similaires"
+
+#: framework/views/okab/_archive-header.php:22
+msgid "Entries by"
+msgstr "Entrées par"
+
+#: framework/views/okab/wp-comments.php:48
+msgid "Comment navigation"
+msgstr "Navigation des commentaires"
+
+#: framework/views/okab/wp-comments.php:50
+msgid "&larr; Older Comments"
+msgstr "&larr; Commentaires plus anciens"
+
+#: framework/views/okab/wp-comments.php:51
+msgid "Newer Comments &rarr;"
+msgstr "Commentaires plus récents &rarr;"
+
+#: framework/views/okab/wp-comments.php:58
+msgid "Comments are closed."
+msgstr "Les commentaires sont fermés."
+
+#: framework/views/okab/wp-comments.php:72
+msgid "Name*"
+msgstr "Nom*"
+
+#: framework/views/okab/wp-comments.php:73
+msgid "Email*"
+msgstr "Email*"
+
+#: framework/views/okab/wp-comments.php:75
+msgid ""
+"Save my name, email, and website in this browser for the next time I comment."
+msgstr ""
+"Enregistrer mon nom, email, et site Web dans ce navigateur pour la prochaine "
+"fois que je commente."
+
+#: framework/views/okab/wp-comments.php:105
+#, php-format
+msgid "You must be %slogged in%s to post a comment."
+msgstr "Vous devez être %sconnecté%s pour publier un commentaire."
+
+#: framework/views/okab/wp-comments.php:106
+msgid "Logged in as"
+msgstr "Connecté en tant que"
+
+#: framework/views/okab/wp-comments.php:106
+msgid "Log out of this account"
+msgstr "Déconnectez-vous de ce compte"
+
+#: framework/views/okab/wp-comments.php:106
+msgid "Log out &raquo;"
+msgstr "Déconnexion &raquo;"
+
+#: framework/views/okab/wp-comments.php:107
+msgid "cancel reply"
+msgstr "annuler la réponse"
+
+#: framework/views/okab/wp-comments.php:108
+msgid "Comment..."
+msgstr "Commentaire..."
+
+#: framework/views/okab/wp-comments.php:111
+msgid "POST COMMENT"
+msgstr "POSTER UN COMMENTAIRE"
+
+#: framework/views/okab/wp-search.php:21 framework/views/okab/wp-search.php:52
+msgid "Not so happy with results? Search for a new keyword"
+msgstr "Pas si heureux avec les résultats? Rechercher un nouveau mot-clé"
+
+#: framework/views/okab/wp-search.php:28 framework/views/okab/wp-search.php:59
+msgid "search results for"
+msgstr "résultat de recherche pour"
+
+#: framework/views/okab/wp-search.php:37 framework/views/okab/wp-search.php:66
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"Désolé, mais rien ne correspond à vos termes de recherche. Veuillez "
+"réessayer avec d'autres mots-clés."
+
+#: woocommerce/cart/cart-totals.php:31 woocommerce/cart/cart-totals.php:32
+msgid "Subtotal"
+msgstr "Subtotal"
+
+#: woocommerce/cart/cart-totals.php:53 woocommerce/cart/cart-totals.php:54
+msgid "Shipping"
+msgstr "Fret"
+
+#: woocommerce/cart/cart-totals.php:68
+#, php-format
+msgid "estimated for %s"
+msgstr "estimé pour %s"
+
+#: woocommerce/cart/cart-totals.php:89 woocommerce/cart/cart-totals.php:90
+#: woocommerce/cart/cart.php:38 woocommerce/myaccount/my-orders.php:26
+#: woocommerce/order/order-details.php:39
+msgid "Total"
+msgstr "Total"
+
+#: woocommerce/cart/cart.php:35 woocommerce/cart/cart.php:69
+#: woocommerce/order/order-details.php:38
+msgid "Product"
+msgstr "Produit"
+
+#: woocommerce/cart/cart.php:37 woocommerce/cart/cart.php:96
+msgid "Quantity"
+msgstr "Quantité"
+
+#: woocommerce/cart/cart.php:84
+msgid "Available on backorder"
+msgstr "Disponible sur commande"
+
+#: woocommerce/cart/cart.php:116
+msgid "Remove this item"
+msgstr "Enlever cet article"
+
+#: woocommerce/cart/cart.php:138
+msgid "Cart Totals"
+msgstr "Total du panier"
+
+#: woocommerce/cart/cart.php:142
+msgid "Coupon"
+msgstr "Coupon"
+
+#: woocommerce/cart/cart.php:144 woocommerce/checkout/form-coupon.php:37
+msgid "Coupon code"
+msgstr "Code promo"
+
+#: woocommerce/cart/cart.php:147 woocommerce/checkout/form-coupon.php:44
+msgid "Apply Coupon"
+msgstr "Appliquer le Code Promo"
+
+#: woocommerce/cart/cart.php:159
+msgid "Update Cart"
+msgstr "Mettre à jour le panier"
+
+#: woocommerce/cart/cart.php:165
+msgid "Proceed to Checkout"
+msgstr "Procéder à la commande"
+
+#: woocommerce/cart/cross-sells.php:29
+msgid "You may be interested in&hellip;"
+msgstr "Vous serez peut-être intéressé par&hellip;"
+
+#: woocommerce/cart/shipping-calculator.php:25
+msgid "Calculate Shipping"
+msgstr "Calculer les frais d'expédition"
+
+#: woocommerce/cart/shipping-calculator.php:26
+msgid "Calculate shipping"
+msgstr "Calculer les frais de port"
+
+#: woocommerce/cart/shipping-calculator.php:32
+msgid "Select a country&hellip;"
+msgstr "Sélectionnez un pays&hellip;"
+
+#: woocommerce/cart/shipping-calculator.php:51
+#: woocommerce/cart/shipping-calculator.php:58
+#: woocommerce/cart/shipping-calculator.php:72
+msgid "State / county"
+msgstr "Etat / Pays"
+
+#: woocommerce/cart/shipping-calculator.php:59
+msgid "Select a state&hellip;"
+msgstr "Choisissez un état&hellip;"
+
+#: woocommerce/cart/shipping-calculator.php:83
+msgid "City"
+msgstr "Ville"
+
+#: woocommerce/cart/shipping-calculator.php:92
+msgid "Postcode / Zip"
+msgstr "Code Postal"
+
+#: woocommerce/checkout/form-checkout.php:25
+msgid "You must be logged in to checkout."
+msgstr "Vous devez être identifié pour commander."
+
+#: woocommerce/checkout/form-checkout.php:56
+msgid "Your order"
+msgstr "Votre commande"
+
+#: woocommerce/checkout/form-coupon.php:25
+msgid "Have a coupon?"
+msgstr "Avez-vous un code promo ?"
+
+#: woocommerce/checkout/form-coupon.php:25
+msgid "Click here to enter your code"
+msgstr "Cliquez ici pour entrer votre code"
+
+#: woocommerce/checkout/form-coupon.php:31
+msgid "If you have a coupon code, please apply it below."
+msgstr "Si vous possédez un code client, appliquez-le ci-après."
+
+#: woocommerce/checkout/thankyou.php:28
+msgid ""
+"Unfortunately your order cannot be processed as the originating bank/"
+"merchant has declined your transaction. Please attempt your purchase again."
+msgstr ""
+"Malheureusement votre adhésion ne peut être traitée car la banque / le "
+"commerçant d&rsquo;origine a refusé votre transaction. Veuillez effectuer "
+"une nouvelle tentative d&rsquo;adhésion."
+
+#: woocommerce/checkout/thankyou.php:32 woocommerce/myaccount/my-orders.php:85
+msgid "Pay"
+msgstr "Payer"
+
+#: woocommerce/checkout/thankyou.php:41 woocommerce/checkout/thankyou.php:97
+msgid "Thank you. Your order has been received."
+msgstr "Merci. Votre commande a été reçue."
+
+#: woocommerce/checkout/thankyou.php:45
+msgid "Order Number:"
+msgstr "Numéro de commande :"
+
+#: woocommerce/checkout/thankyou.php:50 woocommerce/checkout/thankyou.php:55
+msgid "Date:"
+msgstr "Date :"
+
+#: woocommerce/checkout/thankyou.php:62
+#: woocommerce/order/order-details-customer.php:37
+#: woocommerce/order/w2-order-details-customer.php:32
+msgid "Email:"
+msgstr "Email :"
+
+#: woocommerce/checkout/thankyou.php:68
+msgid "Total:"
+msgstr "Total :"
+
+#: woocommerce/checkout/thankyou.php:78
+msgid "Payment method:"
+msgstr "Mode de paiement :"
+
+#: woocommerce/content-product.php:71
+msgid "Customer review"
+msgstr "%s avis clients"
+
+#: woocommerce/content-product.php:73 woocommerce/loop/title.php:50
+#: woocommerce/single-product/title.php:58
+msgid "Customers reviews"
+msgstr "Avis clients"
+
+#: woocommerce/global/form-login.php:36 woocommerce/global/form-login.php:38
+msgid "Username or email"
+msgstr "Identifiant ou e-mail"
+
+#: woocommerce/global/form-login.php:58 woocommerce/myaccount/form-login.php:61
+msgid "Remember me"
+msgstr "Se souvenir de moi"
+
+#: woocommerce/loop/sale-flash.php:17
+#: woocommerce/single-product/sale-flash.php:26
+msgid "Sale!"
+msgstr "Promo!"
+
+#: woocommerce/loop/title.php:48 woocommerce/single-product/title.php:56
+msgid "Customer reviews"
+msgstr "Avis clients"
+
+#: woocommerce/myaccount/form-change-password.php:21
+msgid "New password"
+msgstr "Nouveau mot de passe"
+
+#: woocommerce/myaccount/form-change-password.php:26
+msgid "Re-enter new password"
+msgstr "Réentrez le nouveau mot de passe"
+
+#: woocommerce/myaccount/form-change-password.php:33
+msgid "Save"
+msgstr "Enregistrement"
+
+#: woocommerce/myaccount/form-edit-address.php:20
+msgid "Billing address"
+msgstr "Adresse de facturation"
+
+#: woocommerce/myaccount/form-edit-address.php:20
+msgid "Shipping address"
+msgstr "Adresse de livraison"
+
+#: woocommerce/myaccount/form-edit-address.php:47
+msgid "Save Address"
+msgstr "Enregistrer l’adresse"
+
+#: woocommerce/myaccount/form-login.php:40
+msgid "Username or email address"
+msgstr "Identifiant ou adresse email"
+
+#: woocommerce/myaccount/form-login.php:98
+msgid "Email address"
+msgstr "Adresse email"
+
+#: woocommerce/myaccount/my-orders.php:23
+msgid "Order"
+msgstr "Odre"
+
+#: woocommerce/myaccount/my-orders.php:25
+msgid "Status"
+msgstr "Etat"
+
+#: woocommerce/myaccount/my-orders.php:40
+msgid "Recent Orders"
+msgstr "Commandes récentes"
+
+#: woocommerce/myaccount/my-orders.php:67
+msgctxt "hash before order number"
+msgid "#"
+msgstr "#"
+
+#: woocommerce/myaccount/my-orders.php:78
+#, php-format
+msgid "%s for %s item"
+msgid_plural "%s for %s items"
+msgstr[0] "%s pour %s articles"
+msgstr[1] "%s pour %s articles"
+
+#: woocommerce/order/order-details-customer.php:26
+#: woocommerce/order/w2-order-details-customer.php:21
+msgid "Customer Details"
+msgstr "Détails client"
+
+#: woocommerce/order/order-details-customer.php:30
+#: woocommerce/order/w2-order-details-customer.php:25
+msgid "Note:"
+msgstr "Note :"
+
+#: woocommerce/order/order-details-customer.php:44
+#: woocommerce/order/w2-order-details-customer.php:39
+msgid "Telephone:"
+msgstr "Téléphone :"
+
+#: woocommerce/order/order-details-customer.php:62
+#: woocommerce/order/w2-order-details-customer.php:56
+msgid "Billing Address"
+msgstr "Adresse de facturation"
+
+#: woocommerce/order/order-details-customer.php:65
+#: woocommerce/order/order-details-customer.php:79
+#: woocommerce/order/w2-order-details-customer.php:59
+#: woocommerce/order/w2-order-details-customer.php:73
+msgid "N/A"
+msgstr "N/A"
+
+#: woocommerce/order/order-details-customer.php:76
+#: woocommerce/order/w2-order-details-customer.php:70
+msgid "Shipping Address"
+msgstr "Adresse de livraison"
+
+#: woocommerce/order/order-details.php:34
+msgid "Order Details"
+msgstr "Détails de la commande"
+
+#: woocommerce/single-product-reviews.php:29
+msgid "Your Name *"
+msgstr "Votre nom *"
+
+#: woocommerce/single-product-reviews.php:30
+msgid "Your Email *"
+msgstr "Votre Email *"
+
+#: woocommerce/single-product-reviews.php:31
+msgid "Your Review *"
+msgstr "Votre évaluation *"
+
+#: woocommerce/single-product-reviews.php:115
+#, php-format
+msgid "%s review for %s"
+msgid_plural "%s reviews for %s"
+msgstr[0] "%s avis pour %s"
+msgstr[1] "%s avis pour %s"
+
+#: woocommerce/single-product-reviews.php:117
+msgid "Reviews"
+msgstr "Avis"
+
+#: woocommerce/single-product-reviews.php:138
+msgid "There are no reviews yet."
+msgstr "Il n'y pas encore d'avis."
+
+#: woocommerce/single-product-reviews.php:153
+msgid "<span>Add a Review</span>"
+msgstr "<span>Ajouter une évaluation</span>"
+
+#: woocommerce/single-product-reviews.php:153
+msgid "Be the First to Review"
+msgstr "Soyez le premier à donner votre avis"
+
+#: woocommerce/single-product-reviews.php:154
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr "Répondre à %s"
+
+#: woocommerce/single-product-reviews.php:170
+msgid "Rate&hellip;"
+msgstr "Note&hellip;"
+
+#: woocommerce/single-product-reviews.php:171
+msgid "Perfect"
+msgstr "Parfait"
+
+#: woocommerce/single-product-reviews.php:172
+msgid "Good"
+msgstr "Bon"
+
+#: woocommerce/single-product-reviews.php:173
+msgid "Average"
+msgstr "Moyen"
+
+#: woocommerce/single-product-reviews.php:174
+msgid "Not that bad"
+msgstr "Pas mal"
+
+#: woocommerce/single-product-reviews.php:175
+msgid "Very Poor"
+msgstr "Très mauvais"
+
+#: woocommerce/single-product-reviews.php:192
+msgid ""
+"Only logged in customers who have purchased this product may leave a review."
+msgstr ""
+"Seulement les clients connectés ayant acheté ce produit peuvent laisser un "
+"avis."
+
+#: woocommerce/single-product/product-image.php:88
+msgid "Awaiting product image"
+msgstr "En attente de l’image du produit"
+
+#: woocommerce/single-product/related.php:36
+msgid "Related products"
+msgstr "Produits similaires"
+
+#: woocommerce/single-product/up-sells.php:53
+#: woocommerce/single-product/w1-up-sells.php:53
+msgid "You may also like&hellip;"
+msgstr "Vous pourriez aussi aimer&hellip;"
+
+#~ msgid ""
+#~ "The minimum PHP version required for this plugin is 5.3.0 Please upgrade "
+#~ "the PHP version or contact your hosting provider to activate the plugin."
+#~ msgstr ""
+#~ "La version minimale de PHP requise pour ce plugin est 5.3.0. Veuillez "
+#~ "mettre à niveau la version PHP ou contacter votre fournisseur "
+#~ "d’hébergement pour activer le plugin."
+
+#~ msgid "Portfolio Item"
+#~ msgstr "Elément du portfolio"
+
+#~ msgid "Add New Item"
+#~ msgstr "Ajouter un nouvel élément"
+
+#~ msgid "Add New Portfolio Item"
+#~ msgstr "Ajouter un nouvel élément au portfolio"
+
+#~ msgid "Edit Portfolio Item"
+#~ msgstr "Modifier l’élément de portfolio"
+
+#~ msgid "View Item"
+#~ msgstr "Voir l’élément"
+
+#~ msgid "Search Portfolio"
+#~ msgstr "Recherche Portfolio"
+
+#~ msgid "No portfolio items found"
+#~ msgstr "Aucun élément de portfolio trouvé"
+
+#~ msgid "No portfolio items found in trash"
+#~ msgstr "Aucuns éléments du Portfolio trouvés dans la corbeille"
+
+#~ msgid "Portfolio Categories"
+#~ msgstr "Catégories du Portfolio"
+
+#~ msgid "Portfolio Category"
+#~ msgstr "Catégorie du portfolio"
+
+#~ msgid "Search Portfolio Categories"
+#~ msgstr "Rechercher les catégories de portfolio"
+
+#~ msgid "Popular Portfolio Categories"
+#~ msgstr "Catégories Populaires du Portfolio"
+
+#~ msgid "All Portfolio Categories"
+#~ msgstr "Toutes les catégories de projets"
+
+#~ msgid "Parent Portfolio Category"
+#~ msgstr "Catégorie parente du portfolio"
+
+#~ msgid "Parent Portfolio Category:"
+#~ msgstr "Catégorie parente du Portfolio:"
+
+#~ msgid "Edit Portfolio Category"
+#~ msgstr "Modifier la catégorie"
+
+#~ msgid "Update Portfolio Category"
+#~ msgstr "Mettre à jour la catégorie du portfolio"
+
+#~ msgid "Add New Portfolio Category"
+#~ msgstr "Ajouter une catégorie au portfolio"
+
+#~ msgid "New Portfolio Category Name"
+#~ msgstr "Nom de la nouvelle catégorie"
+
+#~ msgid "Separate portfolio categories with commas"
+#~ msgstr "Séparer les catégories du portfolio par des virgules"
+
+#~ msgid "Add or remove portfolio categories"
+#~ msgstr "Ajouter ou supprimer des catégories du portfolio"
+
+#~ msgid "Choose from the most used portfolio categories"
+#~ msgstr "Choisir parmi les catégories du portfolio les plus utilisées"
+
+#~ msgid "Portfolio Tags"
+#~ msgstr "Étiquettes du portfolio"
+
+#~ msgid "Portfolio Tag"
+#~ msgstr "Étiquette du portfolio"
+
+#~ msgid "Search Portfolio Tags"
+#~ msgstr "Rechercher parmi les étiquettes du portfolio"
+
+#~ msgid "Popular Portfolio Tags"
+#~ msgstr "Mots clés populaires du portfolio"
+
+#~ msgid "All Portfolio Tags"
+#~ msgstr "Toutes les étiquettes du portfolio"
+
+#~ msgid "Parent Portfolio Tag"
+#~ msgstr "Étiquette du portfolio parent"
+
+#~ msgid "Parent Portfolio Tag:"
+#~ msgstr "Mot clé parent du portfolio :"
+
+#~ msgid "Edit Portfolio Tag"
+#~ msgstr "Éditer l'étiquette du portfolio"
+
+#~ msgid "Update Portfolio Tag"
+#~ msgstr "Mettre à jour l'étiquette du portfolio"
+
+#~ msgid "Add New Portfolio Tag"
+#~ msgstr "Ajouter une étiquette de portfolio"
+
+#~ msgid "New Portfolio Tag Name"
+#~ msgstr "Nom de la nouvelle étiquette du portfolio"
+
+#~ msgid "Separate portfolio tags with commas"
+#~ msgstr "Séparez les étiquettes du portfolio par des virgules"
+
+#~ msgid "Add or remove portfolio tags"
+#~ msgstr "Ajouter ou supprimer des étiquettes du portfolio"
+
+#~ msgid "Choose from the most used portfolio tags"
+#~ msgstr "Choisir parmi les étiquettes du portfolio les plus utilisées"
+
+#~ msgid "Thumbnail"
+#~ msgstr "Miniature"
+
+#~ msgid "(Optional) Enter a unique class name."
+#~ msgstr "(Facultatif) Entrez un nom de class unique."
+
+#~ msgid "(Optional) Enter a unique ID."
+#~ msgstr "(Facultatif) Entrez un ID unique."
+
+#~ msgid "Container"
+#~ msgstr "Conteneur"
+
+#~ msgid "Structure"
+#~ msgstr "Structure"
+
+#~ msgid "Marginless Columns"
+#~ msgstr "Colonne sans marge"
+
+#~ msgid "Select to remove the spacing between columns."
+#~ msgstr "Sélectionnez pour enlever l’espacement entre les colonnes."
+
+#~ msgid "ID"
+#~ msgstr "ID"
+
+#~ msgid "Class"
+#~ msgstr "Classe"
+
+#~ msgid "Style"
+#~ msgstr "Style"
+
+#~ msgid "(Optional) Enter inline CSS."
+#~ msgstr "(Facultatif) Entrez le code CSS incorporé."
+
+#~ msgid "column"
+#~ msgstr "colonne"
+
+#, fuzzy
+#~| msgid "Create an Account"
+#~ msgid "Create a custom columns"
+#~ msgstr "Créer un compte"
+
+#, fuzzy
+#~| msgid "Animation"
+#~ msgid "Delay Animation"
+#~ msgstr "Animation"
+
+#~ msgid "Read More"
+#~ msgstr "Lire la suite"
+
+#~ msgid "Responsive Width"
+#~ msgstr "largeur des vignettes Responsive"
+
+#~ msgid "Large devices"
+#~ msgstr "Grands appareils"
+
+#, fuzzy
+#~| msgid "Medium"
+#~ msgid "Medium Devise"
+#~ msgstr "Moyen"
+
+#~ msgid "Responsive Offset"
+#~ msgstr "Offset Auto Adaptable"
+
+#~ msgid "Responsive Visibility"
+#~ msgstr "Visibilité Responsive"
+
+#~ msgid "Line"
+#~ msgstr "Ligne"
+
+#~ msgid "Line Style"
+#~ msgstr "Style de la ligne"
+
+#~ msgid "Double"
+#~ msgstr "Double"
+
+#~ msgid "Dashed"
+#~ msgstr "Tirets"
+
+#~ msgid "Divider"
+#~ msgstr "Séparateur"
+
+#~ msgid "Divider Position"
+#~ msgstr "Position du séparateur"
+
+#~ msgid "Select Option"
+#~ msgstr "Choisir une option"
+
+#~ msgid "End"
+#~ msgstr "Fin"
+
+#~ msgid "Full Width"
+#~ msgstr "Pleine largeur"
+
+#~ msgid "Font Awesome"
+#~ msgstr "Font Awesome"
+
+#~ msgid "Custom Font"
+#~ msgstr "Police personnalisée"
+
+#~ msgid "Icon Class"
+#~ msgstr "Classe de l'icône"
+
+#~ msgid "Icon"
+#~ msgstr "Icône"
+
+#~ msgid "Select icon from library."
+#~ msgstr "Sélectionnez une icône de la bibliothèque."
+
+#~ msgid "Icon Size"
+#~ msgstr "Taille de l’icône"
+
+#~ msgid "Clear"
+#~ msgstr "Effacer"
+
+#~ msgid "Clear floated elements in your content"
+#~ msgstr "Blanc flottant dans votre contenu"
+
+#~ msgid "Size"
+#~ msgstr "Taille"
+
+#~ msgid "Team member"
+#~ msgstr "Membre de l'équipe"
+
+#~ msgid "Content"
+#~ msgstr "Contenu"
+
+#~ msgid "Member Name"
+#~ msgstr "Nom du membre"
+
+#~ msgid "Member Description"
+#~ msgstr "Description de l’utilisateur"
+
+#~ msgid "Member Position"
+#~ msgstr "Fonction de l’utilisateur"
+
+#, fuzzy
+#~| msgid "Hide Cover Photo"
+#~ msgid "Member Photo"
+#~ msgstr "Masquer la photo de couverture"
+
+#, fuzzy
+#~| msgid "Footer Background Color"
+#~ msgid "Choose background color for the text"
+#~ msgstr "Couleur d’arrière-plan du pied de page"
+
+#~ msgid "Name Text Color"
+#~ msgstr "nom Couleur du texte"
+
+#~ msgid "Description Text Color"
+#~ msgstr "Couleur du texte de description"
+
+#, fuzzy
+#~| msgid "Remove"
+#~ msgid "Remove Border"
+#~ msgstr "Supprimer"
+
+#, fuzzy
+#~| msgid "Boxed"
+#~ msgid "Info Boxed"
+#~ msgstr "Encadré"
+
+#~ msgid "Item Icon"
+#~ msgstr "Icône d’article"
+
+#~ msgid "Add Icon"
+#~ msgstr "Ajouter une icône"
+
+#~ msgid "Icon Title"
+#~ msgstr "Titre de l’icône"
+
+#~ msgid "URL Link"
+#~ msgstr "Page Web"
+
+#~ msgid "Open link in a new tab"
+#~ msgstr "Ouvrir le lien dans un nouvel onglet"
+
+#~ msgid "Check to open your link in a new tab."
+#~ msgstr "Vérifiez pour ouvrir votre lien dans un nouvel onglet."
+
+#~ msgid "Counter"
+#~ msgstr "Compteur"
+
+#~ msgid "Optionally choose the position of counter contents."
+#~ msgstr "En option, choisissez la position du contenu du compteur."
+
+#~ msgid "Counter Icon Color"
+#~ msgstr "Compteur Icône Couleur"
+
+#, fuzzy
+#~| msgid "Footer color"
+#~ msgid "Choose the icon color"
+#~ msgstr "Couleur du pied de page"
+
+#~ msgid "Counter Number Color"
+#~ msgstr "Couleur du  numéro de compteur"
+
+#~ msgid "Counter Description"
+#~ msgstr "Description du compteur"
+
+#, fuzzy
+#~| msgid "Description"
+#~ msgid "Add description text"
+#~ msgstr "Description"
+
+#, fuzzy
+#~| msgid "Footer Background Color"
+#~ msgid "Counter Description Color"
+#~ msgstr "Couleur d’arrière-plan du pied de page"
+
+#~ msgid "Counter Speed"
+#~ msgstr "Compteur de vitesse"
+
+#~ msgid "Information"
+#~ msgstr "Information"
+
+#~ msgid "Include an informational skill bar"
+#~ msgstr "Inclure une Zone des compétences"
+
+#~ msgid "Percent"
+#~ msgstr "Pourcent"
+
+#~ msgid "Color"
+#~ msgstr "Couleur"
+
+#~ msgid "Choose the color of the progress circle"
+#~ msgstr "Choisir la couleur du cercle de progression"
+
+#~ msgid "Progress Bar"
+#~ msgstr "Barre de progression"
+
+#~ msgid "Progress Bar Style"
+#~ msgstr "Style de la barre de progression"
+
+#~ msgid "Style One"
+#~ msgstr "Style un"
+
+#~ msgid "Style Two"
+#~ msgstr "Style Deux"
+
+#~ msgid "Progress Bar Title"
+#~ msgstr "Titre de la barre de progression"
+
+#, fuzzy
+#~| msgid "Choose to show or hide the page title bar."
+#~ msgid "Choose the color of the progress bar."
+#~ msgstr ""
+#~ "Choisissez d’afficher ou de masquer le texte de la page barre de titre."
+
+#~ msgid "Drop Shadow"
+#~ msgstr "Ombre portée"
+
+#~ msgid "Striped"
+#~ msgstr "Rayé"
+
+#, fuzzy
+#~| msgid "Apple iPhone Icon"
+#~ msgid "Inline Icons"
+#~ msgstr "Icône iPhone Apple"
+
+#~ msgid "Select the icon size"
+#~ msgstr "Sélectionnez la taille des icônes"
+
+#~ msgid "Small"
+#~ msgstr "Petit"
+
+#~ msgid "Medium"
+#~ msgstr "Moyen"
+
+#~ msgid "Big"
+#~ msgstr "Grand"
+
+#~ msgid "Icon Alignment"
+#~ msgstr "Alignement de l’icône"
+
+#~ msgid "Text alignment."
+#~ msgstr "Alignement du texte."
+
+#~ msgid "Circle Style"
+#~ msgstr "Style de cercle"
+
+#~ msgid "Gallery"
+#~ msgstr "Galerie"
+
+#~ msgid "1 column"
+#~ msgstr "1 colonne"
+
+#~ msgid "2 columns"
+#~ msgstr "2 colonnes"
+
+#~ msgid "3 columns"
+#~ msgstr "3 colonnes"
+
+#~ msgid "4 columns"
+#~ msgstr "4 colonnes"
+
+#~ msgid "5 columns"
+#~ msgstr "5 colonnes"
+
+#~ msgid "6 columns"
+#~ msgstr "6 colonnes"
+
+#~ msgid "Image"
+#~ msgstr "Image"
+
+#~ msgid "Include an image in your content"
+#~ msgstr "Inclure une image dans votre contenu"
+
+#~ msgid "Upload your image."
+#~ msgstr "Téléchargez votre image."
+
+#~ msgid "Image Float"
+#~ msgstr "Image float"
+
+#~ msgid "Optionally float the image."
+#~ msgstr "Optionnel, flottement de l’image"
+
+#~ msgid "Alt"
+#~ msgstr "Alt"
+
+#~ msgid "Enter in the alt text for your image."
+#~ msgstr "Entrez le texte alt pour l&#39;image"
+
+#~ msgid "Gallery Item"
+#~ msgstr "Elément de galerie"
+
+#~ msgid "Lightbox Type"
+#~ msgstr "Type de visionneuse"
+
+#~ msgid "Popup Trigger"
+#~ msgstr "Déclencheur de Popup"
+
+#~ msgid "Select what actions you want to trigger the popover or tooltip."
+#~ msgstr ""
+#~ "Sélectionner les actions que vous voulez déclencher par popover ou info-"
+#~ "bulle."
+
+#~ msgid "Popup Position"
+#~ msgstr "Position du popup"
+
+#~ msgid "Info Content"
+#~ msgstr "Contenu de l'information"
+
+#~ msgid "Extra content for the popover."
+#~ msgstr "Contenu supplémentaire pour le popover."
+
+#~ msgid "Image Width"
+#~ msgstr "Largeur de l’image"
+
+#~ msgid "Image Shape"
+#~ msgstr "Forme de l'image"
+
+#~ msgid "Select the image shape."
+#~ msgstr "Sélectionnez la forme de l'image."
+
+#~ msgid "Box"
+#~ msgstr "Boîte"
+
+#~ msgid "Radius"
+#~ msgstr "Rayon"
+
+#~ msgid "Circle"
+#~ msgstr "Cercle"
+
+#~ msgid "Image Hover"
+#~ msgstr "Image au survol"
+
+#~ msgid "Select the image hover."
+#~ msgstr "Sélectionnez l'image Hover."
+
+#~ msgid "Opacity"
+#~ msgstr "Opacité"
+
+#~ msgid "Grayscale Effect"
+#~ msgstr "Effect Niveaux de gris"
+
+#~ msgid "Text"
+#~ msgstr "Texte"
+
+#~ msgid "Enter your text."
+#~ msgstr "Saisissez votre texte."
+
+#~ msgid "Blog Style"
+#~ msgstr "Style de Blog"
+
+#~ msgid "Timeline"
+#~ msgstr "Chronologie"
+
+#, fuzzy
+#~| msgid "Image"
+#~ msgid "Image Side"
+#~ msgstr "Image"
+
+#~ msgid "Block 1"
+#~ msgstr "Bloc 1"
+
+#~ msgid "Block 2"
+#~ msgstr "Bloc 2"
+
+#~ msgid "Block 3"
+#~ msgstr "Bloc 3"
+
+#, fuzzy
+#~| msgid "News in Pictures"
+#~ msgid "News in images"
+#~ msgstr "Actualités en images"
+
+#~ msgid "Dark background"
+#~ msgstr "Fond noir"
+
+#~ msgid "Post Count"
+#~ msgstr "Nombre d'articles"
+
+#, fuzzy
+#~| msgid "Shop Columns"
+#~ msgid "Post Columns"
+#~ msgstr "Colonnes de la Boutique"
+
+#, fuzzy
+#~| msgid "Remove ver parameters"
+#~ msgid "Remove Border From Hover"
+#~ msgstr "Supprimer les paramètres \"ver\""
+
+#, fuzzy
+#~| msgid "Remove Featured Image"
+#~ msgid "Featured Image hover"
+#~ msgstr "Retirer l'image à la une"
+
+#~ msgid "zoom-out"
+#~ msgstr "effectuer un zoom arrière"
+
+#~ msgid "zoom-in"
+#~ msgstr "zooming avant"
+
+#~ msgid "gray"
+#~ msgstr "gris"
+
+#, fuzzy
+#~| msgid "Excerpt Limit"
+#~ msgid "Excerpts length"
+#~ msgstr "Excerpt Limit"
+
+#~ msgid "Items Margin"
+#~ msgstr "Marge des éléments"
+
+#~ msgid "Category"
+#~ msgstr "Catégorie"
+
+#~ msgid "Offset"
+#~ msgstr "Décalage"
+
+#, fuzzy
+#~| msgid "Display Name"
+#~ msgid "Display Pagination"
+#~ msgstr "Afficher le nom"
+
+#~ msgid "Popular"
+#~ msgstr "Populaire"
+
+#, fuzzy
+#~| msgid "Remove Featured Image"
+#~ msgid "Check to remove the featured image."
+#~ msgstr "Retirer l'image à la une"
+
+#~ msgid "Portfolio Style"
+#~ msgstr "Style du portfolio"
+
+#~ msgid "AutoPlay"
+#~ msgstr "Lecture automatique"
+
+#~ msgid "Loop"
+#~ msgstr "Boucle"
+
+#~ msgid "Slider Bullets"
+#~ msgstr "Bullets de Diaporama"
+
+#, fuzzy
+#~| msgid "Upsell Post Count"
+#~ msgid "Portfolio Post Count"
+#~ msgstr "Nombre de ventes incitatives"
+
+#~ msgid "Select how many posts to display."
+#~ msgstr "Sélectionnez le nombre de posts à afficher."
+
+#, fuzzy
+#~| msgid "Related Posts Columns"
+#~ msgid "Portfolio Post Columns"
+#~ msgstr "Colonnes des articles similaires"
+
+#~ msgid "Hide filters"
+#~ msgstr "Cacher les filtres"
+
+#, fuzzy
+#~| msgid "Choose to show or hide the page title bar."
+#~ msgid "Check to hide the filters."
+#~ msgstr ""
+#~ "Choisissez d’afficher ou de masquer le texte de la page barre de titre."
+
+#, fuzzy
+#~| msgid "Page Title Style"
+#~ msgid "Image hover style"
+#~ msgstr "Style du titre de la page"
+
+#~ msgid "With Icon"
+#~ msgstr "Avec icône"
+
+#~ msgid ""
+#~ "To filter your posts by category, enter in the slug of your desired "
+#~ "category. To filter by multiple categories, enter in your slugs separated "
+#~ "by a comma."
+#~ msgstr ""
+#~ "Pour filtrer vos postes par catégorie, entrez le plug de la catégorie de "
+#~ "votre choix. Pour filtrer par de multiples catégories, entrez vos mots "
+#~ "séparés par une virgule."
+
+#~ msgid "Pagination"
+#~ msgstr "Pagination"
+
+#, fuzzy
+#~| msgid "Related products"
+#~ msgid "Show multiple products"
+#~ msgstr "Produits similaires"
+
+#~ msgid "Product Style"
+#~ msgstr "Style de produit"
+
+#~ msgid "List"
+#~ msgstr "Liste"
+
+#~ msgid "Products Count"
+#~ msgstr "Nombre de produits"
+
+#~ msgid "Product Columns"
+#~ msgstr "Colonnes de produit"
+
+#~ msgid "Order by"
+#~ msgstr "Trier par"
+
+#~ msgid "Title"
+#~ msgstr "Titre"
+
+#~ msgid "Modified"
+#~ msgstr "Modifié"
+
+#~ msgid "Random"
+#~ msgstr "Aléatoire"
+
+#~ msgid "Comment count"
+#~ msgstr "Décompte des commentaires"
+
+#~ msgid "Menu order"
+#~ msgstr "Ordre du menu"
+
+#~ msgid "Sort By"
+#~ msgstr "Trier par"
+
+#~ msgid "Descending"
+#~ msgstr "Descendant"
+
+#~ msgid "Ascending"
+#~ msgstr "Ascendant"
+
+#~ msgid "Clients"
+#~ msgstr "Clients"
+
+#~ msgid "Clients Columns"
+#~ msgstr "Colonnes de clients"
+
+#~ msgid "Client Image"
+#~ msgstr "Image client"
+
+#, fuzzy
+#~| msgid "Delete image"
+#~ msgid "Add client image."
+#~ msgstr "Supprimer l’image"
+
+#, fuzzy
+#~| msgid "Open link in a new window/tab"
+#~ msgid "Check to open the link in a new tab."
+#~ msgstr "Ouvrir le lien dans une nouvelle fenêtre/onglet"
+
+#~ msgid "Banner"
+#~ msgstr "Bannière"
+
+#~ msgid "Marketing"
+#~ msgstr "Marketing"
+
+#~ msgid "Banner Background Type"
+#~ msgstr "Type de fond de la bannière"
+
+#~ msgid "Select background type."
+#~ msgstr "Sélectionnez le type d'arrière-plan."
+
+#, fuzzy
+#~| msgid "Body Background Image"
+#~ msgid "Covered Background Image"
+#~ msgstr "Image de l’arrière-plan du corps"
+
+#~ msgid "Background Video"
+#~ msgstr "Vidéo d'arrière-plan"
+
+#~ msgid "Banner Background Image"
+#~ msgstr "Image de fond de la bannière"
+
+#~ msgid "Banner Height"
+#~ msgstr "Hauteur de la bannière"
+
+#, fuzzy
+#~| msgid "Navbar height (px)"
+#~ msgid "Set banner height (%,px,em)"
+#~ msgstr "Navbar Hauteur (px)"
+
+#~ msgid "Hover"
+#~ msgstr "Survol"
+
+#~ msgid "Text Color"
+#~ msgstr "Couleur du texte"
+
+#~ msgid "light"
+#~ msgstr "clair"
+
+#~ msgid "dark"
+#~ msgstr "sombre"
+
+#~ msgid "Text Width"
+#~ msgstr "Largeur du texte"
+
+#, fuzzy
+#~| msgid "Content Layout"
+#~ msgid "Content Float"
+#~ msgstr "Disposition du contenu"
+
+#~ msgid "Content Animation"
+#~ msgstr "Animation du contenu"
+
+#~ msgid "Owl Slider"
+#~ msgstr "Owl Slider"
+
+#~ msgid "Slideshow"
+#~ msgstr "Diaporama"
+
+#, fuzzy
+#~| msgid "Slider Settings"
+#~ msgid "Slider Bullets "
+#~ msgstr "Paramètres du Slider"
+
+#~ msgid "Slider Arrows"
+#~ msgstr "Flèches du diaporama"
+
+#~ msgid "Smart Speed"
+#~ msgstr "Vitesse intelligente"
+
+#, fuzzy
+#~| msgid "Default"
+#~ msgid "Default: 250."
+#~ msgstr "Par défaut"
+
+#~ msgid "Autoplay Speed"
+#~ msgstr "Vitesse de lecture automatique"
+
+#, fuzzy
+#~| msgid "Animation Speed"
+#~ msgid "Pagination speed."
+#~ msgstr "Vitesse de l’animation"
+
+#~ msgid "Elements Margin"
+#~ msgstr "Éléments de marge"
+
+#~ msgid "Devices"
+#~ msgstr "Appareils"
+
+#, fuzzy
+#~| msgid "Phone"
+#~ msgid "Dark Phone"
+#~ msgstr "Téléphone"
+
+#, fuzzy
+#~| msgid "Lightbox"
+#~ msgid "Light phone"
+#~ msgstr "Lightbox"
+
+#, fuzzy
+#~| msgid "Copyright Text"
+#~ msgid "Light Tablet"
+#~ msgstr "Texte de copyright"
+
+#~ msgid "Slide Element"
+#~ msgstr "Élément de slide"
+
+#, fuzzy
+#~| msgid "Slider Settings"
+#~ msgid "Slide element settings"
+#~ msgstr "Paramètres du Slider"
+
+#~ msgid "Flex Slider"
+#~ msgstr "Flex Slider"
+
+#, fuzzy
+#~| msgid "Animation Speed"
+#~ msgid "Slider Animation Type"
+#~ msgstr "Vitesse de l’animation"
+
+#~ msgid "Set the speed of animations, in milliseconds"
+#~ msgstr "Régler la vitesse des animations, en millisecondes"
+
+#~ msgid "Navigation Control"
+#~ msgstr "contrôle de Navigation"
+
+#~ msgid "Hide"
+#~ msgstr "Cacher"
+
+#~ msgid "Bullets"
+#~ msgstr "Puces"
+
+#~ msgid "Thumbnails"
+#~ msgstr "Miniatures"
+
+#~ msgid "Thumbnails Columns"
+#~ msgstr "Colonnes de miniatures"
+
+#~ msgid "Six Columns"
+#~ msgstr "6 Colonnes"
+
+#, fuzzy
+#~| msgid "Columns"
+#~ msgid "Nine Columns"
+#~ msgstr "Colonnes"
+
+#, fuzzy
+#~| msgid "Navigation Label"
+#~ msgid "Navigation Direction"
+#~ msgstr "Étiquette de navigation"
+
+#, fuzzy
+#~| msgid "Slider Settings"
+#~ msgid "Slide item settings"
+#~ msgstr "Paramètres du Slider"
+
+#~ msgid "Image Thumbnail"
+#~ msgstr "Miniature de l'image"
+
+#~ msgid "Pricing Table"
+#~ msgstr "Tableau de prix"
+
+#~ msgid "Include a pricing table column"
+#~ msgstr "Inclure une colonne de tableau de prix"
+
+#~ msgid "Pricing Table Style"
+#~ msgstr "Style de tableau de prix"
+
+#~ msgid "Pricing Table Title"
+#~ msgstr "Titre du tableau des prix"
+
+#, fuzzy
+#~| msgid "Page Title Background Color"
+#~ msgid "Pricing Table Title Background Color"
+#~ msgstr "Couleur de la page de titre d'arrière-plan"
+
+#, fuzzy
+#~| msgid "Header Background Color"
+#~ msgid "Choose Header Background color"
+#~ msgstr "Couleur d'arrière-plan de l'en-tête"
+
+#~ msgid "Green"
+#~ msgstr "Vert"
+
+#~ msgid "Blue"
+#~ msgstr "Bleu"
+
+#~ msgid "Yellow"
+#~ msgstr "Jaune"
+
+#~ msgid "Red"
+#~ msgstr "Rouge"
+
+#~ msgid "Purple"
+#~ msgstr "Pourpre"
+
+#~ msgid "Currency Symbol"
+#~ msgstr "Symbole de la devise"
+
+#~ msgid "Interval"
+#~ msgstr "Intervalle"
+
+#~ msgid "Per Month"
+#~ msgstr "Par mois"
+
+#, fuzzy
+#~| msgid "Fullwidth Section"
+#~ msgid "Full width separator"
+#~ msgstr "Section pleine largeur"
+
+#~ msgid "Button"
+#~ msgstr "Bouton"
+
+#~ msgid "Add a clickable button to your content"
+#~ msgstr "Ajouter un bouton cliquable a votre contenu"
+
+#~ msgid "Button Text"
+#~ msgstr "Texte du bouton"
+
+#, fuzzy
+#~| msgid "Input your quote."
+#~ msgid "Enter your button text."
+#~ msgstr "Entrez votre citation."
+
+#~ msgid "Button Style"
+#~ msgstr "Style de bouton"
+
+#~ msgid "Animation Direction"
+#~ msgstr "Sens de l’Animation"
+
+#~ msgid "Up"
+#~ msgstr "Haut"
+
+#~ msgid "Down"
+#~ msgstr "Bas"
+
+#~ msgid "Button Size"
+#~ msgstr "Taille du bouton"
+
+#~ msgid "Select the button size."
+#~ msgstr "Sélectionner la dimension du bouton."
+
+#~ msgid "Large"
+#~ msgstr "Large"
+
+#~ msgid "Huge"
+#~ msgstr "Énorme"
+
+#~ msgid "Button Shape"
+#~ msgstr "Forme du bouton"
+
+#~ msgid "Select the button shape."
+#~ msgstr "Sélectionnez la forme du bouton."
+
+#~ msgid "Square"
+#~ msgstr "Carré"
+
+#~ msgid "Pill"
+#~ msgstr "Cylindre"
+
+#~ msgid "Button Color"
+#~ msgstr "Couleur du bouton"
+
+#~ msgid "Choose button color"
+#~ msgstr "Choisir la couleur du bouton"
+
+#~ msgid "White"
+#~ msgstr "Blanc"
+
+#, fuzzy
+#~| msgid "Button Small"
+#~ msgid "Button Float"
+#~ msgstr "Petit bouton"
+
+#~ msgid "Optionally float the button."
+#~ msgstr "Optionnel, flottement du bouton"
+
+#~ msgid "Enter in the URL you want your button to link to."
+#~ msgstr "Entrez l'URL vers laquelle vous voulez que votre bouton pointe."
+
+#~ msgid "Block"
+#~ msgstr "Bloc"
+
+#, fuzzy
+#~| msgid "Share Buttons"
+#~ msgid "Disabled Button"
+#~ msgstr "Boutons de partage"
+
+#~ msgid "Callout"
+#~ msgstr "Appel à l'action"
+
+#~ msgid "No button"
+#~ msgstr "Pas bouton"
+
+#~ msgid "Callout Title"
+#~ msgstr "Titre callout"
+
+#~ msgid "Enter the title for your callout."
+#~ msgstr "Entrez le titre de votre appel à l'action."
+
+#, fuzzy
+#~| msgid "Footer Background Color"
+#~ msgid "Callout Background color"
+#~ msgstr "Couleur d’arrière-plan du pied de page"
+
+#, fuzzy
+#~| msgid "Title Color"
+#~ msgid "Callout Title Color"
+#~ msgstr "Couleur du titre"
+
+#, fuzzy
+#~| msgid "Body text color"
+#~ msgid "Callout Text color"
+#~ msgstr "Couleur de texte Corps"
+
+#, fuzzy
+#~| msgid "Body Background Image"
+#~ msgid "Callout Background Image"
+#~ msgstr "Image de l’arrière-plan du corps"
+
+#~ msgid "Cover Background"
+#~ msgstr "Contexte de couverture"
+
+#~ msgid "Enter in the URL you want your callout button to link to."
+#~ msgstr ""
+#~ "Saisissez l'URL à laquelle vous souhaitez associer le bouton de d'appel."
+
+#~ msgid "Alert Box"
+#~ msgstr "Boîte d’alerte"
+
+#, fuzzy
+#~| msgid "Apple iPhone Icon"
+#~ msgid "Alert Box Icon"
+#~ msgstr "Icône iPhone Apple"
+
+#~ msgid "Google Map"
+#~ msgstr "Google Map"
+
+#~ msgid "Embed a customizable Google map"
+#~ msgstr "Incluez une carte Google personnalisable"
+
+#~ msgid "Latitude"
+#~ msgstr "Latitude"
+
+#~ msgid "Longitude"
+#~ msgstr "Longitude"
+
+#~ msgid "Shape"
+#~ msgstr "Forme"
+
+#, fuzzy
+#~| msgid "Select a state&hellip;"
+#~ msgid "Select map shape"
+#~ msgstr "Choisissez un état&hellip;"
+
+#~ msgid "Draggable"
+#~ msgstr "Déplaçable"
+
+#~ msgid "Zoom Level"
+#~ msgstr "Niveau de zoom"
+
+#~ msgid ""
+#~ "Choose the initial zoom level of your map. This value should be between 1 "
+#~ "and 18. 1 is fully zoomed out and 18 is right at street level."
+#~ msgstr ""
+#~ "Choisissez le niveau de zoom initiale de votre carte. Cette valeur doit "
+#~ "être comprise entre 1 et 18. 1 est en zoom minimum  et 18 est au niveau "
+#~ "de la rue."
+
+#~ msgid "Zoom Control"
+#~ msgstr "Contrôle du zoom"
+
+#~ msgid "Height"
+#~ msgstr "hauteur"
+
+#~ msgid ""
+#~ "Choose an optional height for your map. If no height is selected, a "
+#~ "responsive, proportional unit will be used. Any type of unit is "
+#~ "acceptable (e.g. 450px, 30em, 40%, et cetera)."
+#~ msgstr ""
+#~ "Choisissez une hauteur en option pour votre carte. Si aucune hauteur est "
+#~ "sélectionnée, une unité proportionnelle sensible sera utilisée. Tout type "
+#~ "d’unité est acceptable (par exemple 450px, 30em, 40%, etc.)."
+
+#~ msgid "Width"
+#~ msgstr "largeur"
+
+#~ msgid "Custom Color"
+#~ msgstr "Couleur personnalisée"
+
+#~ msgid "Google Map Marker"
+#~ msgstr "Marqueur Google Map"
+
+#~ msgid "Place a location marker on your Google map"
+#~ msgstr "Placez un marqueur de position sur votre carte Google map"
+
+#~ msgid "Marker Latitude"
+#~ msgstr "Marqueur de latitude"
+
+#~ msgid "Marker Longitude"
+#~ msgstr "Marqueur de longitude"
+
+#~ msgid "Additional Information"
+#~ msgstr "Informations complémentaires"
+
+#~ msgid ""
+#~ "Optional description text to appear in a popup when your marker is "
+#~ "clicked on."
+#~ msgstr ""
+#~ "Texte facultatif de description qui va apparaître dans une fenêtre "
+#~ "contextuelle lorsque votre marqueur est cliqué."
+
+#~ msgid "Custom Marker Image"
+#~ msgstr "Image du Marqueur Personnalisé"
+
+#~ msgid ""
+#~ "Utilize a custom marker image instead of the default provided by Google."
+#~ msgstr ""
+#~ "Utiliser une image de marqueur personnalisé au lieu de la valeur par "
+#~ "défaut fourni par Google."
+
+#~ msgid "Map"
+#~ msgstr "Carte"
+
+#~ msgid "Embed a map from a third-party provider"
+#~ msgstr "Intégrer une carte à partir d’un fournisseur tiers"
+
+#~ msgid "Code"
+#~ msgstr "Code"
+
+#~ msgid ""
+#~ "Switch to the \"text\" editor and do not place anything else here other "
+#~ "than your &lsaquo;iframe&rsaquo; or &lsaquo;embed&rsaquo; code."
+#~ msgstr ""
+#~ "Basculer vers l'éditeur de \"texte\" et ne placez rien d'autre ici autre "
+#~ "que votre code &lsaquo;iframe&rsaquo; ou &lsaquo;embed&rsaquo; ."
+
+#~ msgid "Custom heading"
+#~ msgstr "Rubrique personnalisée"
+
+#~ msgid "Include a custom headline in your content"
+#~ msgstr "Inclure un titre personnalisé dans votre contenu"
+
+#~ msgid "Enter your text"
+#~ msgstr "Saisissez votre texte"
+
+#, fuzzy
+#~| msgid "Heading H1"
+#~ msgid "Heading Level"
+#~ msgstr "En tête H1"
+
+#~ msgid "Heading Alignment"
+#~ msgstr "Alignement de l’entête"
+
+#~ msgid "Select heading alignment."
+#~ msgstr "Sélectionnez l'alignement d'en-tête."
+
+#~ msgid "Choose box background color."
+#~ msgstr "Choisissez la couleur de fond de la boîte."
+
+#~ msgid "Select Options"
+#~ msgstr "Choisissez les options"
+
+#~ msgid "No Hover"
+#~ msgstr "Pas de survol"
+
+#~ msgid "Header Type"
+#~ msgstr "Type d'en-tête"
+
+#, fuzzy
+#~| msgid "Icon size"
+#~ msgid "Enter SVG Icon size"
+#~ msgstr "Taille de l'icône"
+
+#~ msgid "Use Image"
+#~ msgstr "Utiliser une image"
+
+#~ msgid "Alt Text"
+#~ msgstr "Texte alternatif"
+
+#~ msgid "Image size"
+#~ msgstr "Taille de l'image"
+
+#~ msgid "Icon Color"
+#~ msgstr "Couleur de l’icône"
+
+#~ msgid "Choose icon color."
+#~ msgstr "Choisissez la couleur de l’icône."
+
+#~ msgid "Icon Background"
+#~ msgstr "Icône - Arrière-plan"
+
+#~ msgid "Choose icon background color."
+#~ msgstr "Choisissez l'icône couleur de fond."
+
+#~ msgid "Icon Border"
+#~ msgstr "Bordure d'icône"
+
+#, fuzzy
+#~| msgid "Footer border color"
+#~ msgid "Choose icon border color."
+#~ msgstr "Couleur des contours du footer"
+
+#, fuzzy
+#~| msgid "Import Content"
+#~ msgid "Iconbox Content"
+#~ msgstr "Importer le contenu"
+
+#, fuzzy
+#~| msgid "Icon size"
+#~ msgid "Iconbox Title"
+#~ msgstr "Taille de l'icône"
+
+#, fuzzy
+#~| msgid "Title Color"
+#~ msgid "Title Color "
+#~ msgstr "Couleur du titre"
+
+#~ msgid "Timeline Item"
+#~ msgstr "Elément de la chronologie"
+
+#~ msgid "Float"
+#~ msgstr "Flottant"
+
+#~ msgid "Process"
+#~ msgstr "Processus"
+
+#, fuzzy
+#~| msgid "Font Style"
+#~ msgid "Process Style"
+#~ msgstr "Style de police"
+
+#~ msgid "Vertical"
+#~ msgstr "Vertical"
+
+#~ msgid "Horizontal"
+#~ msgstr "Horizontal"
+
+#~ msgid "Five"
+#~ msgstr "Cinq"
+
+#~ msgid "Video (Self Hosted)"
+#~ msgstr "Vidéo (hébergement personnel)"
+
+#~ msgid "Include responsive video into your content"
+#~ msgstr "Inclure vidéo responsive dans votre contenu"
+
+#~ msgid "M4V"
+#~ msgstr "M4v"
+
+#~ msgid "OGV"
+#~ msgstr "OGV"
+
+#~ msgid "Poster Image"
+#~ msgstr "Image de couverture"
+
+#~ msgid "Hide Controls"
+#~ msgstr "Masquer les contrôles"
+
+#~ msgid "Muted"
+#~ msgstr "Muet"
+
+#~ msgid "Autoplay"
+#~ msgstr "Lecture automatique"
+
+#~ msgid "Video (Embedded)"
+#~ msgstr "Vidéo Intégrée"
+
+#~ msgid "Audio (Self Hosted)"
+#~ msgstr "Audio (hébergement personnel)"
+
+#~ msgid "Place audio files into your content"
+#~ msgstr "Placer des fichiers audio dans votre contenu"
+
+#~ msgid "OGA"
+#~ msgstr "OGA"
+
+#~ msgid "Audio (Embedded)"
+#~ msgstr "Audio (Intégré)"
+
+#~ msgid "Social Sharing"
+#~ msgstr "Partage social"
+
+#~ msgid "Include social sharing into your content"
+#~ msgstr "Inclure partage social dans vote contenu"
+
+#~ msgid "Google Plus"
+#~ msgstr "Google Plus"
+
+#~ msgid "LinkedIn"
+#~ msgstr "LinkedIn"
+
+#~ msgid "Reddit"
+#~ msgstr "Reddit"
+
+#~ msgid "Tabs"
+#~ msgstr "Onglet"
+
+#~ msgid "Include a tabs container after your tab nav"
+#~ msgstr "Inclure un conteneur d'onglets après votre nav onglet"
+
+#~ msgid "Tab"
+#~ msgstr "Onglet"
+
+#~ msgid "Include a tab into your tabs container"
+#~ msgstr "Inclure un onglet dans votre conteneur d'onglets"
+
+#~ msgid "Active"
+#~ msgstr "Actif"
+
+#~ msgid "Select to make this tab active."
+#~ msgstr "Sélectionnez pour rendre cet onglet actif."
+
+#~ msgid "Tab Nav"
+#~ msgstr "Onglet de navigation"
+
+#~ msgid "Include a tab nav into your content"
+#~ msgstr "Inclure un onglet nav dans votre contenu"
+
+#~ msgid "Tab Style"
+#~ msgstr "Style d'Onglet"
+
+#~ msgid "Tab Nav Position"
+#~ msgstr "Position des onglets de navigation"
+
+#~ msgid "Select the position of your tab nav."
+#~ msgstr "Sélectionnez la position de votre onglet de navigation."
+
+#~ msgid "Tab Nav Items Per Row"
+#~ msgstr "Onglet, nombre d’article par rangée"
+
+#~ msgid ""
+#~ "If your tab nav is on top, select how many tab nav items you want per row."
+#~ msgstr ""
+#~ "Si votre onglet nav est en haut, sélectionnez combien d'éléments  "
+#~ "d'onglet nav que vous voulez par rangée."
+
+#~ msgid "Six"
+#~ msgstr "Six"
+
+#~ msgid "Tab Nav Item"
+#~ msgstr "Elément d&#39;Onglet Navigation"
+
+#~ msgid "Include a tab nav item into your tab nav"
+#~ msgstr "Inclure un élément de nav d’onglet dans vos onglets nav"
+
+#~ msgid "Include a title for your tab nav item."
+#~ msgstr "Inclure un titre pour l&#39;onglet de navigation."
+
+#~ msgid "Accordion"
+#~ msgstr "Accordéon"
+
+#~ msgid "Include an accordion into your content"
+#~ msgstr "Inclure un accordéon dans votre contenu"
+
+#~ msgid "Accordion Style"
+#~ msgstr "Accordéon - Style"
+
+#, fuzzy
+#~| msgid "Body Background"
+#~ msgid "Default no Background"
+#~ msgstr "Arrière plan du body (corps)"
+
+#, fuzzy
+#~| msgid "Select a country&hellip;"
+#~ msgid "Select accordion icon type"
+#~ msgstr "Sélectionnez un pays&hellip;"
+
+#~ msgid "Plus icon"
+#~ msgstr "Plus icône"
+
+#~ msgid "Separated"
+#~ msgstr "Séparé"
+
+#~ msgid "Parent ID"
+#~ msgstr "ID parent"
+
+#~ msgid ""
+#~ "Optionally include an ID given to the parent accordion to only allow one "
+#~ "toggle to be open at a time."
+#~ msgstr ""
+#~ "Inclure éventuellement un ID donné à l'accordéon parent pour ne permettre "
+#~ "qu'une seule bascule soit ouverte à la fois."
+
+#, fuzzy
+#~| msgid "Grid"
+#~ msgid "Big Grid"
+#~ msgstr "Grille"
+
+#, fuzzy
+#~| msgid "Display Related Posts"
+#~ msgid "Display your blog posts"
+#~ msgstr "Activer cette option pour afficher les publications similaires"
+
+#, fuzzy
+#~| msgid "Page Title Style"
+#~ msgid "Big Grid Style"
+#~ msgstr "Style du titre de la page"
+
+#~ msgid "One with padding"
+#~ msgstr "Un avec pudding"
+
+#, fuzzy
+#~| msgid "Four"
+#~ msgid "Four "
+#~ msgstr "Quatre"
+
+#~ msgid "Slide Options"
+#~ msgstr "Paramètres du Slide"
+
+#~ msgid "Include post author information"
+#~ msgstr "Inclure les informations de l'auteur"
+
+#~ msgid "Author ID"
+#~ msgstr "ID de l'auteur"
+
+#~ msgid ""
+#~ "By default the author of the post or page will be output by leaving this "
+#~ "input blank. If you would like to output the information of another "
+#~ "author, enter in their user ID here."
+#~ msgstr ""
+#~ "Par défaut, l’auteur de la poste ou la page sera sortie en laissant cette "
+#~ "entrée vierge. Si vous souhaitez sortir les informations d’un autre "
+#~ "auteur, entrez dans leur ID utilisateur ici."
+
+#~ msgid "Drop cap"
+#~ msgstr "Lettrine"
+
+#~ msgid "Character"
+#~ msgstr "Caractère"
+
+#~ msgid "link"
+#~ msgstr "lien"
+
+#~ msgid "Add a block of example code to your content"
+#~ msgstr "Ajouter un bloc de code d’exemple à votre contenu"
+
+#~ msgid "Labels"
+#~ msgstr "Étiquettes"
+
+#~ msgid "Type"
+#~ msgstr "Type"
+
+#~ msgid "Blockquote"
+#~ msgstr "Citation"
+
+#~ msgid "Include a blockquote in your content"
+#~ msgstr "Inclure un bloc de citation dans votre contenu"
+
+#~ msgid "Cite"
+#~ msgstr "Citation"
+
+#~ msgid "Cite the person you are quoting."
+#~ msgstr "Ecrivez le nom de la personne que vous citez."
+
+#, fuzzy
+#~| msgid "Font Style"
+#~ msgid "Blockquote Style"
+#~ msgstr "Style de police"
+
+#~ msgid "Pull"
+#~ msgstr "Tirer"
+
+#~ msgid "Alignment"
+#~ msgstr "Alignement"
+
+#~ msgid "Testimonial"
+#~ msgstr "Témoignage"
+
+#~ msgid "Testimonial Style"
+#~ msgstr "Témoignage - Style"
+
+#~ msgid "Top center"
+#~ msgstr "Haut centre"
+
+#, fuzzy
+#~| msgid "start"
+#~ msgid "Top start"
+#~ msgstr "démarrer"
+
+#~ msgid "Bottom center"
+#~ msgstr "En bas au centre"
+
+#~ msgid "Author Name"
+#~ msgstr "Nom de l'auteur"
+
+#~ msgid "Author Position"
+#~ msgstr "Fonction de l’auteur"
+
+#~ msgid "Author Photo"
+#~ msgstr "Photo Auteur"
+
+#, fuzzy
+#~| msgid "Photo size"
+#~ msgid "Photo Circle"
+#~ msgstr "La taille originale est de %s pixels"
+
+#~ msgid "Add Border"
+#~ msgstr "Ajouter Bordure"
+
+#~ msgid "Theme color"
+#~ msgstr "Couleur theme"
+
+#~ msgid "Include a search field in your content"
+#~ msgstr "Inclure un champ de recherche dans votre contenu"
+
+#~ msgid "Protect"
+#~ msgstr "Protégé"
+
+#~ msgid "Protect content from non logged in users"
+#~ msgstr "Protéger le contenu des utilisateurs non connectés"
+
+#~ msgid "Icon List"
+#~ msgstr "Liste Icon"
+
+#~ msgid "Include an icon list in your content"
+#~ msgstr "Inclure une liste d&#39;icônes dans votre contenu"
+
+#~ msgid "Icon List Item"
+#~ msgstr "Elément de la Liste des icônes"
+
+#~ msgid "Include an icon list item in your icon list"
+#~ msgstr "Inclure une liste d’icône dans votre liste d’icone"
+
+#~ msgid "Product Menu"
+#~ msgstr "Menu produit"
+
+#~ msgid "Menu Title"
+#~ msgstr "Titre du menu"
+
+#, fuzzy
+#~| msgid "Edit Menu Item"
+#~ msgid "Add Menu Title"
+#~ msgstr "Editer l'élément de menu"
+
+#~ msgid "Background color"
+#~ msgstr "Couleur de fond"
+
+#~ msgid "Background Image"
+#~ msgstr "Image de fond"
+
+#, fuzzy
+#~| msgid "Body Background Image"
+#~ msgid "Add a background image"
+#~ msgstr "Image de l’arrière-plan du corps"
+
+#~ msgid "Menu item"
+#~ msgstr "Élément de menu"
+
+#~ msgid "Notification"
+#~ msgstr "Notification"
+
+#~ msgid "Item Image"
+#~ msgstr "Image de l’élément"
+
+#, fuzzy
+#~| msgid "Page Title Image"
+#~ msgid "Add a item image"
+#~ msgstr "Image de Fond de la page des titres"
+
+#~ msgid "List Style"
+#~ msgstr "Style de liste"
+
+#, fuzzy
+#~| msgid "%s for %s item"
+#~| msgid_plural "%s for %s items"
+#~ msgid "Choose icon for list item"
+#~ msgstr "%s pour %s articles"
+
+#~ msgid "Star"
+#~ msgstr "Étoile"
+
+#~ msgid "Angle"
+#~ msgstr "Angle"
+
+#~ msgid "Check"
+#~ msgstr "Vérifier"
+
+#, fuzzy
+#~| msgid "Thumbnail"
+#~ msgid "Thumb-tack"
+#~ msgstr "Miniature"
+
+#~ msgid "List Item"
+#~ msgstr "Liste des articles"
+
+#~ msgid "Related posts"
+#~ msgstr "Articles similaires"
+
+#~ msgid "Column"
+#~ msgstr "Colonne"
+
+#~ msgid "Count"
+#~ msgstr "Nombre"
+
+#~ msgid "Enable"
+#~ msgstr "Activer"
+
+#~ msgid "Inherit from smaller"
+#~ msgstr "inhérence de la plus petite valeur"
+
+#~ msgid "1 column - 1/12"
+#~ msgstr "1 colonne - 1/12"
+
+#~ msgid "2 columns - 1/6"
+#~ msgstr "2 colonnes - 1/6"
+
+#~ msgid "3 columns - 1/4"
+#~ msgstr "3 colonnes - 1/4"
+
+#~ msgid "4 columns - 1/3"
+#~ msgstr "4 colonnes - 1/3"
+
+#~ msgid "5 columns - 5/12"
+#~ msgstr "5 colonnes - 5/12"
+
+#~ msgid "6 columns - 1/2"
+#~ msgstr "6 colonnes - 1/2"
+
+#~ msgid "7 columns - 7/12"
+#~ msgstr "7 colonnes - 7/12"
+
+#~ msgid "8 columns - 2/3"
+#~ msgstr "8 colonnes - 2/3"
+
+#~ msgid "9 columns - 3/4"
+#~ msgstr "9 colonnes - 3/4"
+
+#~ msgid "10 columns - 5/6"
+#~ msgstr "10 colonnes - 5/6"
+
+#~ msgid "11 columns - 11/12"
+#~ msgstr "11 colonnes - 11/12"
+
+#~ msgid "12 columns - 1/1"
+#~ msgstr "12 colonnes - 1/1"
+
+#~ msgid "hidden"
+#~ msgstr "masqué"
+
+#~ msgid "visible"
+#~ msgstr "visible"
+
+#~ msgid "Raw HTML"
+#~ msgstr "HTML brut"
+
+#~ msgid "Output raw HTML code on your page"
+#~ msgstr "Afficher du code HTML brut sur votre page"
+
+#~ msgid "Raw JavaScript"
+#~ msgstr "Javascript brut"
+
+#~ msgid "Output raw JavaScript code on your page"
+#~ msgstr "Afficher du code JavaScript brut sur la page"
+
+#~ msgid "Revolution Slider"
+#~ msgstr "Revolution Slider"
+
+#~ msgid "Place a Revolution Slider element into your content"
+#~ msgstr "Placez un élément Revolution Slider dans votre contenu"
+
+#~ msgid "Contact Form 7"
+#~ msgstr "Contact Form 7"
+
+#~ msgid "Place one of your contact forms into your content"
+#~ msgstr "Placez un de vos formulaires de contact dans votre contenu"
+
+#~ msgid "Gravity Form"
+#~ msgstr "Gravity Form"
+
+#~ msgid "Place one of your Gravity Forms into your content"
+#~ msgstr "Placez l’une vos Gravity Forms dans votre contenu"
+
+#~ msgid "Select which form you would like to display."
+#~ msgstr "Sélectionnez le formulaire que vous souhaitez afficher."
+
+#~ msgid "Disable Title"
+#~ msgstr "Désactiver le titre"
+
+#~ msgid "Disable Description"
+#~ msgstr "Désactiver description"
+
+#~ msgid "Select to disable the description of your form."
+#~ msgstr "Sélectionnez pour désactiver la description de votre formulaire."
+
+#~ msgid "Enable AJAX"
+#~ msgstr "Activer AJ..."
+
+#~ msgid "Select to enable the AJAX functionality of your form."
+#~ msgstr ""
+#~ "Sélectionnez pour activer la fonctionnalité AJAX de votre formulaire."
+
+#~ msgid "Dark Background"
+#~ msgstr "Arrière plan foncé"
+
+#~ msgid "Padding Top And Bottom"
+#~ msgstr "Marge intérieure Haut/Bas"
+
+#~ msgid "Padding Left And Right"
+#~ msgstr "Marge intérieure Gauche et Droite"
+
+#~ msgid "Background Type"
+#~ msgstr "Type d’arrière-plan"
+
+#~ msgid ""
+#~ "Upload a background image to your content band (this will overwrite your "
+#~ "Background Pattern)."
+#~ msgstr ""
+#~ "Ajouter une image de fond pour votre groupe de contenu (cela écrasera "
+#~ "votre Motif du Fond)."
+
+#~ msgid "Background Pattern"
+#~ msgstr "Motif d'arrière-plan"
+
+#, fuzzy
+#~| msgid "Background Color"
+#~ msgid "Background Video Path"
+#~ msgstr "Couleur d’arrière-plan"
+
+#~ msgid "Cover"
+#~ msgstr "Couverture"
+
+#~ msgid ""
+#~ "Select to activate the parallax effect with background patterns and "
+#~ "images."
+#~ msgstr ""
+#~ "Sélectionnez pour activer l’effet de parallaxe sur les fonds images et "
+#~ "autre patterns."
+
+#, fuzzy
+#~| msgid "Parallax"
+#~ msgid "Parallax Start"
+#~ msgstr "Parallaxe"
+
+#, fuzzy
+#~| msgid "Parallax"
+#~ msgid "Parallax Center"
+#~ msgstr "Parallaxe"
+
+#, fuzzy
+#~| msgid "Parallax"
+#~ msgid "Parallax End"
+#~ msgstr "Parallaxe"
+
+#~ msgid "Content Position"
+#~ msgstr "Position du contenu"
+
+#~ msgid "Select content position within columns."
+#~ msgstr "Sélectionnez la position du contenu dans les colonnes."
+
+#~ msgid "Top"
+#~ msgstr "Haut"
+
+#~ msgid "Middle"
+#~ msgstr "Milieu"
+
+#~ msgid "Bottom"
+#~ msgstr "Bas"
+
+#~ msgid "Min Height"
+#~ msgstr "Hauteur min"
+
+#~ msgid "Widget Area"
+#~ msgstr "Widget"
+
+#~ msgid "WordPress widgetised sidebar"
+#~ msgstr "Barre de widgets WordPress"
+
+#~ msgid "Install Demos"
+#~ msgstr "Installer une Démo.."
+
+#~ msgid "Share on Facebook"
+#~ msgstr "Partager sur Facebook"
+
+#~ msgid "Share on Twitter"
+#~ msgstr "Partager sur Twitter"
+
+#~ msgid "Share on Google+"
+#~ msgstr "Partager sur Google+"
+
+#~ msgid "Share on LinkedIn"
+#~ msgstr "Partager sur LinkedIn"
+
+#~ msgid "Share on Pinterest"
+#~ msgstr "Partager sur Pinterest"
+
+#~ msgid "Share on Reddit"
+#~ msgstr "Partager sur Reddit"
+
+#~ msgid "Share on Vk"
+#~ msgstr "Partager sur Vk"
+
+#~ msgid ""
+#~ "Hey, thought you might enjoy this! Check it out when you have a chance:"
+#~ msgstr ""
+#~ "Cela pourrait vous intéresser. Jetez un oeil quand vous aurez le temps."
+
+#~ msgid "Share via Email"
+#~ msgstr "Partager par email"
+
+#~ msgid "Restricted Content Login"
+#~ msgstr "Connexion de contenu restreinte"
+
+#, fuzzy
+#~| msgid "Your Profile"
+#~ msgid "Flickr Profile"
+#~ msgstr "Votre profil"
+
+#~ msgid "YouTube Profile"
+#~ msgstr "Profil YouTube"
+
+#~ msgid "Pinterest Profile"
+#~ msgstr "Profil Pinterest"
+
+#, fuzzy
+#~| msgid "Profile"
+#~ msgid "Behance Profile"
+#~ msgstr "Profil"
+
+#~ msgid "Dribbble Profile"
+#~ msgstr "Profil Dribbble"
+
+#~ msgid "Displays About Me Information"
+#~ msgstr "Affiche les informations À mon sujet"
+
+#~ msgid "About Me"
+#~ msgstr "À propos de moi"
+
+#~ msgid "Displays Advertisements"
+#~ msgstr "Afficher les publicités"
+
+#~ msgid "Advertisements (125 x 125)"
+#~ msgstr "Publicités (125 x 125)"
+
+#~ msgid " Advertisement"
+#~ msgstr "Annonces"
+
+#~ msgid "Title:"
+#~ msgstr "Titre:"
+
+#~ msgid "No box:"
+#~ msgstr "Pas de boîte :"
+
+#~ msgid "Nofollow:"
+#~ msgstr "Nofollow :"
+
+#~ msgid "ADS"
+#~ msgstr "ANNONCES"
+
+#~ msgid "Ad image URL:"
+#~ msgstr "URL de l'image publicitaire:"
+
+#~ msgid "Ad Link URL:"
+#~ msgstr "Lien URL de l'Ad:"
+
+#~ msgid "Ad Adsense code:"
+#~ msgstr "Code publicitaire Adsense:"
+
+#~ msgid "Displays Adsense Ads"
+#~ msgstr "Affiche les notifications Adsense"
+
+#~ msgid "Adsense"
+#~ msgstr "Adsense"
+
+#~ msgid "Adsense Code"
+#~ msgstr "Code Adsense"
+
+#~ msgid "Displays Facebook"
+#~ msgstr "Affiche Facebook"
+
+#~ msgid "Find us on Facebook"
+#~ msgstr "Retrouvez-nous sur Facebook"
+
+#~ msgid "Page URL :"
+#~ msgstr "URL de page :"
+
+#~ msgid "Height :"
+#~ msgstr "Hauteur :"
+
+#~ msgid "Tabs :"
+#~ msgstr "Onglets:"
+
+#~ msgid "Hide Cover Photo"
+#~ msgstr "Masquer la photo de couverture"
+
+#~ msgid "Hide the cover photo in the header"
+#~ msgstr "Masquer la photo de couverture dans l'en-tête"
+
+#~ msgid "Use Small Header"
+#~ msgstr "Utiliser une petite en-tête"
+
+#~ msgid "Show Friend's Faces"
+#~ msgstr "Afficher les amis"
+
+#~ msgid "Feedburner"
+#~ msgstr "Feedburner"
+
+#~ msgid "FeedBurner Widget"
+#~ msgstr "Widget Feedburner"
+
+#~ msgid "Enter your e-mail address"
+#~ msgstr "Saisissez votre adresse e-mail"
+
+#~ msgid "Subscribe"
+#~ msgstr "S'abonner"
+
+#~ msgid "Subscribe to our email newsletter."
+#~ msgstr "S’abonner à notre lettre d’information."
+
+#~ msgid "Text above Email Input Field:"
+#~ msgstr "Texte au-dessus champ de saisie d’e-mail :"
+
+#~ msgid "( Supports : Html & Shortcodes )"
+#~ msgstr "(supporte : HTML et shortcodes)"
+
+#~ msgid "Feedburner ID:"
+#~ msgstr "Feedburner ID:"
+
+#~ msgid "Display your latest Instagram photos"
+#~ msgstr "Affichez vos dernières photos Instagram"
+
+#~ msgid "Follow Me!"
+#~ msgstr "Suivez-Moi !"
+
+#~ msgid "@username or #tag"
+#~ msgstr "@username ou #tag"
+
+#~ msgid "Number of photos"
+#~ msgstr "Nombre de photos"
+
+#~ msgid "Number of columns"
+#~ msgstr "Nombre de colonnes"
+
+#~ msgid "Photo size"
+#~ msgstr "La taille originale est de %s pixels"
+
+#~ msgid "Original"
+#~ msgstr "Original"
+
+#~ msgid "Open links in"
+#~ msgstr "Lien vers l&rsquo;image originale"
+
+#~ msgid "Lightbox"
+#~ msgstr "Lightbox"
+
+#~ msgid "Current window (_self)"
+#~ msgstr "Fenêtre actuelle (_self)"
+
+#~ msgid "New window (_blank)"
+#~ msgstr "Nom"
+
+#~ msgid "Link text"
+#~ msgstr "Texte du lien"
+
+#~ msgid "Unable to communicate with Instagram."
+#~ msgstr "Impossible de communiquer avec Instagram."
+
+#~ msgid "Instagram did not return a 200."
+#~ msgstr "Instragram n'a pas retourné un 200."
+
+#~ msgid "Instagram has returned invalid data."
+#~ msgstr "Instagram a retourné des données invalides."
+
+#~ msgid "Instagram Image"
+#~ msgstr "Image Instagram"
+
+#~ msgid "Instagram did not return any images."
+#~ msgstr "Instagram n’a retourné aucune image."
+
+#~ msgid "News in Pictures"
+#~ msgstr "Actualités en images"
+
+#~ msgid "Number of posts to show:"
+#~ msgstr "Nombre d’articles à afficher :"
+
+#~ msgid "Order :"
+#~ msgstr "Trié par"
+
+#~ msgid "Most Recent"
+#~ msgstr "Les plus récents"
+
+#~ msgid "Most Commented"
+#~ msgstr "Les plus commentés"
+
+#~ msgid "Most Viewed"
+#~ msgstr "Les plus vus"
+
+#~ msgid "Slider"
+#~ msgstr "Slider"
+
+#~ msgid "Social Icons"
+#~ msgstr "Icônes de réseaux"
+
+#~ msgid "Circle Icon:"
+#~ msgstr "Icône Circle:"
+
+#~ msgid "Icon size"
+#~ msgstr "Taille de l'icône"
+
+#~ msgid "Tabs order:"
+#~ msgstr "Ordre des onglets:"
+
+#~ msgid "click Save button to be able to change the order of tabs ."
+#~ msgstr ""
+#~ "cliquez sur bouton enregistrer pour pouvoir changer l’ordre des onglets."
+
+#~ msgid "Number of items to show :"
+#~ msgstr "Nombre d’éléments à afficher :"
+
+#~ msgid "Show Post Image:"
+#~ msgstr "Afficher l'image de l'article :"
+
+#~ msgid "Show user avatar:"
+#~ msgstr "Afficher l’avatar de l’utilisateur:"
+
+#~ msgid "Popular Posts order :"
+#~ msgstr "Ordre des postes populaires:"
+
+#~ msgid "Text or HTML"
+#~ msgstr "Texte ou HTML"
+
+#~ msgid "Text , Shortcodes or HTML code:"
+#~ msgstr "Texte, shortcodes ou code HTML :"
+
+#~ msgid "Latest Tweets"
+#~ msgstr "Derniers Tweets"
+
+#~ msgid "ago"
+#~ msgstr "il y a"
+
+#~ msgid "Twitter Username:"
+#~ msgstr "Nom d’utilisateur Twitter :"
+
+#~ msgid "Consumer key:"
+#~ msgstr "Clé d’utilisateur :"
+
+#~ msgid "Consumer secret:"
+#~ msgstr "Clé secrète :"
+
+#~ msgid "Number of Tweets to show:"
+#~ msgstr "Nombre de tweets à afficher :"
