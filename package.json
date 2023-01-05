@@ -15,7 +15,7 @@
     "fs-extra": "^0.30.0",
     "gulp": "^3.9.1",
     "gulp-babel": "^7.0.0",
-    "gulp-babel-minify": "^0.2.0",
+    "gulp-babel-minify": "^0.5.2",
     "gulp-concat": "^2.6.0",
     "gulp-if": "^2.0.2",
     "gulp-imagemin": "^3.0.3",
